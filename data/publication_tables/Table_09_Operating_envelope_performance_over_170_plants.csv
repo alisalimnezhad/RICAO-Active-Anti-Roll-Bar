@@ -1,0 +1,5 @@
+﻿Controller,Worst bound,Reduction_percent,Max utilization,Max spectral radius,Rear protected
+Fixed LQR1,0.157957,0.00,0.909548,0.901008,Reference
+Fixed balanced,0.054784,65.32,0.994002,0.901008,No
+Fixed rear-protected,0.058921,62.70,0.985006,0.901008,Yes
+Speed scheduled,0.049333,68.77,0.997310,0.901346,No

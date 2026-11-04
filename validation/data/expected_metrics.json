@@ -1,0 +1,40 @@
+{
+  "channel_order": [
+    "passive_Rf",
+    "passive_Rr",
+    "LQR1_Rf",
+    "LQR1_Rr",
+    "uf_A",
+    "ur_A"
+  ],
+  "RMS_SI": [
+    0.2964943975929242,
+    0.3719808338263045,
+    0.09099247060432727,
+    0.01221470183187463,
+    0.0003147830759357653,
+    0.0015841699324054754
+  ],
+  "printed_RMS_SI": [
+    0.2927,
+    0.3413,
+    0.094,
+    0.0126,
+    0.00033114,
+    0.0016
+  ],
+  "waveform_error_percent": [
+    12.568048636329875,
+    10.589314288287136,
+    0.1888170373188787,
+    1.2244768049310921,
+    1.6337109242984948,
+    0.4269797973409741
+  ],
+  "peak_reduction_percent": [
+    66.43503865518466,
+    96.44460270994836
+  ],
+  "rms_regression_rtol": 1e-06,
+  "description": "Regression target: current manuscript simulation, not exact agreement with paper."
+}

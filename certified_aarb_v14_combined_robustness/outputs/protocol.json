@@ -1,0 +1,49 @@
+{
+  "banks": [
+    {
+      "name": "pm5",
+      "power": 9,
+      "radius": 0.05,
+      "seed": 2026092705
+    },
+    {
+      "name": "pm10",
+      "power": 10,
+      "radius": 0.1,
+      "seed": 2026092710
+    }
+  ],
+  "critical_output_phases": 41,
+  "critical_rear_phases": 81,
+  "date": "2026-09-27",
+  "dimension": 50,
+  "execution": {
+    "method": "two independent resumable shards",
+    "record_count": 1536,
+    "shard_count": 2
+  },
+  "numpy": "2.4.1",
+  "output_phases": 21,
+  "python": "3.13.15",
+  "rear_phases": 41,
+  "scipy": "1.17.0",
+  "solver": "scipy.optimize.linprog/HiGHS with certified fallbacks",
+  "source_hashes": {
+    "certified_aarb_v14_combined_robustness/finalize_archive.py": "3585c88601b3df05629f381a0ded9ebb5027343e03eb5876f18449ea1af520af",
+    "certified_aarb_v14_combined_robustness/independent_verify.py": "24df5a65f0f4e75e766e19bea3a36df8bf9106556cec1bde3eec8c7bad0b0d7e",
+    "certified_aarb_v14_combined_robustness/make_artifacts.py": "575440c39479dcbd32a32e8310a8f400d0af30bb98b25ec3f0fe26c2c4262134",
+    "certified_aarb_v14_combined_robustness/merge_shards.py": "65453953ca1eab91245c0594a60f8e686835b5bbfe394a920554e866badac722",
+    "certified_aarb_v14_combined_robustness/refine_critical.py": "c51caa298590c3290f945645ffd0690794a799c271aa0a9422e238d001a9b19c",
+    "certified_aarb_v14_combined_robustness/run_all.py": "742d82da077a373f1a15aa77b5bba1c4801cf9d172557634f4e8d182866596e4",
+    "certified_aarb_v14_combined_robustness/run_shard.py": "ef5dafcec42b4e7d159ef216498f50804ad4b8df6ca0064ac642579fbed4131c",
+    "certified_aarb_v14_combined_robustness/study.py": "8825d7b4dd8fcff8d9cea7d372fb70a2ba72306ff946b9677792bdc4f60d4036",
+    "certified_aarb_v14_combined_robustness/test_robustness.py": "ffe05ed9ca4b49981e30d0c04c6d4e0f4e46abef6f535dada8e9775802f9be4f",
+    "certified_aarb_v2/study.py": "5122943f50f1cb26194f80c8fd985200ef27f1292994ed35101454ef9dd959fc",
+    "certified_aarb_v3/study.py": "326eb7b29c9e14ae56cae250b4478bd5cd67944f1259705841e37ca3bc4ed019",
+    "certified_aarb_v4/study.py": "59cfe8fc9e5231f4ff790666377c251b225235404b6f3b9dd7d73c8f980ecb1b",
+    "certified_aarb_v5_rear_audit/outputs/reserve_5pct/coefficients.csv": "50f39b6bc0165a9627bf33f01e2e77a81f5ce852a776f24edf56c1dfeca59bb5",
+    "validation/lqr_controller.py": "ec6cc9d09d27607b574867f19b408d5b9e64ce8e1e43707d90ff66899dfff7d3",
+    "validation/parameters.py": "6a57a04f4f5593fd33ff74073754225245c61cd722e69c3064f48b17a378fb0e",
+    "validation/vehicle_model.py": "874d83c25b836367ad5e985716045eae8d2fd7499215aa8a037736d07a755406"
+  }
+}

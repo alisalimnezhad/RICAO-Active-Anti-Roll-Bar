@@ -1,0 +1,9 @@
+﻿Study,Value,Worst front,Rear margin_percent,Max utilization,Status
+FIR,1,0.153362,-341.625,1.390,Constraint
+FIR,2,0.090817,-91.063,1.931,Constraint
+FIR,3,0.061226,2.166,1.007,Constraint
+FIR,4,0.059554,4.432,0.985,Pass
+FIR,6,0.059092,4.415,0.985,Pass
+Horizon,2,0.059092,4.415,0.985,Pass
+Horizon,4,0.059092,4.415,0.985,Pass
+Horizon,6,0.059092,4.415,0.985,Pass

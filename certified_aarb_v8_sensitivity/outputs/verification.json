@@ -1,0 +1,60 @@
+{
+  "baseline_consistency": {
+    "max_constraint_utilization": 0.0,
+    "max_spectral_radius": 0.0,
+    "minimum_rear_margin_percent": 0.0,
+    "worst_LTR": 0.0,
+    "worst_front_LTR": 0.0,
+    "worst_rear_LTR": 0.0
+  },
+  "checks": {
+    "baseline_cases_consistent": true,
+    "case_count_48": true,
+    "delay_10_matches_archive": true,
+    "delay_5_matches_archive": true,
+    "fixed_controller_only": true,
+    "four_and_six_tap_pass": true,
+    "group_counts": true,
+    "horizon_cases_pass": true,
+    "horizon_front_converged": true,
+    "hydraulic_instabilities_retained": true,
+    "nominal_steering_pass": true,
+    "nonzero_delays_unstable": true,
+    "results_complete": true,
+    "short_fir_failures_retained": true,
+    "source_hashes_match": true,
+    "zero_delay_identity": true
+  },
+  "date": "2026-09-23",
+  "headline": {
+    "delay_20ms_maximum_spectral_radius": 1.8429256164628292,
+    "horizon_front_range": 2.699699449063009e-07,
+    "minimum_passing_taps": 4,
+    "unstable_hydraulic_case_count": 7
+  },
+  "limitations": [
+    "This is fixed-controller sensitivity; no controller is redesigned.",
+    "FIR, horizon and steering use the 42-point structured bank.",
+    "Hydraulic perturbations use the nine-point design skeleton.",
+    "The calculations are pointwise in vehicle and hydraulic parameters."
+  ],
+  "scope": {
+    "broad_phases": 21,
+    "controller": "selected fixed 5% rear-reserve controller",
+    "controller_redesigned_in_sensitivity": false,
+    "delay_bank": "42 structured plus 128 Sobol points",
+    "fir_horizon_steering_bank": "42 structured operating points",
+    "fixed_physical_steering_gain": true,
+    "hydraulic_bank": "9 design-skeleton operating points",
+    "rear_screen_phases": 41
+  },
+  "source_hash_checks": {
+    "parameters.py": true,
+    "run_sensitivity.py": true,
+    "selected_coefficients": true,
+    "study.py": true,
+    "v4_study.py": true,
+    "vehicle_model.py": true
+  },
+  "status": "PASS"
+}

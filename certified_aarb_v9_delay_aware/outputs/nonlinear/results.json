@@ -1,0 +1,275 @@
+{
+  "cases": [
+    {
+      "case": "worst_front_witness",
+      "front_peak_change_percent": -12.091736844853795,
+      "linear": {
+        "current_saturation_fraction": 0.0,
+        "finite": true,
+        "peak_current_A": 0.008267575869228948,
+        "peak_front_LTR": 0.046181346734327486,
+        "peak_pressure_Pa": 2360530.2900792975,
+        "peak_raw_current_A": 0.008267575869228948,
+        "peak_rear_LTR": 0.04496062069278018,
+        "peak_spool_m": 0.00018806316775742772,
+        "peak_tyre_capacity_fraction": null,
+        "wheel_lift_proxy": false
+      },
+      "nonlinear": {
+        "current_saturation_fraction": 0.0,
+        "finite": true,
+        "peak_current_A": 0.00839407451693542,
+        "peak_front_LTR": 0.04059721981580312,
+        "peak_pressure_Pa": 2385541.8286098107,
+        "peak_raw_current_A": 0.00839407451693542,
+        "peak_rear_LTR": 0.05445403742316823,
+        "peak_spool_m": 0.00019382751635576973,
+        "peak_tyre_capacity_fraction": 0.3737561605999789,
+        "wheel_lift_proxy": false
+      },
+      "point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      },
+      "rear_peak_change_percent": 21.11495923345319,
+      "source_output": "front_LTR",
+      "witness_support": {
+        "corrected_upper": 0.04618142989965813,
+        "dual_correction": 8.313425221839754e-08,
+        "phase": 8,
+        "phase_time_s": 0.004,
+        "primal": 0.04618134676540591
+      }
+    },
+    {
+      "case": "worst_rear_witness",
+      "front_peak_change_percent": -10.989686819690803,
+      "linear": {
+        "current_saturation_fraction": 0.0,
+        "finite": true,
+        "peak_current_A": 0.007769784172393502,
+        "peak_front_LTR": 0.04374658973244013,
+        "peak_pressure_Pa": 2561020.9690103703,
+        "peak_raw_current_A": 0.007769784172393502,
+        "peak_rear_LTR": 0.04613620644209636,
+        "peak_spool_m": 0.00017946334534181026,
+        "peak_tyre_capacity_fraction": null,
+        "wheel_lift_proxy": false
+      },
+      "nonlinear": {
+        "current_saturation_fraction": 0.0,
+        "finite": true,
+        "peak_current_A": 0.008498067907868733,
+        "peak_front_LTR": 0.03893897652654995,
+        "peak_pressure_Pa": 2573900.9199638874,
+        "peak_raw_current_A": 0.008498067907868733,
+        "peak_rear_LTR": 0.056745457549438286,
+        "peak_spool_m": 0.00019676818722598946,
+        "peak_tyre_capacity_fraction": 0.4052637263580963,
+        "wheel_lift_proxy": false
+      },
+      "point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      },
+      "rear_peak_change_percent": 22.995499468854597,
+      "source_output": "rear_LTR",
+      "witness_support": {
+        "corrected_upper": 0.0461365091759507,
+        "dual_correction": 3.0273592809687555e-07,
+        "phase": 20,
+        "phase_time_s": 0.01,
+        "primal": 0.0461362064400226
+      }
+    },
+    {
+      "case": "limiting_front_tyre_slip_witness",
+      "front_peak_change_percent": -9.982351906453236,
+      "linear": {
+        "current_saturation_fraction": 0.0,
+        "finite": true,
+        "peak_current_A": 0.007671232440656314,
+        "peak_front_LTR": 0.03923792308446944,
+        "peak_pressure_Pa": 2907193.528382381,
+        "peak_raw_current_A": 0.007671232440656314,
+        "peak_rear_LTR": 0.027743804813349683,
+        "peak_spool_m": 0.0001781150423353895,
+        "peak_tyre_capacity_fraction": null,
+        "wheel_lift_proxy": false
+      },
+      "nonlinear": {
+        "current_saturation_fraction": 0.0,
+        "finite": true,
+        "peak_current_A": 0.007206051897144076,
+        "peak_front_LTR": 0.03532105552139425,
+        "peak_pressure_Pa": 2943079.340426755,
+        "peak_raw_current_A": 0.007206051897144076,
+        "peak_rear_LTR": 0.0368938684661615,
+        "peak_spool_m": 0.00016837131781491138,
+        "peak_tyre_capacity_fraction": 0.4099816623677275,
+        "wheel_lift_proxy": false
+      },
+      "point": {
+        "mass_fraction": 0.1,
+        "payload_height": 1.8,
+        "set": "structured",
+        "speed_kmh": 75.0
+      },
+      "rear_peak_change_percent": 32.980565262660065,
+      "source_output": "front_tyre_slip",
+      "witness_support": {
+        "corrected_upper": 0.906144242939578,
+        "dual_correction": 1.2814071981281927e-07,
+        "phase": 0,
+        "phase_time_s": 0.0,
+        "primal": 0.9061441147988581
+      }
+    },
+    {
+      "case": "limiting_payload_rear_witness",
+      "front_peak_change_percent": 0.7651111921685994,
+      "linear": {
+        "current_saturation_fraction": 0.0,
+        "finite": true,
+        "peak_current_A": 0.007124774167550623,
+        "peak_front_LTR": 0.03523754836351207,
+        "peak_pressure_Pa": 1193121.6970380878,
+        "peak_raw_current_A": 0.007124774167550623,
+        "peak_rear_LTR": 0.04267947288481962,
+        "peak_spool_m": 0.00016381289796061602,
+        "peak_tyre_capacity_fraction": null,
+        "wheel_lift_proxy": false
+      },
+      "nonlinear": {
+        "current_saturation_fraction": 0.0,
+        "finite": true,
+        "peak_current_A": 0.007003085594492165,
+        "peak_front_LTR": 0.03550715478988712,
+        "peak_pressure_Pa": 1191469.4667844975,
+        "peak_raw_current_A": 0.007003085594492165,
+        "peak_rear_LTR": 0.04208026014223019,
+        "peak_spool_m": 0.000160753196119636,
+        "peak_tyre_capacity_fraction": 0.17686328083230932,
+        "wheel_lift_proxy": false
+      },
+      "point": {
+        "mass_fraction": 0.1,
+        "payload_height": 1.8,
+        "set": "structured",
+        "speed_kmh": 50.0
+      },
+      "rear_peak_change_percent": -1.4039834657905703,
+      "source_output": "rear_LTR",
+      "witness_support": {
+        "corrected_upper": 0.04268026895641281,
+        "dual_correction": 7.960708925114357e-07,
+        "phase": 26,
+        "phase_time_s": 0.013000000000000001,
+        "primal": 0.0426794728855203
+      }
+    },
+    {
+      "case": "high_speed_payload_fishhook",
+      "front_peak_change_percent": -1.1284739649277897,
+      "linear": {
+        "current_saturation_fraction": 0.0,
+        "finite": true,
+        "peak_current_A": 0.005427514756696201,
+        "peak_front_LTR": 0.03823579805425521,
+        "peak_pressure_Pa": 2578851.3214533404,
+        "peak_raw_current_A": 0.005427514756696201,
+        "peak_rear_LTR": 0.03642842334006436,
+        "peak_spool_m": 0.00012949545394393144,
+        "peak_tyre_capacity_fraction": null,
+        "wheel_lift_proxy": false
+      },
+      "nonlinear": {
+        "current_saturation_fraction": 0.0,
+        "finite": true,
+        "peak_current_A": 0.005639024335898563,
+        "peak_front_LTR": 0.03780431702793058,
+        "peak_pressure_Pa": 2555849.9368377808,
+        "peak_raw_current_A": 0.005639024335898563,
+        "peak_rear_LTR": 0.042857443089939336,
+        "peak_spool_m": 0.00013447128248895196,
+        "peak_tyre_capacity_fraction": 0.3490062729593944,
+        "wheel_lift_proxy": false
+      },
+      "point": {
+        "mass_fraction": 0.1,
+        "payload_height": 1.8,
+        "set": "structured",
+        "speed_kmh": 75.0
+      },
+      "rear_peak_change_percent": 17.64836125313245,
+      "source_output": "constructed amplitude/rate-feasible fishhook"
+    }
+  ],
+  "summary": {
+    "case_count": 5,
+    "date": "2026-09-23",
+    "jacobian_audits": [
+      {
+        "case": "worst_front_witness",
+        "max_abs_A": 0.27895355224609375,
+        "max_abs_B": 0.0,
+        "max_abs_D": 0.0001817941665649414,
+        "relative_A": 5.647742657607235e-12,
+        "relative_B": 0.0,
+        "relative_D": 2.989952436037035e-13
+      },
+      {
+        "case": "worst_rear_witness",
+        "max_abs_A": 0.27895355224609375,
+        "max_abs_B": 0.0,
+        "max_abs_D": 0.0001817941665649414,
+        "relative_A": 5.647742657607235e-12,
+        "relative_B": 0.0,
+        "relative_D": 2.989952436037035e-13
+      },
+      {
+        "case": "limiting_front_tyre_slip_witness",
+        "max_abs_A": 0.27895355224609375,
+        "max_abs_B": 0.0,
+        "max_abs_D": 0.0001533031463623047,
+        "relative_A": 5.6477559755700695e-12,
+        "relative_B": 0.0,
+        "relative_D": 2.5261945389449544e-13
+      },
+      {
+        "case": "limiting_payload_rear_witness",
+        "max_abs_A": 0.27895355224609375,
+        "max_abs_B": 0.0,
+        "max_abs_D": 0.0001533031463623047,
+        "relative_A": 5.647752052697754e-12,
+        "relative_B": 0.0,
+        "relative_D": 2.5262039944775947e-13
+      }
+    ],
+    "maximum_absolute_front_change_percent": 12.091736844853795,
+    "maximum_absolute_rear_change_percent": 32.980565262660065,
+    "maximum_jacobian_relative_error": 5.6477559755700695e-12,
+    "maximum_nonlinear_current_A": 0.008498067907868733,
+    "maximum_nonlinear_front_LTR": 0.04059721981580312,
+    "maximum_nonlinear_rear_LTR": 0.056745457549438286,
+    "model_features": [
+      "load-transfer-sensitive smooth tyre saturation",
+      "20 mA current saturation",
+      "smooth spool-flow saturation",
+      "pressure relief above 9.5 MPa",
+      "cubic suspension stops beyond 5 degrees"
+    ],
+    "scope": "Critical-case simulation on a Jacobian-matched nonlinear screening surrogate; not a nonlinear certificate, wheel-lift proof or experiment.",
+    "source_hashes": {
+      "delay_aware_coefficients.csv": "3692cd1da6e15ed1b63aa1bac113212cd7936b1ce747dbe7c1b0574a27104b9b",
+      "linear_results.json": "e8d2ac7421d9fa595fc68c3d1e9ac948423248841d615131e5cf03b3a5880460",
+      "nonlinear_screen.py": "94d5a98d30dc61824700594786fea803c4d1023fa3e6b0ec42cf11fd57f7fca8",
+      "run_nonlinear.py": "1a02fa4d80fc0fb3cbe720bae8978643dad014d162bcbee04ef089f4e90ccd42"
+    },
+    "status": "PASS_SCREEN"
+  }
+}

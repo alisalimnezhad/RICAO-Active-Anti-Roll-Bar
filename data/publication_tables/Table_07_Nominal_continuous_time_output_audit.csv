@@ -1,0 +1,7 @@
+﻿Quantity,Front,Rear,Limit
+Current (mA),19.9600,19.9601,20
+Force (kN),21.395,26.774,120
+Spool (mm),0.3948,0.3943,0.485
+Load flow (L/min),56.157,56.482,132
+Suspension roll (deg),0.3588,0.3336,7
+Tyre slip (deg),2.2255,2.0583,3

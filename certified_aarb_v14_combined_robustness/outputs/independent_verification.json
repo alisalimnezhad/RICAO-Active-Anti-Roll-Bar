@@ -1,0 +1,104 @@
+{
+  "date": "2026-09-27",
+  "record_count": 5,
+  "records": [
+    {
+      "comparisons": [
+        {
+          "spectral_radius": true
+        }
+      ],
+      "computed": {
+        "spectral_radius": 1.9134812692213738
+      },
+      "id": "pm10-0182",
+      "pass": true
+    },
+    {
+      "comparisons": [
+        {
+          "max_utilization": true,
+          "relative_rear_margin": true,
+          "spectral_radius": true,
+          "worst_ltr": true
+        },
+        {
+          "max_utilization": true,
+          "relative_rear_margin": true,
+          "spectral_radius": true,
+          "worst_ltr": true
+        },
+        {
+          "max_utilization": true,
+          "relative_rear_margin": true,
+          "spectral_radius": true,
+          "worst_ltr": true
+        }
+      ],
+      "computed": {
+        "max_utilization": 22.65700964244923,
+        "relative_rear_margin": -6.85846162421769,
+        "spectral_radius": 0.9891221271717197,
+        "worst_ltr": 0.15291313127452608
+      },
+      "id": "pm10-0580",
+      "pass": true
+    },
+    {
+      "comparisons": [
+        {
+          "max_utilization": true,
+          "relative_rear_margin": true,
+          "spectral_radius": true,
+          "worst_ltr": true
+        }
+      ],
+      "computed": {
+        "max_utilization": 18.593232326598354,
+        "relative_rear_margin": -4.533655038116976,
+        "spectral_radius": 0.995619649135761,
+        "worst_ltr": 0.10387421451124278
+      },
+      "id": "pm5-0182",
+      "pass": true
+    },
+    {
+      "comparisons": [
+        {
+          "spectral_radius": true
+        }
+      ],
+      "computed": {
+        "spectral_radius": 1.3091919514923487
+      },
+      "id": "pm5-0261",
+      "pass": true
+    },
+    {
+      "comparisons": [
+        {
+          "max_utilization": true,
+          "relative_rear_margin": true,
+          "spectral_radius": true,
+          "worst_ltr": true
+        },
+        {
+          "max_utilization": true,
+          "relative_rear_margin": true,
+          "spectral_radius": true,
+          "worst_ltr": true
+        }
+      ],
+      "computed": {
+        "max_utilization": 19.2760219533189,
+        "relative_rear_margin": -2.6967167858854144,
+        "spectral_radius": 0.9989941210414532,
+        "worst_ltr": 0.10783962680381716
+      },
+      "id": "pm5-0346",
+      "pass": true
+    }
+  ],
+  "status": "PASS",
+  "tolerance": 1e-10
+}

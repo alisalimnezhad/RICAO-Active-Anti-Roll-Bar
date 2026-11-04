@@ -1,0 +1,6 @@
+﻿Quantity,Fixed zero-delay gain at 5 ms,Delay-aware redesign
+Stable plants (of 170),0,170
+Maximum spectral radius,1.21647,0.96323
+Worst evaluated LTR,--,0.04669
+Maximum constraint utilization,--,0.906
+Rear non-degrading plants,--,170

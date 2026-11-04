@@ -1,0 +1,11 @@
+﻿Dimension,Included in the evidence,Excluded from the claim
+Plant dynamics,Published ten-state linear vehicle--hydraulic model,Nonlinear tyre/wheel-lift or hardware certificate
+Initial condition,x(0)=0,Nonzero or uncertain initial states
+Steering family,FOH; |delta|<=2 deg; |delta_dot|<=5 deg/s; w_0=0,Road inputs and unrestricted driver manoeuvres
+Time,T=4 s; h_s=20 ms; continuous-time remainder,Infinite-horizon or arbitrary sampling guarantees
+Actuator/model limits,"Current, force, spool, flow, suspension roll, body/sideslip and tyre slip","Pump power, temperature, cavitation and wear"
+Vehicle parameters,42 structured + 128 scrambled-Sobol speed--payload plants,Interval proof between the 170 evaluated points
+Measurements,Full state and current steering; separate known 5 ms delayed design,"Observer error, noise and uncertain/time-varying delay"
+Numerical claim,Residual-corrected support LP plus intersample bound at each plant,Outward-rounded interval arithmetic or symbolic proof
+Rear comparison,One-sided proposed upper versus feasible comparator lower,Hardware robustness margin
+Additional evidence,Reference reproduction and five nonlinear critical-case screens,"Experiment, HiL or commercial multibody validation"

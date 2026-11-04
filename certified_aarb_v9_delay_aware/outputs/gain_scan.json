@@ -1,0 +1,889 @@
+{
+  "date": "2026-09-23",
+  "delay_ms": 5.0,
+  "grid_step": 0.005,
+  "nominal_gain": [
+    [
+      -4.900852062695883,
+      -0.32612789553933824,
+      3.3383059762666036,
+      0.7062781588155269,
+      14.296384407719362,
+      -0.7993078173240403,
+      1.1355096637668849e-07,
+      38.29962704939001,
+      8.130593868342123e-09,
+      2.1390151549230407
+    ],
+    [
+      -6.195204655610795,
+      0.47510431653651625,
+      5.805514183257467,
+      0.7163909509413511,
+      -0.7511753988148908,
+      11.088135006280233,
+      8.460744533117671e-09,
+      2.1390151549230407,
+      1.11376443030305e-07,
+      37.73893227238053
+    ]
+  ],
+  "rows": [
+    {
+      "maximum_spectral_radius": 0.9716094377707217,
+      "minimum_spectral_radius": 0.9476997467979051,
+      "scale": 0.05,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9710737766737185,
+      "minimum_spectral_radius": 0.9464287561102341,
+      "scale": 0.055,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9705296835994226,
+      "minimum_spectral_radius": 0.9452185206458912,
+      "scale": 0.06,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9699856579707051,
+      "minimum_spectral_radius": 0.9440687056833007,
+      "scale": 0.065,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9694481568108281,
+      "minimum_spectral_radius": 0.9429778367288256,
+      "scale": 0.06999999999999999,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9689220899097568,
+      "minimum_spectral_radius": 0.9419438017104877,
+      "scale": 0.07499999999999998,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9684111923791384,
+      "minimum_spectral_radius": 0.9409641791818775,
+      "scale": 0.07999999999999999,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9679183057864005,
+      "minimum_spectral_radius": 0.9400364479104462,
+      "scale": 0.08499999999999999,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9674455909326453,
+      "minimum_spectral_radius": 0.9391581166589916,
+      "scale": 0.08999999999999998,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.966994689361728,
+      "minimum_spectral_radius": 0.9383268009347825,
+      "scale": 0.09499999999999997,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9665668462920721,
+      "minimum_spectral_radius": 0.93754026495982,
+      "scale": 0.09999999999999998,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9661630044253383,
+      "minimum_spectral_radius": 0.9367964411885796,
+      "scale": 0.10499999999999998,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.965783875696846,
+      "minimum_spectral_radius": 0.9360934356283108,
+      "scale": 0.10999999999999997,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9654299962645475,
+      "minimum_spectral_radius": 0.9354295244457498,
+      "scale": 0.11499999999999998,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9651017687213105,
+      "minimum_spectral_radius": 0.934803145470631,
+      "scale": 0.11999999999999997,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.964799494538179,
+      "minimum_spectral_radius": 0.934212886946718,
+      "scale": 0.12499999999999996,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9645233990166541,
+      "minimum_spectral_radius": 0.9336574750383725,
+      "scale": 0.12999999999999995,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9642736504811545,
+      "minimum_spectral_radius": 0.9331357610399186,
+      "scale": 0.13499999999999995,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9640503750314778,
+      "minimum_spectral_radius": 0.9326467088639623,
+      "scale": 0.13999999999999996,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9638536678648412,
+      "minimum_spectral_radius": 0.93218938314146,
+      "scale": 0.14499999999999996,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9636836019421094,
+      "minimum_spectral_radius": 0.9317629381081748,
+      "scale": 0.14999999999999997,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9635402345942548,
+      "minimum_spectral_radius": 0.9313666073511563,
+      "scale": 0.15499999999999997,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9634236125291916,
+      "minimum_spectral_radius": 0.9309996944256548,
+      "scale": 0.15999999999999995,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9633337755948578,
+      "minimum_spectral_radius": 0.9306615643147742,
+      "scale": 0.16499999999999992,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9632707595748382,
+      "minimum_spectral_radius": 0.9303516356824555,
+      "scale": 0.16999999999999993,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9632345982311413,
+      "minimum_spectral_radius": 0.9300693738592223,
+      "scale": 0.17499999999999993,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9632253247614841,
+      "minimum_spectral_radius": 0.9298142844958703,
+      "scale": 0.17999999999999994,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9632429728015773,
+      "minimum_spectral_radius": 0.9295859078200112,
+      "scale": 0.18499999999999994,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9632875770744562,
+      "minimum_spectral_radius": 0.9293838134327792,
+      "scale": 0.18999999999999995,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9633591737665651,
+      "minimum_spectral_radius": 0.9292075955866799,
+      "scale": 0.19499999999999995,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.963457800693073,
+      "minimum_spectral_radius": 0.9290568688898024,
+      "scale": 0.1999999999999999,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9635834973011258,
+      "minimum_spectral_radius": 0.9289312643861997,
+      "scale": 0.2049999999999999,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9637363045491806,
+      "minimum_spectral_radius": 0.928830425966536,
+      "scale": 0.2099999999999999,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9639162646920839,
+      "minimum_spectral_radius": 0.9287540070672142,
+      "scale": 0.2149999999999999,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9641234209948433,
+      "minimum_spectral_radius": 0.9287016676198583,
+      "scale": 0.21999999999999992,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.964357817392925,
+      "minimum_spectral_radius": 0.928673071216318,
+      "scale": 0.22499999999999992,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9646194981125227,
+      "minimum_spectral_radius": 0.9286678824571022,
+      "scale": 0.22999999999999993,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9649085072610781,
+      "minimum_spectral_radius": 0.9286857644535711,
+      "scale": 0.23499999999999993,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9652248883955947,
+      "minimum_spectral_radius": 0.9287263764559935,
+      "scale": 0.23999999999999988,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9655686840742082,
+      "minimum_spectral_radius": 0.92878937158113,
+      "scale": 0.24499999999999988,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9659399353947457,
+      "minimum_spectral_radius": 0.9288743946139262,
+      "scale": 0.2499999999999999,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9663386815227689,
+      "minimum_spectral_radius": 0.9289810798585988,
+      "scale": 0.2549999999999999,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9667649592105001,
+      "minimum_spectral_radius": 0.9291090490145061,
+      "scale": 0.2599999999999999,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9672188023071688,
+      "minimum_spectral_radius": 0.9292579090520618,
+      "scale": 0.2649999999999999,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9677002412608811,
+      "minimum_spectral_radius": 0.9294272500633791,
+      "scale": 0.2699999999999999,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9682093026114869,
+      "minimum_spectral_radius": 0.929616643061366,
+      "scale": 0.2749999999999999,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9687460084738706,
+      "minimum_spectral_radius": 0.9298256376997748,
+      "scale": 0.27999999999999986,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9693103760107413,
+      "minimum_spectral_radius": 0.9300537598851687,
+      "scale": 0.28499999999999986,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9699024168941617,
+      "minimum_spectral_radius": 0.9303005092500685,
+      "scale": 0.28999999999999987,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9705221367551186,
+      "minimum_spectral_radius": 0.930565356454905,
+      "scale": 0.2949999999999999,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9711695346206352,
+      "minimum_spectral_radius": 0.9308477402850135,
+      "scale": 0.2999999999999999,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9718446023382904,
+      "minimum_spectral_radius": 0.9311470645083995,
+      "scale": 0.3049999999999999,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9725473239885007,
+      "minimum_spectral_radius": 0.9314626944611245,
+      "scale": 0.3099999999999999,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9732776752853067,
+      "minimum_spectral_radius": 0.9317939533314611,
+      "scale": 0.31499999999999984,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9740356229671494,
+      "minimum_spectral_radius": 0.9321401181234917,
+      "scale": 0.31999999999999984,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9748211241797478,
+      "minimum_spectral_radius": 0.9325004152997601,
+      "scale": 0.32499999999999984,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9756341258539045,
+      "minimum_spectral_radius": 0.9328740161369713,
+      "scale": 0.32999999999999985,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9764745640818481,
+      "minimum_spectral_radius": 0.933260031889315,
+      "scale": 0.33499999999999985,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9773423634965478,
+      "minimum_spectral_radius": 0.9336575089588369,
+      "scale": 0.33999999999999986,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9782374366591212,
+      "minimum_spectral_radius": 0.9340654244514839,
+      "scale": 0.34499999999999986,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9791596834603761,
+      "minimum_spectral_radius": 0.934482682804052,
+      "scale": 0.3499999999999998,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9801089905430082,
+      "minimum_spectral_radius": 0.9349081146929469,
+      "scale": 0.3549999999999998,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9810852307517497,
+      "minimum_spectral_radius": 0.9353404803435766,
+      "scale": 0.3599999999999998,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9820882626191846,
+      "minimum_spectral_radius": 0.9357784809432694,
+      "scale": 0.3649999999999998,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9831179298952621,
+      "minimum_spectral_radius": 0.936220784658528,
+      "scale": 0.36999999999999983,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9841740611287464,
+      "minimum_spectral_radius": 0.936666078766395,
+      "scale": 0.37499999999999983,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9852564693087887,
+      "minimum_spectral_radius": 0.9371131684998554,
+      "scale": 0.37999999999999984,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9863649515745824,
+      "minimum_spectral_radius": 0.9375611598865524,
+      "scale": 0.38499999999999984,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9874992890005918,
+      "minimum_spectral_radius": 0.9380097946014796,
+      "scale": 0.38999999999999985,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.9886592464641364,
+      "minimum_spectral_radius": 0.938460060867403,
+      "scale": 0.3949999999999998,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    },
+    {
+      "maximum_spectral_radius": 0.989844572601289,
+      "minimum_spectral_radius": 0.938915301619909,
+      "scale": 0.3999999999999998,
+      "stable_count": 170,
+      "worst_point": {
+        "mass_fraction": 0.0,
+        "payload_height": 1.15,
+        "set": "structured",
+        "speed_kmh": 75.0
+      }
+    }
+  ],
+  "runtime_seconds": 74.92722034454346,
+  "selected_maximum_spectral_radius": 0.9632253247614841,
+  "selected_scale": 0.17999999999999994,
+  "selection_rule": "minimize the maximum exact augmented spectral radius over all 170 plants"
+}

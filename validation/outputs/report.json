@@ -1,0 +1,129 @@
+{
+  "signal_order": [
+    "passive_Rf",
+    "passive_Rr",
+    "LQR1_Rf",
+    "LQR1_Rr",
+    "uf_A",
+    "ur_A"
+  ],
+  "RMS_SI": [
+    0.2964943975929242,
+    0.3719808338263045,
+    0.09099247060432727,
+    0.01221470183187463,
+    0.0003147830759357653,
+    0.0015841699324054754
+  ],
+  "printed_RMS_SI": [
+    0.2927,
+    0.3413,
+    0.094,
+    0.0126,
+    0.00033114,
+    0.0016
+  ],
+  "RMS_error_percent": [
+    1.2963435575415572,
+    8.989403406476558,
+    3.199499357098645,
+    3.0579219692489668,
+    4.939579653389725,
+    0.9893792246577937
+  ],
+  "waveform_error_percent": [
+    12.568048636329875,
+    10.589314288287136,
+    0.1888170373188787,
+    1.2244768049310921,
+    1.6337109242984948,
+    0.4269797973409741
+  ],
+  "peak_reduction_percent": [
+    66.43503865518466,
+    96.44460270994836
+  ],
+  "numerical_checks": {
+    "care_relative_residual": 2.509270378072919e-15,
+    "largest_real_pole": -6.643328740363295,
+    "halved_step_max_relative_RMS_change": 2.942697495456059e-06,
+    "radau_max_peak_normalized_error": 4.30460926331971e-07,
+    "manuscript_max_relative_RMS_error": 0.0,
+    "limits": {
+      "care_relative_residual": 1e-07,
+      "halved_step_max_relative_RMS_change": 0.001,
+      "radau_max_peak_normalized_error": 0.0001,
+      "manuscript_max_relative_RMS_error": 1e-06
+    },
+    "status": "PASS: numerical checks and current-manuscript RMS regression"
+  },
+  "parameters": {
+    "ms": 12487.0,
+    "muf": 706.0,
+    "mur": 1000.0,
+    "m": 14193.0,
+    "lf": 1.95,
+    "lr": 1.54,
+    "lw": 0.93,
+    "h": 1.15,
+    "rh": 0.83,
+    "hu": 0.53,
+    "v": 19.444444444444443,
+    "g": 9.81,
+    "Ixx": 24201.0,
+    "Ixz": 4200.0,
+    "Izz": 34917.0,
+    "kf": 380000.0,
+    "kr": 684000.0,
+    "ktf": 2060000.0,
+    "ktr": 3337000.0,
+    "bf": 100000.0,
+    "br": 100000.0,
+    "Cf": 582000.0,
+    "Cr": 783000.0,
+    "mu": 1.0,
+    "area": 0.0123,
+    "Kx": 2.5,
+    "KP": 4.2e-11,
+    "Vt": 0.0014,
+    "bulk": 6890000.0,
+    "tau": 0.01,
+    "Kv": 0.0239,
+    "Ctp": 0.0,
+    "kAOf": 10730.0,
+    "kAOr": 15480.0,
+    "L_ACT": 0.5,
+    "T_A": 0.93,
+    "T_B": 0.2,
+    "ARM_LENGTH": 0.18,
+    "DURATION": 10.0,
+    "DT": 0.001
+  },
+  "geometry_provenance": "lact=0.50 m was selected following exploratory comparison with Figure 8; passive geometry is supplementary.",
+  "reference_status": "Approximate digitized curves; numerical regression is not experimental validation or complete reference reproduction.",
+  "versions": {
+    "python": "3.13.15",
+    "numpy": "2.4.1",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8"
+  },
+  "source_sha256": {
+    "lqr_controller.py": "d608bc35185ec217d900076b8197e2e14d57a55382df8900752940848a10b528",
+    "numerical_checks.py": "6de2b72c12c039b8a0c811e6861f44e0d65edc03cacfeba9d0c06a79cba775f1",
+    "parameters.py": "5e9b57f65482377e4cf92d63eefbb7c56c9704f717542a366728235906936e11",
+    "plot_results.py": "731ca10ed97ae8448a8ac96f9bd9551b7068068c6f333f094c779c18cf9ac4d6",
+    "run_validation.py": "adeeb52ecc4dc043c7d2d22755d0b2f0b5cb157985a445a8f7553d3fe4e0c158",
+    "simulation.py": "6b9ef00497952d4c4c0bbdc91ca1ee3896868daf4c750ee9899709192a984e10",
+    "test_validation.py": "7624e770e9bc8d19dac00c06567777821be84d4280d01647b8777f3670364fd8",
+    "vehicle_model.py": "fdefeabdb555185e6d3c25414ebe3205adeddb54f6bbe5cf0ef72bb586c48cbe",
+    "data/expected_metrics.json": "b0f82ef20d7b8961893731c2dfe5c68136e8ef6e44327bd06e5030ce2e765c9a",
+    "data/provenance.json": "a10025fb946c619851ca03e5e62519bf31166d49f02fb51d55daf8e32c89a63e",
+    "data/reference_LQR1_Rf.csv": "cae803f4d69d9eb4aeb7efc71eef4c29fb6d8dfae820716c6412192969f15eb9",
+    "data/reference_LQR1_Rr.csv": "29924739fc49d2bb4e8d35e74dc26b3e7fad23b81f5e98e3665edd3dcebbc2b6",
+    "data/reference_passive_Rf.csv": "0c7521374b0d11ac8e0a91e6a7e0c8d7a54d38321f9c1d07093429aa38842199",
+    "data/reference_passive_Rr.csv": "0c5d11b19c8cdfbc5d5c2397a0f7ef2b5fc398b8259a71e7315e821fe6a41c70",
+    "data/reference_uf_A.csv": "8e97aef8aeff909affc68c1f29f98dce24dc31aa3a5868e9fb791f48662b0c23",
+    "data/reference_ur_A.csv": "465c8488a348dba2edf2e11ff1bdada7d66a306eefb774dc1ad7c6eaa9848a1f",
+    "data/steering.csv": "0b36f9144a93670482f91215017804dd47683448899c98f477311f86f5724563"
+  }
+}

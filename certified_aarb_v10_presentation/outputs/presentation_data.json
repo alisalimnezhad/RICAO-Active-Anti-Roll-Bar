@@ -1,0 +1,191 @@
+{
+  "benchmark": {
+    "environment": "Python/NumPy host microbenchmark; not ECU timing",
+    "method": "median of seven timeit repeats, 30000 calls each",
+    "microseconds_per_call": {
+      "fir4": 2.7794739333330654,
+      "fixed": 2.5274094333326502,
+      "lqr": 1.189102699997117,
+      "scheduled": 5.995793833335483
+    }
+  },
+  "controllers": [
+    {
+      "controller": "Sampled LQR1",
+      "coverage": "170",
+      "fir": 0,
+      "gain": 20,
+      "macs": "20",
+      "offline_s": null,
+      "online_us": 1.189102699997117,
+      "rear": "No axle-specific proof",
+      "schedule": "No",
+      "stored": 20,
+      "util_note": "selected outputs",
+      "utilization": 0.909547798745086,
+      "worst_ltr": 0.1579573876414352
+    },
+    {
+      "controller": "Four-tap reserve",
+      "coverage": "42 structured",
+      "fir": 8,
+      "gain": 20,
+      "macs": "28",
+      "offline_s": null,
+      "online_us": 2.7794739333330654,
+      "rear": "4.43% screen",
+      "schedule": "No",
+      "stored": 28,
+      "util_note": "all declared",
+      "utilization": 0.9848646502118389,
+      "worst_ltr": 0.059554193255921664
+    },
+    {
+      "controller": "Fixed balanced",
+      "coverage": "170",
+      "fir": 12,
+      "gain": 20,
+      "macs": "32",
+      "offline_s": null,
+      "online_us": 2.5274094333326502,
+      "rear": "No",
+      "schedule": "No",
+      "stored": 32,
+      "util_note": "all declared",
+      "utilization": 0.9940020696137342,
+      "worst_ltr": 0.05478394464998488
+    },
+    {
+      "controller": "Rear protected",
+      "coverage": "170",
+      "fir": 12,
+      "gain": 20,
+      "macs": "32",
+      "offline_s": 220.4565634727478,
+      "online_us": 2.5274094333326502,
+      "rear": "0.336% min.",
+      "schedule": "No",
+      "stored": 32,
+      "util_note": "all declared",
+      "utilization": 0.9850060843802473,
+      "worst_ltr": 0.058920571940036325
+    },
+    {
+      "controller": "Selected 5% reserve",
+      "coverage": "170",
+      "fir": 12,
+      "gain": 20,
+      "macs": "32",
+      "offline_s": 167.700523853302,
+      "online_us": 2.5274094333326502,
+      "rear": "5.15% min.",
+      "schedule": "No",
+      "stored": 32,
+      "util_note": "all declared",
+      "utilization": 0.9850061310664334,
+      "worst_ltr": 0.059092014386688846
+    },
+    {
+      "controller": "Scheduled balanced",
+      "coverage": "170",
+      "fir": 36,
+      "gain": 60,
+      "macs": "32+64 interp.",
+      "offline_s": 302.7794225215912,
+      "online_us": 5.995793833335483,
+      "rear": "No",
+      "schedule": "Speed",
+      "stored": 96,
+      "util_note": "all declared",
+      "utilization": 0.997310283175221,
+      "worst_ltr": 0.04933327577392555
+    },
+    {
+      "controller": "5 ms delay-aware",
+      "coverage": "170",
+      "fir": 12,
+      "gain": 20,
+      "macs": "32",
+      "offline_s": 285.90527844429016,
+      "online_us": 2.5274094333326502,
+      "rear": "18.1% vs delayed FB",
+      "schedule": "No",
+      "stored": 32,
+      "util_note": "all declared",
+      "utilization": 0.9062516322299139,
+      "worst_ltr": 0.046692792912060445
+    }
+  ],
+  "date": "2026-09-23",
+  "definitions": {
+    "macs": "coefficient products per control update; schedule interpolation shown separately",
+    "offline_seconds": "archived wall time when a directly attributable design record exists",
+    "stored_scalars": "feedback plus FIR coefficients retained online"
+  },
+  "scope_rows": [
+    {
+      "dimension": "Plant dynamics",
+      "excluded": "Nonlinear tyre/wheel-lift or hardware certificate",
+      "included": "Published ten-state linear vehicle--hydraulic model"
+    },
+    {
+      "dimension": "Initial condition",
+      "excluded": "Nonzero or uncertain initial states",
+      "included": "$x(0)=0$"
+    },
+    {
+      "dimension": "Steering family",
+      "excluded": "Road inputs and unrestricted driver manoeuvres",
+      "included": "FOH, $|\\delta|\\le2^\\circ$, $|\\dot\\delta|\\le5^\\circ$/s, $w_0=0$"
+    },
+    {
+      "dimension": "Time",
+      "excluded": "Infinite-horizon or arbitrary sampling guarantees",
+      "included": "$T=4$ s; $h_s=20$ ms; continuous-time remainder"
+    },
+    {
+      "dimension": "Actuator/model limits",
+      "excluded": "Pump power, temperature, cavitation and wear",
+      "included": "Current, force, spool, flow, suspension roll, body/sideslip and tyre slip"
+    },
+    {
+      "dimension": "Vehicle parameters",
+      "excluded": "Interval proof between the 170 evaluated points",
+      "included": "42 structured + 128 scrambled-Sobol speed--payload plants"
+    },
+    {
+      "dimension": "Measurements",
+      "excluded": "Observer error, noise and uncertain/time-varying delay",
+      "included": "Full state and current steering; separate known 5 ms delayed design"
+    },
+    {
+      "dimension": "Numerical claim",
+      "excluded": "Outward-rounded interval arithmetic or symbolic proof",
+      "included": "Residual-corrected support LP plus intersample bound at each plant"
+    },
+    {
+      "dimension": "Rear comparison",
+      "excluded": "Hardware robustness margin",
+      "included": "One-sided proposed upper versus feasible comparator lower"
+    },
+    {
+      "dimension": "Additional evidence",
+      "excluded": "Experiment, HiL or commercial multibody validation",
+      "included": "Reference reproduction and five nonlinear critical-case screens"
+    }
+  ],
+  "source_hashes": {
+    "certified_aarb_v3/outputs/bank_scheduled_50p0.json": "b07ed0d7fc30878cccb336512d7117cf35f9d0b9b987ae38f90c464aa31fcbcd",
+    "certified_aarb_v3/outputs/bank_scheduled_70p0.json": "4e2e248f6b91571adc612e25340e6a0a6cfb8dcd6d46f849d52fa105f8e788e5",
+    "certified_aarb_v3/outputs/bank_scheduled_75p0.json": "db8983a48c1ed36cc3ae99cadba32affc73eefe08efcec57d60806d479a84df4",
+    "certified_aarb_v4/outputs/envelope_results.json": "547640366018f67f599ebdd043dc02a3c4cca17c28e29e3fb1d798f118ed3809",
+    "certified_aarb_v4/outputs/fixed_rear_protected_design.json": "dfa9c0b99174d9032526ec0f09ae5254ffa5482610c91d66c15f49a0529b3d1a",
+    "certified_aarb_v5_rear_audit/outputs/comparison/reserve_comparison.json": "114252f1c4aca32ef2c1a1f51cca00f98c40762540396456dbbd65f26f02ba8b",
+    "certified_aarb_v5_rear_audit/outputs/reserve_5pct/design.json": "2a673552e9fdd1265cb2bf9c4c9857b146f3ec2d5e02eac185ea9d5620e1d388",
+    "certified_aarb_v8_sensitivity/outputs/results.json": "9e85d3f39e4404e5c3fbe08294ffa8bf9de4a0ab7ac998eff2145393da676098",
+    "certified_aarb_v9_delay_aware/outputs/design.json": "c3274d07d6eb2477d06ae271c35182cc7c17ae29a3cc55661b8148f108e19984",
+    "certified_aarb_v9_delay_aware/outputs/gain_scan.json": "5e7abd8195287ada36b0cfa7c327a5a996ef8f4124c5cd006aa9d60903e98966",
+    "certified_aarb_v9_delay_aware/outputs/results.json": "e8d2ac7421d9fa595fc68c3d1e9ac948423248841d615131e5cf03b3a5880460"
+  },
+  "status": "PASS"
+}

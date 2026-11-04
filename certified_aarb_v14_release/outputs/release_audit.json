@@ -1,0 +1,24 @@
+{
+  "checks": {
+    "all_assemblies_finite": true,
+    "all_attempted_support_solves_succeed": true,
+    "automated_tests": true,
+    "figure_present": true,
+    "independent_verification": true,
+    "main_claim_sync": true,
+    "no_record_errors": true,
+    "sample_count_1536": true,
+    "summary_status_pass": true,
+    "supplement_claim_sync": true,
+    "table_exactly_matches_summary": true,
+    "unique_ids_1536": true
+  },
+  "date": "2026-09-27",
+  "figure_sha256": "7afb9cb92923548e7d612321b05472e912219e6d7ae7f33118d334a64a341650",
+  "result_sha256": "1eac26bcf930da12dcc5104b1233c12be416155ac29b2f7f36975b738ad12d1a",
+  "status": "PASS",
+  "summary_sha256": "d4d605d41d539e82eac24724f2f4d2107851bb22c7fe7fed0b0f65cc0c49c6a1",
+  "table_sha256": "ebdaef861e7ef59dc37e9c52c2666bb96e10098daef550bbacf291c425a6be5a",
+  "test_stderr": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.086s\n\nOK\n",
+  "test_stdout": ""
+}

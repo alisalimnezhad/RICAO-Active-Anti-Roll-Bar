@@ -1,0 +1,9 @@
+﻿Output,Magnitude limit,Unit
+"Current, each channel",20,mA
+"Actuator force, each channel",120,kN
+Spool displacement,0.485,mm
+Load flow,132,L/min
+Suspension relative roll,7,deg
+Tyre slip,3,deg
+Body roll,5,deg
+Sideslip,3,deg

@@ -1,0 +1,20 @@
+﻿Table number,Panel,Table title,CSV file,Data rows
+1,,Implemented coordinates and sign conventions,Table_01_Implemented_coordinates_and_sign_conventions.csv,6
+2,,RMS comparison with selected published reference responses,Table_02_RMS_comparison_with_published_reference_responses.csv,6
+3,,Declared continuous-time constraints for the certification study,Table_03_Declared_continuous_time_constraints.csv,8
+4,,Scope of the numerical certificate and explicit non-claims,Table_04_Scope_of_numerical_certificate_and_non_claims.csv,10
+5,,Nominal performance bounds and comparison with a discrete-LQR tuning grid,Table_05_Nominal_performance_bounds_and_discrete_LQR_comparison.csv,3
+6,,Nominal axle-wise worst-case bounds and marginal current demand at 20 mA,Table_06_Nominal_axle_wise_bounds_and_current_demand.csv,4
+7,,Nominal continuous-time output audit for the 20 mA rear-protected controller,Table_07_Nominal_continuous_time_output_audit.csv,6
+8,,Certification-mesh refinement for the same nominal 20 mA controller,Table_08_Certification_mesh_refinement.csv,5
+9,,Operating-envelope performance over 170 evaluated linear plants,Table_09_Operating_envelope_performance_over_170_plants.csv,4
+10,,Error budget for the limiting one-sided rear-axle certificate,Table_10_Error_budget_for_limiting_rear_axle_certificate.csv,4
+11,,Rear-reserve trade-off over the 170 evaluated plants,Table_11_Rear_reserve_trade_off_over_170_plants.csv,4
+12,,"Sensitivity to FIR order, horizon and steering-family limits",Table_12_Sensitivity_to_FIR_order_horizon_and_steering_limits.csv,8
+13,,Fixed-controller delay stability on 170 plants,Table_13_Fixed_controller_delay_stability.csv,4
+14,,Fixed-controller sensitivity to hydraulic parameters on nine design-skeleton plants,Table_14_Hydraulic_parameter_sensitivity.csv,8
+15,,"Combined operating-condition, plant and controller stress audit",Table_15_Combined_plant_and_controller_stress_audit.csv,2
+16,,Comparison of fixed and delay-aware controllers at 5 ms latency,Table_16_Fixed_and_delay_aware_controllers_at_5ms.csv,5
+17,,Critical-case screening of the 5 ms delay-aware controller,Table_17_Critical_case_screening_of_5ms_delay_aware_controller.csv,5
+18,a: Online implementation inventory,Controller implementation complexity and evaluated performance,Table_18a_Controller_implementation_complexity_online_inventory.csv,7
+18,b: Evidence and performance inventory,Controller implementation complexity and evaluated performance,Table_18b_Controller_evidence_and_performance_inventory.csv,7

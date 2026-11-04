@@ -1,0 +1,8 @@
+﻿Controller,Coverage,Worst LTR,Max utilization,Rear evidence,Offline design_s
+Sampled LQR1,170,0.15796,0.910,No axle-specific proof,--
+Four-tap reserve,42 structured,0.05955,0.985,4.43% screen,--
+Fixed balanced,170,0.05478,0.994,No,--
+Rear protected,170,0.05892,0.985,0.336% minimum,220
+Selected 5% reserve,170,0.05909,0.985,5.15% minimum,168
+Scheduled balanced,170,0.04933,0.997,No,303
+5 ms delay-aware,170,0.04669,0.906,18.1% vs delayed feedback,286

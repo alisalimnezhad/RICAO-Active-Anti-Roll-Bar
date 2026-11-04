@@ -1,0 +1,13 @@
+{
+  "article": "Vu et al., Vehicle System Dynamics 55(9), 1405-1429 (2017)",
+  "doi": "10.1080/00423114.2017.1317822",
+  "steering_source": "Figure 7, vector path /Im7, PDF page 18",
+  "reference_source": "Figure 8 polylines previously extracted and embedded in historical manuscript; finite graphical precision",
+  "units": "Time s, steering rad, LTR dimensionless, current A",
+  "sha256": {
+    "Enhancing roll stability of heavy vehicle by LQR active anti-roll bar control using electronic servo-valve hydraulic actuators 2017.pdf": "e707562dd89404ea8542b3ab37d75b703ec0191e7273fa0be4f90d45fe718f85",
+    "AARB_Article_v1.tex": "904ddd065549fb744d5b9fb105df806c9874a121f36e2e5bd45ee47767e37b4c",
+    "report.json": "15928cd47dd74c4f1878c6047694d158aefa0ab7762dab578f9ae24e704eead1"
+  },
+  "geometry": "lact=0.50 m chosen following exploratory curve comparison; passive tA=.93, tB=.20, c=.18 m supplementary assumptions."
+}

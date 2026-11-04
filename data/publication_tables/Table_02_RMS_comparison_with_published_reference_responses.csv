@@ -1,0 +1,7 @@
+﻿Quantity,Reference,Present model,Error_percent
+Passive R_F,0.2927,0.29649,1.30
+Passive R_R,0.3413,0.37198,8.99
+LQR1 R_F,0.0940,0.09099,3.20
+LQR1 R_R,0.0126,0.01221,3.06
+LQR1 u_F (mA),0.33114,0.31478,4.94
+LQR1 u_R (mA),1.6000,1.58417,0.99

@@ -1,0 +1,24 @@
+{
+  "checks": {
+    "all_170_constraint_feasible": true,
+    "all_170_rear_non_degrading": true,
+    "all_170_stable": true,
+    "design_coefficients_match": true,
+    "direct_recurrence_matches_lift": true,
+    "gain_grid_minimum_selected": true,
+    "jacobian_gate_passed": true,
+    "nonlinear_five_cases": true,
+    "nonlinear_screen_finite": true,
+    "nonlinear_source_hashes_match": true,
+    "verification_has_170_points": true
+  },
+  "date": "2026-09-23",
+  "headline": {
+    "feedback_gain_scale": 0.17999999999999994,
+    "maximum_constraint_utilization": 0.9062516322299139,
+    "maximum_nonlinear_rear_LTR": 0.056745457549438286,
+    "maximum_spectral_radius": 0.9632253247614841,
+    "worst_LTR": 0.046692792912060445
+  },
+  "status": "PASS"
+}

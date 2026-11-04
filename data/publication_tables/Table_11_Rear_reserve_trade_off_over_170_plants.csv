@@ -1,0 +1,5 @@
+﻿Controller,Requested_percent,Achieved_percent,Worst front,Cost_percent,Max utilization,Max spectral radius
+Current,--,0.336,0.058921,0.000,0.985006,0.901008
+Reserve 1%,1,1.156,0.058948,0.046,0.985006,0.901008
+Reserve 2%,2,2.126,0.058983,0.106,0.985004,0.901008
+Reserve 5%,5,5.148,0.059092,0.291,0.985006,0.901008

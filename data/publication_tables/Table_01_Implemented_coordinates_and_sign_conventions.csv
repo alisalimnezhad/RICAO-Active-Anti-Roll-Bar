@@ -1,0 +1,7 @@
+﻿Quantity,Positive convention
+"x_v, y_v, z_v","Forward, left and upward, respectively"
+"delta, beta",Left steering and left lateral velocity
+r,Right-hand rotation about +z_v
+"phi, p, phi_uF, phi_uR",Right-hand rotation about +x_v
+g,Positive magnitude; acceleration is -g e_zv
+"P_i, u_i, T_i",Positive through the stated valve and torque equations

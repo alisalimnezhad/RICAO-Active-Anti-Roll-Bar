@@ -1,0 +1,3 @@
+﻿Range,Samples,Stable,Feasible,Rear certificate,Pass,Worst LTR,Max utilization,Min rear_percent,Max spectral radius
++/-5%,512,408,175,193,100,0.107840,19.2760,-453.366,1.3092
++/-10%,1024,637,235,230,109,0.152913,22.6570,-685.846,1.9135

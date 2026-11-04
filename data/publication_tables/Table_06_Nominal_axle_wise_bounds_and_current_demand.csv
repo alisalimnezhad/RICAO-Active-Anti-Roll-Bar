@@ -1,0 +1,5 @@
+﻿Controller,U_F,U_R,I_F_mA,I_R_mA,Max_UF_UR,Front reduction_percent
+Sampled LQR1,0.151990,0.020535,5.2736,4.1511,0.151990,0.00
+Equal-current balanced,0.138701,0.028989,5.2736,4.1511,0.138701,8.74
+Equal-current rear-protected,0.140683,0.020530,5.2736,4.1511,0.140683,7.44
+20 mA rear-protected,0.050503,0.020438,19.9600,19.9601,0.050503,66.77
