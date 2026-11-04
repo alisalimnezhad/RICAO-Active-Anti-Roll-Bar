@@ -1,0 +1,20 @@
+{
+  "achieved_minimum_margin_percent": 5.147910808048557,
+  "coefficient_file": "certified_aarb_v5_rear_audit/outputs/comparison/selected_reserve_5pct_coefficients.csv",
+  "coefficient_sha256": "50f39b6bc0165a9627bf33f01e2e77a81f5ce852a776f24edf56c1dfeca59bb5",
+  "date": "2026-09-23",
+  "front_cost_vs_current_percent": 0.2909721358899997,
+  "limiting_point": {
+    "mass_fraction": 0.1,
+    "payload_height": 1.8,
+    "set": "structured",
+    "speed_kmh": 75.0
+  },
+  "max_constraint_utilization": 0.9850061310664334,
+  "max_spectral_radius": 0.901008472346091,
+  "scope": "Selection over the evaluated 170-plant bank; not a continuous-parameter guarantee.",
+  "selected_key": "reserve_5pct",
+  "selection_basis": "Largest audited minimum rear reserve among the declared 1%, 2% and 5% targets, with less than 0.5% degradation in the evaluated worst front bound relative to the current rear-protected controller.",
+  "status": "PASS",
+  "worst_front_bound": 0.059092014386688846
+}

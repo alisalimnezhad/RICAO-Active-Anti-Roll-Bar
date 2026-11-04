@@ -1,0 +1,23 @@
+{
+  "all_non_degrading": true,
+  "date": "2026-09-21",
+  "design_absolute_grid_guard": 0.00042,
+  "design_gamma": 0.05866502716921234,
+  "design_iterations": 20,
+  "limiting_rear_point": {
+    "mass_fraction": 0.1,
+    "payload_height": 1.8,
+    "set": "structured",
+    "speed_kmh": 75.0
+  },
+  "max_constraint_utilization_21_phase": 0.985004065448854,
+  "max_spectral_radius": 0.901008472346091,
+  "minimum_absolute_rear_margin_81_phase": 0.00037155237341796044,
+  "minimum_relative_rear_margin": 0.021263672852145775,
+  "minimum_relative_rear_margin_percent": 2.1263672852145774,
+  "status": "PASS",
+  "target_achieved": true,
+  "target_relative_margin": 0.02,
+  "worst_LTR_21_phase": 0.058982748908822304,
+  "worst_front_LTR_21_phase": 0.058982748908822304
+}

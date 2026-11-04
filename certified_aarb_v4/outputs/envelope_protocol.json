@@ -1,0 +1,49 @@
+{
+  "added_mass_fraction_interval": [
+    0.0,
+    0.1
+  ],
+  "claim": "Exact steering/time certificate at every evaluated parameter point; structured plus unseen-parameter verification, not an interval proof between parameter points.",
+  "date": "2026-09-19",
+  "holdout": {
+    "count": 128,
+    "method": "scrambled Sobol",
+    "seed": 20260919
+  },
+  "payload_height_interval_m": [
+    1.15,
+    1.8
+  ],
+  "phase_spacing_ms": 1.0,
+  "phases": 21,
+  "schedule_nodes_kmh": [
+    50.0,
+    70.0,
+    75.0
+  ],
+  "speed_interval_kmh": [
+    50.0,
+    75.0
+  ],
+  "structured_grid": {
+    "count": 42,
+    "mass_fractions": [
+      0.0,
+      0.05,
+      0.1
+    ],
+    "payload_heights_m_for_loaded_cases": [
+      1.15,
+      1.475,
+      1.8
+    ],
+    "speeds_kmh": [
+      50.0,
+      55.0,
+      60.0,
+      65.0,
+      70.0,
+      75.0
+    ]
+  }
+}

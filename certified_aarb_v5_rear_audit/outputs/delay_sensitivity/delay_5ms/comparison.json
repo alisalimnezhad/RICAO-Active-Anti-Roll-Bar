@@ -1,0 +1,46 @@
+[
+  {
+    "controller": "Current",
+    "delay_ms": 0.0,
+    "feasible_count": 170,
+    "max_constraint_utilization": 0.9850060843802473,
+    "max_spectral_radius": 0.901008472346091,
+    "minimum_rear_margin_percent": 0.33596574587882744,
+    "non_degrading_count": 170,
+    "stable_count": 170,
+    "worst_front_LTR": 0.058920571940036325
+  },
+  {
+    "controller": "5% reserve",
+    "delay_ms": 0.0,
+    "feasible_count": 170,
+    "max_constraint_utilization": 0.9850061310664334,
+    "max_spectral_radius": 0.901008472346091,
+    "minimum_rear_margin_percent": 5.147910808048557,
+    "non_degrading_count": 170,
+    "stable_count": 170,
+    "worst_front_LTR": 0.059092014386688846
+  },
+  {
+    "controller": "Current",
+    "delay_ms": 5.0,
+    "feasible_count": 0,
+    "max_constraint_utilization": 5.89535218957979e+16,
+    "max_spectral_radius": 1.2164714586249086,
+    "minimum_rear_margin_percent": -213.47303722603624,
+    "non_degrading_count": 0,
+    "stable_count": 0,
+    "worst_front_LTR": 632575719464004.0
+  },
+  {
+    "controller": "5% reserve",
+    "delay_ms": 5.0,
+    "feasible_count": 0,
+    "max_constraint_utilization": 5.886258205330993e+16,
+    "max_spectral_radius": 1.2164714586249086,
+    "minimum_rear_margin_percent": -212.9623507290618,
+    "non_degrading_count": 0,
+    "stable_count": 0,
+    "worst_front_LTR": 631618855236236.1
+  }
+]

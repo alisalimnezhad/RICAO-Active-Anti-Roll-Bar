@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-22",
+  "direct_lift_agreement": true,
+  "limiting_point_refinements": [
+    {
+      "meshes": {
+        "161": {
+          "baseline": {
+            "continuous_upper": 2.5342082360285733e+32,
+            "grid_corrected_upper": 2.5334520652821722e+32,
+            "grid_feasible_lower": 2.533449868336445e+32,
+            "intersample_correction": 7.561707464009483e+28,
+            "max_dual_correction": 3.571492293741424e+27
+          },
+          "current": {
+            "certified_margin": -2.685361319135192e+32,
+            "continuous_upper": 5.218811187471637e+32,
+            "grid_corrected_upper": 5.217673533573047e+32,
+            "grid_feasible_lower": 5.217671880262211e+32,
+            "intersample_correction": 1.137653898589658e+29,
+            "max_dual_correction": 1.839136694199878e+27,
+            "relative_margin_percent": -105.9962288063153
+          },
+          "reserve_5pct": {
+            "certified_margin": -2.6721538490262277e+32,
+            "continuous_upper": 5.2056037173626725e+32,
+            "grid_corrected_upper": 5.2044670810042885e+32,
+            "grid_feasible_lower": 5.204465443240892e+32,
+            "intersample_correction": 1.1366363583838017e+29,
+            "max_dual_correction": 7.329151719852938e+27,
+            "relative_margin_percent": -105.47490528323975
+          }
+        },
+        "321": {
+          "baseline": {
+            "continuous_upper": 2.533667292677425e+32,
+            "grid_corrected_upper": 2.5334782499908248e+32,
+            "grid_feasible_lower": 2.5334760620341846e+32,
+            "intersample_correction": 1.8904268660023708e+28,
+            "max_dual_correction": 3.571492293741424e+27
+          },
+          "current": {
+            "certified_margin": -2.684537982364823e+32,
+            "continuous_upper": 5.2180140443990075e+32,
+            "grid_corrected_upper": 5.21772963092436e+32,
+            "grid_feasible_lower": 5.217729364210937e+32,
+            "intersample_correction": 2.844134746474145e+28,
+            "max_dual_correction": 7.544526598631815e+27,
+            "relative_margin_percent": -105.96263460288421
+          },
+          "reserve_5pct": {
+            "certified_margin": -2.6712751780596995e+32,
+            "continuous_upper": 5.204751240093884e+32,
+            "grid_corrected_upper": 5.2044670810042885e+32,
+            "grid_feasible_lower": 5.204465443240892e+32,
+            "intersample_correction": 2.841590895959504e+28,
+            "max_dual_correction": 7.822524576417135e+27,
+            "relative_margin_percent": -105.4391323482596
+          }
+        },
+        "81": {
+          "baseline": {
+            "continuous_upper": 2.536476748267776e+32,
+            "grid_corrected_upper": 2.5334520652821722e+32,
+            "grid_feasible_lower": 2.533449868336445e+32,
+            "intersample_correction": 3.0246829856037933e+29,
+            "max_dual_correction": 3.571492293741424e+27
+          },
+          "current": {
+            "certified_margin": -2.6887729607324004e+32,
+            "continuous_upper": 5.222222829068845e+32,
+            "grid_corrected_upper": 5.2176722134744866e+32,
+            "grid_feasible_lower": 5.217671834512974e+32,
+            "intersample_correction": 4.550615594358632e+29,
+            "max_dual_correction": 1.839136694199878e+27,
+            "relative_margin_percent": -106.1308926747363
+          },
+          "reserve_5pct": {
+            "certified_margin": -2.6754412681559762e+32,
+            "continuous_upper": 5.208891136492421e+32,
+            "grid_corrected_upper": 5.204344591058886e+32,
+            "grid_feasible_lower": 5.2043441447516994e+32,
+            "intersample_correction": 4.546545433535207e+29,
+            "max_dual_correction": 1.8248967824347318e+27,
+            "relative_margin_percent": -105.6046658587631
+          }
+        }
+      },
+      "point": {
+        "mass_fraction": 0.07558837868273259,
+        "payload_height": 1.1592340656556188,
+        "set": "sobol_holdout",
+        "speed_kmh": 60.18187841400504
+      },
+      "spectral_radius": 1.5037525408704224
+    }
+  ],
+  "nominal_ten_ms_spectral_radius": 1.5181302015481535,
+  "ten_ms_direct_lift_max_relative_error": 3.2176224053196377e-15
+}

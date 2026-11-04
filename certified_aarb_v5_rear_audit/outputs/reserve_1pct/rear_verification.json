@@ -1,0 +1,4117 @@
+{
+  "all_non_degrading": true,
+  "count": 170,
+  "limiting_point": {
+    "baseline": {
+      "continuous_upper": 0.01750609461419213,
+      "grid_corrected_upper": 0.01747361555311656,
+      "grid_feasible_lower": 0.017473574579589438,
+      "intersample_correction": 3.247906107556918e-05,
+      "max_dual_correction": 1.1360477300548233e-07
+    },
+    "certified": true,
+    "certified_margin": 0.00020206280457354606,
+    "mass_fraction": 0.1,
+    "payload_height": 1.8,
+    "proposed": {
+      "continuous_upper": 0.01727151177501589,
+      "grid_corrected_upper": 0.017228737809564895,
+      "grid_feasible_lower": 0.01722869602723329,
+      "intersample_correction": 4.2773965450995976e-05,
+      "max_dual_correction": 4.4944027211696325e-08
+    },
+    "relative_margin": 0.011563907754145045,
+    "relative_margin_percent": 1.1563907754145046,
+    "set": "structured",
+    "speed_kmh": 75.0
+  },
+  "minimum_absolute_margin": 0.00020206280457354606,
+  "minimum_relative_margin": 0.011563907754145045,
+  "minimum_relative_margin_percent": 1.1563907754145046,
+  "phase_count": 81,
+  "rows": [
+    {
+      "baseline": {
+        "continuous_upper": 0.03765988368923328,
+        "grid_corrected_upper": 0.03763968067838827,
+        "grid_feasible_lower": 0.03763953531999432,
+        "intersample_correction": 2.020301084500713e-05,
+        "max_dual_correction": 1.920201623192841e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0022245329715051276,
+      "mass_fraction": 0.0,
+      "payload_height": 1.15,
+      "proposed": {
+        "continuous_upper": 0.03541500234848919,
+        "grid_corrected_upper": 0.035382805256144144,
+        "grid_feasible_lower": 0.03538224493588788,
+        "intersample_correction": 3.219709234504278e-05,
+        "max_dual_correction": 9.211773360287556e-07
+      },
+      "relative_margin": 0.059100967974050525,
+      "relative_margin_percent": 5.9100967974050524,
+      "set": "structured",
+      "speed_kmh": 50.0
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.03626415781408861,
+        "grid_corrected_upper": 0.036244557843641036,
+        "grid_feasible_lower": 0.0362444486486846,
+        "intersample_correction": 1.959997044756857e-05,
+        "max_dual_correction": 1.759410707125042e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0021937767592950935,
+      "mass_fraction": 0.05,
+      "payload_height": 1.15,
+      "proposed": {
+        "continuous_upper": 0.034050671889389504,
+        "grid_corrected_upper": 0.03401953371999818,
+        "grid_feasible_lower": 0.03401901373659522,
+        "intersample_correction": 3.113816939132869e-05,
+        "max_dual_correction": 9.729447350212417e-07
+      },
+      "relative_margin": 0.060527248753574604,
+      "relative_margin_percent": 6.052724875357461,
+      "set": "structured",
+      "speed_kmh": 50.0
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.03640037402710754,
+        "grid_corrected_upper": 0.036380647465837454,
+        "grid_feasible_lower": 0.036380516950181824,
+        "intersample_correction": 1.9726561270083508e-05,
+        "max_dual_correction": 1.7089779769802194e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0022002613350665806,
+      "mass_fraction": 0.05,
+      "payload_height": 1.475,
+      "proposed": {
+        "continuous_upper": 0.03418025561511524,
+        "grid_corrected_upper": 0.03414895265285714,
+        "grid_feasible_lower": 0.034148322848088414,
+        "intersample_correction": 3.13029622581016e-05,
+        "max_dual_correction": 1.0242992992265387e-06
+      },
+      "relative_margin": 0.06047911133532104,
+      "relative_margin_percent": 6.047911133532104,
+      "set": "structured",
+      "speed_kmh": 50.0
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.03653708963655111,
+        "grid_corrected_upper": 0.03651726159092407,
+        "grid_feasible_lower": 0.036517248438610976,
+        "intersample_correction": 1.9828045627045874e-05,
+        "max_dual_correction": 2.0029836386020738e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0022081392515081455,
+      "mass_fraction": 0.05,
+      "payload_height": 1.8,
+      "proposed": {
+        "continuous_upper": 0.03430910918710283,
+        "grid_corrected_upper": 0.034277641195746465,
+        "grid_feasible_lower": 0.03427693259816137,
+        "intersample_correction": 3.146799135636447e-05,
+        "max_dual_correction": 9.896462239145087e-07
+      },
+      "relative_margin": 0.060468390854262775,
+      "relative_margin_percent": 6.046839085426277,
+      "set": "structured",
+      "speed_kmh": 50.0
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.03498180803749251,
+        "grid_corrected_upper": 0.03496274475922681,
+        "grid_feasible_lower": 0.034962586860809046,
+        "intersample_correction": 1.9063278265702093e-05,
+        "max_dual_correction": 2.04539870062026e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0021608911049375915,
+      "mass_fraction": 0.1,
+      "payload_height": 1.15,
+      "proposed": {
+        "continuous_upper": 0.032801695755871454,
+        "grid_corrected_upper": 0.032771490929360235,
+        "grid_feasible_lower": 0.032770781142732956,
+        "intersample_correction": 3.0204826511219326e-05,
+        "max_dual_correction": 9.171707020805275e-07
+      },
+      "relative_margin": 0.06180581298347292,
+      "relative_margin_percent": 6.180581298347292,
+      "set": "structured",
+      "speed_kmh": 50.0
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.035244762124688835,
+        "grid_corrected_upper": 0.03522545910364574,
+        "grid_feasible_lower": 0.035225434872667945,
+        "intersample_correction": 1.9303021043096883e-05,
+        "max_dual_correction": 1.6010998913490448e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0021741316446438758,
+      "mass_fraction": 0.1,
+      "payload_height": 1.475,
+      "proposed": {
+        "continuous_upper": 0.03305130322802407,
+        "grid_corrected_upper": 0.03302074601521547,
+        "grid_feasible_lower": 0.03302027390256729,
+        "intersample_correction": 3.0557212808594984e-05,
+        "max_dual_correction": 1.0733993148076548e-06
+      },
+      "relative_margin": 0.0617205054388363,
+      "relative_margin_percent": 6.17205054388363,
+      "set": "structured",
+      "speed_kmh": 50.0
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.035510322895382196,
+        "grid_corrected_upper": 0.035490822588334255,
+        "grid_feasible_lower": 0.035490594462205115,
+        "intersample_correction": 1.950030704794399e-05,
+        "max_dual_correction": 4.111384243402072e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0021884137297949816,
+      "mass_fraction": 0.1,
+      "payload_height": 1.8,
+      "proposed": {
+        "continuous_upper": 0.03330218073241013,
+        "grid_corrected_upper": 0.03327123977614958,
+        "grid_feasible_lower": 0.03327043560747712,
+        "intersample_correction": 3.094095626054724e-05,
+        "max_dual_correction": 1.298068242484851e-06
+      },
+      "relative_margin": 0.061661794144515725,
+      "relative_margin_percent": 6.166179414451572,
+      "set": "structured",
+      "speed_kmh": 50.0
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.03299700424437714,
+        "grid_corrected_upper": 0.03297469650659235,
+        "grid_feasible_lower": 0.03297467901977017,
+        "intersample_correction": 2.2307737784793198e-05,
+        "max_dual_correction": 5.66679491456612e-08
+      },
+      "certified": true,
+      "certified_margin": 0.0017508102793857352,
+      "mass_fraction": 0.0,
+      "payload_height": 1.15,
+      "proposed": {
+        "continuous_upper": 0.031223868740384436,
+        "grid_corrected_upper": 0.031189830676929656,
+        "grid_feasible_lower": 0.031189622332865364,
+        "intersample_correction": 3.403806345477982e-05,
+        "max_dual_correction": 6.411937884080732e-07
+      },
+      "relative_margin": 0.053095597332002115,
+      "relative_margin_percent": 5.309559733200212,
+      "set": "structured",
+      "speed_kmh": 55.0
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.031835448791278496,
+        "grid_corrected_upper": 0.031813733436617794,
+        "grid_feasible_lower": 0.03181371328637436,
+        "intersample_correction": 2.1715354660703357e-05,
+        "max_dual_correction": 2.410764014804112e-08
+      },
+      "certified": true,
+      "certified_margin": 0.0017386428217475401,
+      "mass_fraction": 0.05,
+      "payload_height": 1.15,
+      "proposed": {
+        "continuous_upper": 0.030075070464626822,
+        "grid_corrected_upper": 0.030042129817305384,
+        "grid_feasible_lower": 0.0300419707293921,
+        "intersample_correction": 3.294064732143679e-05,
+        "max_dual_correction": 6.060403900214062e-07
+      },
+      "relative_margin": 0.05465073523788219,
+      "relative_margin_percent": 5.465073523788219,
+      "set": "structured",
+      "speed_kmh": 55.0
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.031995121312785056,
+        "grid_corrected_upper": 0.03197326715722661,
+        "grid_feasible_lower": 0.03197324599188434,
+        "intersample_correction": 2.1854155558439398e-05,
+        "max_dual_correction": 2.050961804903051e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0017471585202920893,
+      "mass_fraction": 0.05,
+      "payload_height": 1.475,
+      "proposed": {
+        "continuous_upper": 0.030226087471592254,
+        "grid_corrected_upper": 0.030193021087743695,
+        "grid_feasible_lower": 0.03019246371673722,
+        "intersample_correction": 3.3066383848559584e-05,
+        "max_dual_correction": 7.219277725727113e-07
+      },
+      "relative_margin": 0.05464438989821566,
+      "relative_margin_percent": 5.464438989821566,
+      "set": "structured",
+      "speed_kmh": 55.0
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.03215606210077759,
+        "grid_corrected_upper": 0.03213409678910425,
+        "grid_feasible_lower": 0.03213407936563373,
+        "intersample_correction": 2.1965311673338336e-05,
+        "max_dual_correction": 2.1264962422190559e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0017575409396886031,
+      "mass_fraction": 0.05,
+      "payload_height": 1.8,
+      "proposed": {
+        "continuous_upper": 0.030376538425945124,
+        "grid_corrected_upper": 0.030343361370673193,
+        "grid_feasible_lower": 0.030342699866174244,
+        "intersample_correction": 3.317705527193296e-05,
+        "max_dual_correction": 7.812073825781696e-07
+      },
+      "relative_margin": 0.05469398764130245,
+      "relative_margin_percent": 5.469398764130245,
+      "set": "structured",
+      "speed_kmh": 55.0
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.030768938283730438,
+        "grid_corrected_upper": 0.030747752059611003,
+        "grid_feasible_lower": 0.0307475637126281,
+        "intersample_correction": 2.1186224119432553e-05,
+        "max_dual_correction": 1.9806966784427504e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0017235502503073694,
+      "mass_fraction": 0.1,
+      "payload_height": 1.15,
+      "proposed": {
+        "continuous_upper": 0.02902401346232073,
+        "grid_corrected_upper": 0.02899205764459292,
+        "grid_feasible_lower": 0.02899192966740047,
+        "intersample_correction": 3.19558177278142e-05,
+        "max_dual_correction": 5.887718804720166e-07
+      },
+      "relative_margin": 0.056054855806331835,
+      "relative_margin_percent": 5.605485580633183,
+      "set": "structured",
+      "speed_kmh": 55.0
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.031078695152583886,
+        "grid_corrected_upper": 0.031057242170462046,
+        "grid_feasible_lower": 0.03105714124757604,
+        "intersample_correction": 2.1452982121839818e-05,
+        "max_dual_correction": 1.4720090654035678e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0017411178457948442,
+      "mass_fraction": 0.1,
+      "payload_height": 1.475,
+      "proposed": {
+        "continuous_upper": 0.029316023401781195,
+        "grid_corrected_upper": 0.029283805783800958,
+        "grid_feasible_lower": 0.02928312376064427,
+        "intersample_correction": 3.2217617980238014e-05,
+        "max_dual_correction": 8.221187189662305e-07
+      },
+      "relative_margin": 0.056061755069962714,
+      "relative_margin_percent": 5.606175506996272,
+      "set": "structured",
+      "speed_kmh": 55.0
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.03139241130971346,
+        "grid_corrected_upper": 0.031370735408584094,
+        "grid_feasible_lower": 0.031370592179530116,
+        "intersample_correction": 2.1675901129364682e-05,
+        "max_dual_correction": 2.0472190192383222e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0017607330574522864,
+      "mass_fraction": 0.1,
+      "payload_height": 1.8,
+      "proposed": {
+        "continuous_upper": 0.02960985912207783,
+        "grid_corrected_upper": 0.02957736441310839,
+        "grid_feasible_lower": 0.029576697987620963,
+        "intersample_correction": 3.249470896943929e-05,
+        "max_dual_correction": 9.134121766209147e-07
+      },
+      "relative_margin": 0.056126867079072766,
+      "relative_margin_percent": 5.612686707907277,
+      "set": "structured",
+      "speed_kmh": 55.0
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.02858172554874327,
+        "grid_corrected_upper": 0.028557021584557186,
+        "grid_feasible_lower": 0.028556992206272898,
+        "intersample_correction": 2.4703964186082165e-05,
+        "max_dual_correction": 1.9386466355506005e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0012780447199790372,
+      "mass_fraction": 0.0,
+      "payload_height": 1.15,
+      "proposed": {
+        "continuous_upper": 0.02727894748629386,
+        "grid_corrected_upper": 0.027242702940828645,
+        "grid_feasible_lower": 0.027242702565453233,
+        "intersample_correction": 3.624454546521556e-05,
+        "max_dual_correction": 6.409281827143842e-08
+      },
+      "relative_margin": 0.04475417826735614,
+      "relative_margin_percent": 4.475417826735614,
+      "set": "structured",
+      "speed_kmh": 60.0
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.02763355142469903,
+        "grid_corrected_upper": 0.027609448923615932,
+        "grid_feasible_lower": 0.027609415621445033,
+        "intersample_correction": 2.410250108309719e-05,
+        "max_dual_correction": 1.4095470811034683e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0012905828139731235,
+      "mass_fraction": 0.05,
+      "payload_height": 1.15,
+      "proposed": {
+        "continuous_upper": 0.02631883280747191,
+        "grid_corrected_upper": 0.026283678218575662,
+        "grid_feasible_lower": 0.026283678218557774,
+        "intersample_correction": 3.51545888962453e-05,
+        "max_dual_correction": 2.1035256869694763e-14
+      },
+      "relative_margin": 0.04674430026583722,
+      "relative_margin_percent": 4.674430026583723,
+      "set": "structured",
+      "speed_kmh": 60.0
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.027814759193970105,
+        "grid_corrected_upper": 0.027790501555465204,
+        "grid_feasible_lower": 0.027790469207469363,
+        "intersample_correction": 2.4257638504900077e-05,
+        "max_dual_correction": 8.003349793311854e-08
+      },
+      "certified": true,
+      "certified_margin": 0.0013020497231689618,
+      "mass_fraction": 0.05,
+      "payload_height": 1.475,
+      "proposed": {
+        "continuous_upper": 0.0264884194843004,
+        "grid_corrected_upper": 0.02645312134114028,
+        "grid_feasible_lower": 0.026453121118095325,
+        "intersample_correction": 3.5298143160121554e-05,
+        "max_dual_correction": 1.3093918949103056e-07
+      },
+      "relative_margin": 0.046852383579727555,
+      "relative_margin_percent": 4.6852383579727555,
+      "set": "structured",
+      "speed_kmh": 60.0
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.02799781833476645,
+        "grid_corrected_upper": 0.027973437941860455,
+        "grid_feasible_lower": 0.027973409499338308,
+        "intersample_correction": 2.4380392905998173e-05,
+        "max_dual_correction": 1.9771624589631775e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0013150266427109786,
+      "mass_fraction": 0.05,
+      "payload_height": 1.8,
+      "proposed": {
+        "continuous_upper": 0.02665838285662733,
+        "grid_corrected_upper": 0.02662296001825864,
+        "grid_feasible_lower": 0.026622951513612967,
+        "intersample_correction": 3.5422838368690965e-05,
+        "max_dual_correction": 1.2482555201281942e-08
+      },
+      "relative_margin": 0.047009880677651564,
+      "relative_margin_percent": 4.700988067765156,
+      "set": "structured",
+      "speed_kmh": 60.0
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.0267651201827853,
+        "grid_corrected_upper": 0.026741562567183935,
+        "grid_feasible_lower": 0.02674152688631523,
+        "intersample_correction": 2.355761560136603e-05,
+        "max_dual_correction": 2.573251166176904e-07
+      },
+      "certified": true,
+      "certified_margin": 0.00129563127262328,
+      "mass_fraction": 0.1,
+      "payload_height": 1.15,
+      "proposed": {
+        "continuous_upper": 0.02544589561369195,
+        "grid_corrected_upper": 0.02541172929984519,
+        "grid_feasible_lower": 0.025411729299824787,
+        "intersample_correction": 3.4166313846758055e-05,
+        "max_dual_correction": 1.7427564551197872e-07
+      },
+      "relative_margin": 0.04845016061092268,
+      "relative_margin_percent": 4.8450160610922675,
+      "set": "structured",
+      "speed_kmh": 60.0
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.027123380618634507,
+        "grid_corrected_upper": 0.027099530271473347,
+        "grid_feasible_lower": 0.027099497133364178,
+        "intersample_correction": 2.3850347161160927e-05,
+        "max_dual_correction": 8.54565808255936e-08
+      },
+      "certified": true,
+      "certified_margin": 0.0013141789172760494,
+      "mass_fraction": 0.1,
+      "payload_height": 1.475,
+      "proposed": {
+        "continuous_upper": 0.025785318216088128,
+        "grid_corrected_upper": 0.025750867532843592,
+        "grid_feasible_lower": 0.025750866195056336,
+        "intersample_correction": 3.445068324453407e-05,
+        "max_dual_correction": 2.840530519132578e-09
+      },
+      "relative_margin": 0.04849458684818426,
+      "relative_margin_percent": 4.849458684818425,
+      "set": "structured",
+      "speed_kmh": 60.0
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.027490141378248463,
+        "grid_corrected_upper": 0.027466043907423902,
+        "grid_feasible_lower": 0.0274660175713311,
+        "intersample_correction": 2.4097470824561043e-05,
+        "max_dual_correction": 2.6682113393738938e-08
+      },
+      "certified": true,
+      "certified_margin": 0.001336998539149075,
+      "mass_fraction": 0.1,
+      "payload_height": 1.8,
+      "proposed": {
+        "continuous_upper": 0.026129019032182024,
+        "grid_corrected_upper": 0.026094307785202248,
+        "grid_feasible_lower": 0.02609425178566871,
+        "intersample_correction": 3.4711246979775614e-05,
+        "max_dual_correction": 9.27275493889379e-08
+      },
+      "relative_margin": 0.04867828165029021,
+      "relative_margin_percent": 4.867828165029021,
+      "set": "structured",
+      "speed_kmh": 60.0
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.02441870782913778,
+        "grid_corrected_upper": 0.02439140053203509,
+        "grid_feasible_lower": 0.02439140053203509,
+        "intersample_correction": 2.7307297102690023e-05,
+        "max_dual_correction": 3.65787685037422e-08
+      },
+      "certified": true,
+      "certified_margin": 0.0008398855059126645,
+      "mass_fraction": 0.0,
+      "payload_height": 1.15,
+      "proposed": {
+        "continuous_upper": 0.023551515026122426,
+        "grid_corrected_upper": 0.023512787302144254,
+        "grid_feasible_lower": 0.023512787302144258,
+        "intersample_correction": 3.872772397817133e-05,
+        "max_dual_correction": 6.313087705725473e-08
+      },
+      "relative_margin": 0.034433672835210045,
+      "relative_margin_percent": 3.4433672835210043,
+      "set": "structured",
+      "speed_kmh": 65.0
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.023674770237186542,
+        "grid_corrected_upper": 0.023648081357641605,
+        "grid_feasible_lower": 0.023648081357641605,
+        "intersample_correction": 2.6688879544936702e-05,
+        "max_dual_correction": 1.2236706709717327e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0008658706633008391,
+      "mass_fraction": 0.05,
+      "payload_height": 1.15,
+      "proposed": {
+        "continuous_upper": 0.022782210694340766,
+        "grid_corrected_upper": 0.022744611823557772,
+        "grid_feasible_lower": 0.022744611823557775,
+        "intersample_correction": 3.759887078299438e-05,
+        "max_dual_correction": 1.580966632538927e-07
+      },
+      "relative_margin": 0.036614837804634114,
+      "relative_margin_percent": 3.6614837804634113,
+      "set": "structured",
+      "speed_kmh": 65.0
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.023880658288454214,
+        "grid_corrected_upper": 0.023853796698892392,
+        "grid_feasible_lower": 0.023853796698892395,
+        "intersample_correction": 2.6861589561821155e-05,
+        "max_dual_correction": 8.447152196472407e-08
+      },
+      "certified": true,
+      "certified_margin": 0.0008749487508968104,
+      "mass_fraction": 0.05,
+      "payload_height": 1.475,
+      "proposed": {
+        "continuous_upper": 0.022978847947995585,
+        "grid_corrected_upper": 0.022941078417474267,
+        "grid_feasible_lower": 0.022941078417474278,
+        "intersample_correction": 3.776953052131837e-05,
+        "max_dual_correction": 1.5045653404405224e-07
+      },
+      "relative_margin": 0.03667964315875288,
+      "relative_margin_percent": 3.6679643158752877,
+      "set": "structured",
+      "speed_kmh": 65.0
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.024090600847697447,
+        "grid_corrected_upper": 0.024063599188093383,
+        "grid_feasible_lower": 0.024063599188093383,
+        "intersample_correction": 2.7001659604065545e-05,
+        "max_dual_correction": 1.6330479367734907e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0008858159725011021,
+      "mass_fraction": 0.05,
+      "payload_height": 1.8,
+      "proposed": {
+        "continuous_upper": 0.02317778321559228,
+        "grid_corrected_upper": 0.023139868340964778,
+        "grid_feasible_lower": 0.023139868340964778,
+        "intersample_correction": 3.791487462750073e-05,
+        "max_dual_correction": 2.0269167331360416e-07
+      },
+      "relative_margin": 0.03681144975766559,
+      "relative_margin_percent": 3.6811449757665593,
+      "set": "structured",
+      "speed_kmh": 65.0
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.023003349608897935,
+        "grid_corrected_upper": 0.022977224434206113,
+        "grid_feasible_lower": 0.02297718293510876,
+        "intersample_correction": 2.6125174691823437e-05,
+        "max_dual_correction": 2.830768421335783e-07
+      },
+      "certified": true,
+      "certified_margin": 0.000884053864143395,
+      "mass_fraction": 0.1,
+      "payload_height": 1.15,
+      "proposed": {
+        "continuous_upper": 0.022093129070965365,
+        "grid_corrected_upper": 0.02205652898813506,
+        "grid_feasible_lower": 0.022056528988135073,
+        "intersample_correction": 3.660008283030665e-05,
+        "max_dual_correction": 1.7542033233300391e-07
+      },
+      "relative_margin": 0.03847529380081555,
+      "relative_margin_percent": 3.8475293800815553,
+      "set": "structured",
+      "speed_kmh": 65.0
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.023414641923429978,
+        "grid_corrected_upper": 0.02338818897278267,
+        "grid_feasible_lower": 0.023388150307052703,
+        "intersample_correction": 2.6452950647305572e-05,
+        "max_dual_correction": 1.2888124065538187e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0009047295911806044,
+      "mass_fraction": 0.1,
+      "payload_height": 1.475,
+      "proposed": {
+        "continuous_upper": 0.022483420715872098,
+        "grid_corrected_upper": 0.022446487429657328,
+        "grid_feasible_lower": 0.022446487429657314,
+        "intersample_correction": 3.6933286214770526e-05,
+        "max_dual_correction": 1.997242135322319e-07
+      },
+      "relative_margin": 0.03868324682810778,
+      "relative_margin_percent": 3.868324682810778,
+      "set": "structured",
+      "speed_kmh": 65.0
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.023836184078692934,
+        "grid_corrected_upper": 0.023809455424787546,
+        "grid_feasible_lower": 0.02380942420773094,
+        "intersample_correction": 2.6728653905386994e-05,
+        "max_dual_correction": 1.2235983444866538e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0009315752349187377,
+      "mass_fraction": 0.1,
+      "payload_height": 1.8,
+      "proposed": {
+        "continuous_upper": 0.0228778489728122,
+        "grid_corrected_upper": 0.022840623218646244,
+        "grid_feasible_lower": 0.022840622776409757,
+        "intersample_correction": 3.722575416595875e-05,
+        "max_dual_correction": 1.6627032607338665e-07
+      },
+      "relative_margin": 0.03912632354276986,
+      "relative_margin_percent": 3.9126323542769863,
+      "set": "structured",
+      "speed_kmh": 65.0
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.020535226996687195,
+        "grid_corrected_upper": 0.020505135090489717,
+        "grid_feasible_lower": 0.02050513509045661,
+        "intersample_correction": 3.0091906197478724e-05,
+        "max_dual_correction": 3.571101747645855e-14
+      },
+      "certified": true,
+      "certified_margin": 0.0003132705807751164,
+      "mass_fraction": 0.0,
+      "payload_height": 1.15,
+      "proposed": {
+        "continuous_upper": 0.020191864509681495,
+        "grid_corrected_upper": 0.020150365288977394,
+        "grid_feasible_lower": 0.020150365288946454,
+        "intersample_correction": 4.149922070410078e-05,
+        "max_dual_correction": 1.569151949591674e-07
+      },
+      "relative_margin": 0.015277664808992997,
+      "relative_margin_percent": 1.5277664808992997,
+      "set": "structured",
+      "speed_kmh": 70.0
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.019923425580770735,
+        "grid_corrected_upper": 0.019893987619852223,
+        "grid_feasible_lower": 0.019893987619834113,
+        "intersample_correction": 2.9437960918512088e-05,
+        "max_dual_correction": 2.013346702897656e-07
+      },
+      "certified": true,
+      "certified_margin": 0.00040654253164930376,
+      "mass_fraction": 0.05,
+      "payload_height": 1.15,
+      "proposed": {
+        "continuous_upper": 0.01948744508818481,
+        "grid_corrected_upper": 0.019447183389207656,
+        "grid_feasible_lower": 0.019447183389178835,
+        "intersample_correction": 4.026169897715336e-05,
+        "max_dual_correction": 1.8731309845212984e-07
+      },
+      "relative_margin": 0.02043544710181607,
+      "relative_margin_percent": 2.0435447101816067,
+      "set": "structured",
+      "speed_kmh": 70.0
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.020167401506268792,
+        "grid_corrected_upper": 0.020137771209886367,
+        "grid_feasible_lower": 0.02013776815202477,
+        "intersample_correction": 2.963029638242426e-05,
+        "max_dual_correction": 1.989094439540373e-07
+      },
+      "certified": true,
+      "certified_margin": 0.00042474210060149467,
+      "mass_fraction": 0.05,
+      "payload_height": 1.475,
+      "proposed": {
+        "continuous_upper": 0.019713026051423277,
+        "grid_corrected_upper": 0.019672580459706657,
+        "grid_feasible_lower": 0.019672580459690062,
+        "intersample_correction": 4.044559171662186e-05,
+        "max_dual_correction": 2.3586564949773514e-07
+      },
+      "relative_margin": 0.021091816004386196,
+      "relative_margin_percent": 2.1091816004386192,
+      "set": "structured",
+      "speed_kmh": 70.0
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.02042027498271642,
+        "grid_corrected_upper": 0.020390484723068803,
+        "grid_feasible_lower": 0.02039048051074035,
+        "intersample_correction": 2.9790259647617525e-05,
+        "max_dual_correction": 1.9934553431924518e-07
+      },
+      "certified": true,
+      "certified_margin": 0.00044875484434587706,
+      "mass_fraction": 0.05,
+      "payload_height": 1.8,
+      "proposed": {
+        "continuous_upper": 0.01994172566639447,
+        "grid_corrected_upper": 0.019901126875979423,
+        "grid_feasible_lower": 0.019900962434835905,
+        "intersample_correction": 4.0598790415048774e-05,
+        "max_dual_correction": 2.5916950444071496e-07
+      },
+      "relative_margin": 0.02200805636284554,
+      "relative_margin_percent": 2.200805636284554,
+      "set": "structured",
+      "speed_kmh": 70.0
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.019470075906295712,
+        "grid_corrected_upper": 0.019441226199020226,
+        "grid_feasible_lower": 0.019441222231839826,
+        "intersample_correction": 2.884970727548489e-05,
+        "max_dual_correction": 1.9607482911951357e-07
+      },
+      "certified": true,
+      "certified_margin": 0.00047538425501154544,
+      "mass_fraction": 0.1,
+      "payload_height": 1.15,
+      "proposed": {
+        "continuous_upper": 0.01896583797682828,
+        "grid_corrected_upper": 0.018926619475616607,
+        "grid_feasible_lower": 0.018926619475616625,
+        "intersample_correction": 3.921850121167179e-05,
+        "max_dual_correction": 1.9250957193281404e-07
+      },
+      "relative_margin": 0.024452385212334324,
+      "relative_margin_percent": 2.445238521233432,
+      "set": "structured",
+      "speed_kmh": 70.0
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.019961158013983956,
+        "grid_corrected_upper": 0.01993194144344796,
+        "grid_feasible_lower": 0.019931924458101637,
+        "intersample_correction": 2.9216570535997203e-05,
+        "max_dual_correction": 2.1886212800414917e-08
+      },
+      "certified": true,
+      "certified_margin": 0.0005074191461083705,
+      "mass_fraction": 0.1,
+      "payload_height": 1.475,
+      "proposed": {
+        "continuous_upper": 0.019424505311993266,
+        "grid_corrected_upper": 0.019384915077830613,
+        "grid_feasible_lower": 0.019384857473001137,
+        "intersample_correction": 3.959023416265247e-05,
+        "max_dual_correction": 1.9305782099007796e-07
+      },
+      "relative_margin": 0.025457609332957418,
+      "relative_margin_percent": 2.545760933295742,
+      "set": "structured",
+      "speed_kmh": 70.0
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.020454412512349546,
+        "grid_corrected_upper": 0.020424883811034838,
+        "grid_feasible_lower": 0.020424841505518845,
+        "intersample_correction": 2.9528701314707387e-05,
+        "max_dual_correction": 4.725007049857788e-08
+      },
+      "certified": true,
+      "certified_margin": 0.0005411175472880107,
+      "mass_fraction": 0.1,
+      "payload_height": 1.8,
+      "proposed": {
+        "continuous_upper": 0.019883723958230834,
+        "grid_corrected_upper": 0.019843803792510738,
+        "grid_feasible_lower": 0.019843744022151687,
+        "intersample_correction": 3.9920165720097405e-05,
+        "max_dual_correction": 6.66402405306854e-08
+      },
+      "relative_margin": 0.026493108753955295,
+      "relative_margin_percent": 2.6493108753955292,
+      "set": "structured",
+      "speed_kmh": 70.0
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.0177868458122103,
+        "grid_corrected_upper": 0.01775377028987418,
+        "grid_feasible_lower": 0.01775373071682114,
+        "intersample_correction": 3.307552233612265e-05,
+        "max_dual_correction": 4.097505059905138e-08
+      },
+      "certified": true,
+      "certified_margin": 0.00024404040821365824,
+      "mass_fraction": 0.0,
+      "payload_height": 1.15,
+      "proposed": {
+        "continuous_upper": 0.01750969030860748,
+        "grid_corrected_upper": 0.017465217763423347,
+        "grid_feasible_lower": 0.017465178669825353,
+        "intersample_correction": 4.447254518413289e-05,
+        "max_dual_correction": 1.2533222351618356e-07
+      },
+      "relative_margin": 0.013745866269247686,
+      "relative_margin_percent": 1.3745866269247686,
+      "set": "structured",
+      "speed_kmh": 75.0
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.017186513027743006,
+        "grid_corrected_upper": 0.01715415032314286,
+        "grid_feasible_lower": 0.017154109431234316,
+        "intersample_correction": 3.236270460014593e-05,
+        "max_dual_correction": 4.096001603171029e-08
+      },
+      "certified": true,
+      "certified_margin": 0.00023478967349524482,
+      "mass_fraction": 0.05,
+      "payload_height": 1.15,
+      "proposed": {
+        "continuous_upper": 0.01691931975773907,
+        "grid_corrected_upper": 0.016876150901655458,
+        "grid_feasible_lower": 0.016876115118980257,
+        "intersample_correction": 4.3168856083614816e-05,
+        "max_dual_correction": 1.7701905074066215e-07
+      },
+      "relative_margin": 0.013687080313696625,
+      "relative_margin_percent": 1.3687080313696625,
+      "set": "structured",
+      "speed_kmh": 75.0
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.017359644484989112,
+        "grid_corrected_upper": 0.0173270701785889,
+        "grid_feasible_lower": 0.017327033466408123,
+        "intersample_correction": 3.2574306400212836e-05,
+        "max_dual_correction": 2.0752007688293328e-07
+      },
+      "certified": true,
+      "certified_margin": 0.00022404137719527623,
+      "mass_fraction": 0.05,
+      "payload_height": 1.475,
+      "proposed": {
+        "continuous_upper": 0.017102992089212846,
+        "grid_corrected_upper": 0.017059641204364772,
+        "grid_feasible_lower": 0.0170596049111522,
+        "intersample_correction": 4.335088484807271e-05,
+        "max_dual_correction": 4.0254145974860656e-08
+      },
+      "relative_margin": 0.012930163586838146,
+      "relative_margin_percent": 1.2930163586838146,
+      "set": "structured",
+      "speed_kmh": 75.0
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.017548995269278837,
+        "grid_corrected_upper": 0.01751625087981122,
+        "grid_feasible_lower": 0.017516213057976564,
+        "intersample_correction": 3.274438946761625e-05,
+        "max_dual_correction": 2.0636492182452004e-07
+      },
+      "certified": true,
+      "certified_margin": 0.00022001417977337775,
+      "mass_fraction": 0.05,
+      "payload_height": 1.8,
+      "proposed": {
+        "continuous_upper": 0.017296198878203186,
+        "grid_corrected_upper": 0.01725270205893714,
+        "grid_feasible_lower": 0.017252664731567134,
+        "intersample_correction": 4.3496819266044645e-05,
+        "max_dual_correction": 1.3914386446517435e-07
+      },
+      "relative_margin": 0.012560601943191557,
+      "relative_margin_percent": 1.2560601943191556,
+      "set": "structured",
+      "speed_kmh": 75.0
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.016681477753970136,
+        "grid_corrected_upper": 0.016649747363671846,
+        "grid_feasible_lower": 0.016649711363189802,
+        "intersample_correction": 3.173039029829254e-05,
+        "max_dual_correction": 2.0972417565448542e-07
+      },
+      "certified": true,
+      "certified_margin": 0.00022638090464308785,
+      "mass_fraction": 0.1,
+      "payload_height": 1.15,
+      "proposed": {
+        "continuous_upper": 0.016423330458546714,
+        "grid_corrected_upper": 0.01638131209172483,
+        "grid_feasible_lower": 0.016381275795301825,
+        "intersample_correction": 4.2018366821884916e-05,
+        "max_dual_correction": 4.444829346597623e-08
+      },
+      "relative_margin": 0.01359668643527266,
+      "relative_margin_percent": 1.359668643527266,
+      "set": "structured",
+      "speed_kmh": 75.0
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.01707444198371711,
+        "grid_corrected_upper": 0.017042308349365043,
+        "grid_feasible_lower": 0.017042268464914176,
+        "intersample_correction": 3.2133634352067164e-05,
+        "max_dual_correction": 4.1787964890488416e-08
+      },
+      "certified": true,
+      "certified_margin": 0.00021149192797487518,
+      "mass_fraction": 0.1,
+      "payload_height": 1.475,
+      "proposed": {
+        "continuous_upper": 0.0168307765369393,
+        "grid_corrected_upper": 0.016788365390482306,
+        "grid_feasible_lower": 0.01678832538199801,
+        "intersample_correction": 4.2411146456996586e-05,
+        "max_dual_correction": 4.0557871672231016e-08
+      },
+      "relative_margin": 0.01240984604897434,
+      "relative_margin_percent": 1.240984604897434,
+      "set": "structured",
+      "speed_kmh": 75.0
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.01750609461419213,
+        "grid_corrected_upper": 0.01747361555311656,
+        "grid_feasible_lower": 0.017473574579589438,
+        "intersample_correction": 3.247906107556918e-05,
+        "max_dual_correction": 1.1360477300548233e-07
+      },
+      "certified": true,
+      "certified_margin": 0.00020206280457354606,
+      "mass_fraction": 0.1,
+      "payload_height": 1.8,
+      "proposed": {
+        "continuous_upper": 0.01727151177501589,
+        "grid_corrected_upper": 0.017228737809564895,
+        "grid_feasible_lower": 0.01722869602723329,
+        "intersample_correction": 4.2773965450995976e-05,
+        "max_dual_correction": 4.4944027211696325e-08
+      },
+      "relative_margin": 0.011563907754145045,
+      "relative_margin_percent": 1.1563907754145046,
+      "set": "structured",
+      "speed_kmh": 75.0
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.03214277327162184,
+        "grid_corrected_upper": 0.032120893898838584,
+        "grid_feasible_lower": 0.03212087504342658,
+        "intersample_correction": 2.1879372783257193e-05,
+        "max_dual_correction": 4.313257902927026e-08
+      },
+      "certified": true,
+      "certified_margin": 0.00176332735949368,
+      "mass_fraction": 0.053163764998316765,
+      "payload_height": 1.7250444875098765,
+      "proposed": {
+        "continuous_upper": 0.030357547683932902,
+        "grid_corrected_upper": 0.030324482253929343,
+        "grid_feasible_lower": 0.03032383178788004,
+        "intersample_correction": 3.3065430003557964e-05,
+        "max_dual_correction": 7.773270443121871e-07
+      },
+      "relative_margin": 0.054896616518376525,
+      "relative_margin_percent": 5.489661651837652,
+      "set": "sobol_holdout",
+      "speed_kmh": 54.90996791049838
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.020367903577924104,
+        "grid_corrected_upper": 0.020338666443200388,
+        "grid_feasible_lower": 0.020338666443175807,
+        "intersample_correction": 2.9237134723717067e-05,
+        "max_dual_correction": 8.616242028539056e-08
+      },
+      "certified": true,
+      "certified_margin": 0.00045142398489201804,
+      "mass_fraction": 0.04278896572068334,
+      "payload_height": 1.1512738341465591,
+      "proposed": {
+        "continuous_upper": 0.01988724245828379,
+        "grid_corrected_upper": 0.019847103685158855,
+        "grid_feasible_lower": 0.019847103685139433,
+        "intersample_correction": 4.0138773124933825e-05,
+        "max_dual_correction": 1.7947837976234338e-07
+      },
+      "relative_margin": 0.02219535809553942,
+      "relative_margin_percent": 2.2195358095539417,
+      "set": "sobol_holdout",
+      "speed_kmh": 69.48510867077857
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.02491950651630707,
+        "grid_corrected_upper": 0.02489372753954043,
+        "grid_feasible_lower": 0.024893692001605898,
+        "intersample_correction": 2.5778976766639996e-05,
+        "max_dual_correction": 1.9822849345665916e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0010355265988221951,
+      "mass_fraction": 0.08128893151879311,
+      "payload_height": 1.5712067685555666,
+      "proposed": {
+        "continuous_upper": 0.023858165402783703,
+        "grid_corrected_upper": 0.023821708702487385,
+        "grid_feasible_lower": 0.023821708702487402,
+        "intersample_correction": 3.645670029631803e-05,
+        "max_dual_correction": 1.4510518173485587e-07
+      },
+      "relative_margin": 0.04159795175241154,
+      "relative_margin_percent": 4.159795175241154,
+      "set": "sobol_holdout",
+      "speed_kmh": 63.32716115284711
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.026332311420730368,
+        "grid_corrected_upper": 0.026306667939459905,
+        "grid_feasible_lower": 0.026306636938415815,
+        "intersample_correction": 2.5643481270461632e-05,
+        "max_dual_correction": 2.1961150219532155e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0010823275891022367,
+      "mass_fraction": 0.020914895180612805,
+      "payload_height": 1.3305789679754525,
+      "proposed": {
+        "continuous_upper": 0.02522430934931358,
+        "grid_corrected_upper": 0.025187408137825044,
+        "grid_feasible_lower": 0.025187408137806105,
+        "intersample_correction": 3.6901211488533274e-05,
+        "max_dual_correction": 2.6287999554952535e-14
+      },
+      "relative_margin": 0.04114275768643403,
+      "relative_margin_percent": 4.114275768643403,
+      "set": "sobol_holdout",
+      "speed_kmh": 62.27741064503789
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.027751608501642842,
+        "grid_corrected_upper": 0.02772843782471356,
+        "grid_feasible_lower": 0.02772824863877444,
+        "intersample_correction": 2.3170676929282963e-05,
+        "max_dual_correction": 2.2700388998056487e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0013915144794691414,
+      "mass_fraction": 0.09888492617756128,
+      "payload_height": 1.2823103026486933,
+      "proposed": {
+        "continuous_upper": 0.0263367341593053,
+        "grid_corrected_upper": 0.026302925027790545,
+        "grid_feasible_lower": 0.026302925027736,
+        "intersample_correction": 3.380913151475288e-05,
+        "max_dual_correction": 9.738384333657368e-08
+      },
+      "relative_margin": 0.05018400179531299,
+      "relative_margin_percent": 5.018400179531299,
+      "set": "sobol_holdout",
+      "speed_kmh": 58.944671554490924
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.022726540193062954,
+        "grid_corrected_upper": 0.022698197587911573,
+        "grid_feasible_lower": 0.02269819758791157,
+        "intersample_correction": 2.834260515138015e-05,
+        "max_dual_correction": 1.8404027788201938e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0006851252912949204,
+      "mass_fraction": 0.009653396438807249,
+      "payload_height": 1.6956497872248293,
+      "proposed": {
+        "continuous_upper": 0.02201307229661665,
+        "grid_corrected_upper": 0.021973453826265192,
+        "grid_feasible_lower": 0.021973453826265216,
+        "intersample_correction": 3.9618470351459e-05,
+        "max_dual_correction": 3.122502256758253e-17
+      },
+      "relative_margin": 0.03018412755644524,
+      "relative_margin_percent": 3.018412755644524,
+      "set": "sobol_holdout",
+      "speed_kmh": 67.02568510081619
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.01870961803374611,
+        "grid_corrected_upper": 0.01867895997628496,
+        "grid_feasible_lower": 0.01867892060854095,
+        "intersample_correction": 3.0658057461150194e-05,
+        "max_dual_correction": 1.9802762939516438e-07
+      },
+      "certified": true,
+      "certified_margin": 0.00025487695833824667,
+      "mass_fraction": 0.06451090406626463,
+      "payload_height": 1.44328665654175,
+      "proposed": {
+        "continuous_upper": 0.018424043650202702,
+        "grid_corrected_upper": 0.01838273902437759,
+        "grid_feasible_lower": 0.018382693875582664,
+        "intersample_correction": 4.1304625825111714e-05,
+        "max_dual_correction": 1.4198600317011367e-07
+      },
+      "relative_margin": 0.01364516524695244,
+      "relative_margin_percent": 1.364516524695244,
+      "set": "sobol_holdout",
+      "speed_kmh": 72.03697969671339
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.035186053669001294,
+        "grid_corrected_upper": 0.03516528701297753,
+        "grid_feasible_lower": 0.03516526962283624,
+        "intersample_correction": 2.0766656023763603e-05,
+        "max_dual_correction": 1.878114554154653e-08
+      },
+      "certified": true,
+      "certified_margin": 0.0020280005664917514,
+      "mass_fraction": 0.02527861138805747,
+      "payload_height": 1.5193573117721826,
+      "proposed": {
+        "continuous_upper": 0.03313726905634449,
+        "grid_corrected_upper": 0.033104902271888136,
+        "grid_feasible_lower": 0.03310437861169312,
+        "intersample_correction": 3.236678445635095e-05,
+        "max_dual_correction": 8.931136390860628e-07
+      },
+      "relative_margin": 0.05767055359572084,
+      "relative_margin_percent": 5.767055359572084,
+      "set": "sobol_holdout",
+      "speed_kmh": 51.99307515285909
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.0351930029068041,
+        "grid_corrected_upper": 0.03517331915408233,
+        "grid_feasible_lower": 0.035173303365996826,
+        "intersample_correction": 1.96837527217698e-05,
+        "max_dual_correction": 1.2986418804900035e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0021314667676402763,
+      "mass_fraction": 0.07731619235128165,
+      "payload_height": 1.3984939694870262,
+      "proposed": {
+        "continuous_upper": 0.03304183659835655,
+        "grid_corrected_upper": 0.03301086468912306,
+        "grid_feasible_lower": 0.03301018252991483,
+        "intersample_correction": 3.097190923349426e-05,
+        "max_dual_correction": 1.0724448562537958e-06
+      },
+      "relative_margin": 0.06059899309033437,
+      "relative_margin_percent": 6.059899309033437,
+      "set": "sobol_holdout",
+      "speed_kmh": 50.58819076512009
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.018263471593852356,
+        "grid_corrected_upper": 0.018231255803537957,
+        "grid_feasible_lower": 0.01823121870636645,
+        "intersample_correction": 3.221579031439983e-05,
+        "max_dual_correction": 1.8089358204756434e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0002493765924403493,
+      "mass_fraction": 0.012693370040506125,
+      "payload_height": 1.482979344530031,
+      "proposed": {
+        "continuous_upper": 0.0179818421139261,
+        "grid_corrected_upper": 0.017938389019878154,
+        "grid_feasible_lower": 0.017938352097352717,
+        "intersample_correction": 4.345309404794402e-05,
+        "max_dual_correction": 1.8438938113526926e-07
+      },
+      "relative_margin": 0.013678547575827477,
+      "relative_margin_percent": 1.3678547575827475,
+      "set": "sobol_holdout",
+      "speed_kmh": 73.80592301487923
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.021064980076623087,
+        "grid_corrected_upper": 0.02103651811033374,
+        "grid_feasible_lower": 0.02103651811033374,
+        "intersample_correction": 2.846196628934741e-05,
+        "max_dual_correction": 1.782251568861748e-07
+      },
+      "certified": true,
+      "certified_margin": 0.000590322486636749,
+      "mass_fraction": 0.061689880676567554,
+      "payload_height": 1.2471283638849853,
+      "proposed": {
+        "continuous_upper": 0.02044619562369699,
+        "grid_corrected_upper": 0.02040700310742973,
+        "grid_feasible_lower": 0.02040700310742974,
+        "intersample_correction": 3.919251626725867e-05,
+        "max_dual_correction": 1.7005443624096284e-07
+      },
+      "relative_margin": 0.028061796326777372,
+      "relative_margin_percent": 2.8061796326777375,
+      "set": "sobol_holdout",
+      "speed_kmh": 68.38173549622297
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.03024275257761564,
+        "grid_corrected_upper": 0.030219773269724623,
+        "grid_feasible_lower": 0.030219749147299975,
+        "intersample_correction": 2.297930789101878e-05,
+        "max_dual_correction": 2.547152578441514e-08
+      },
+      "certified": true,
+      "certified_margin": 0.0015533865164341042,
+      "mass_fraction": 0.047067821305245165,
+      "payload_height": 1.649502380285412,
+      "proposed": {
+        "continuous_upper": 0.02866636263086587,
+        "grid_corrected_upper": 0.028632220532224452,
+        "grid_feasible_lower": 0.028632145538508878,
+        "intersample_correction": 3.4142098641418106e-05,
+        "max_dual_correction": 2.3761556107795845e-07
+      },
+      "relative_margin": 0.05140302485180932,
+      "relative_margin_percent": 5.140302485180933,
+      "set": "sobol_holdout",
+      "speed_kmh": 57.224549748934805
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.026928727754142658,
+        "grid_corrected_upper": 0.026904084725194122,
+        "grid_feasible_lower": 0.02690405153872479,
+        "intersample_correction": 2.464302894853664e-05,
+        "max_dual_correction": 9.191847029355049e-08
+      },
+      "certified": true,
+      "certified_margin": 0.0012370357602168765,
+      "mass_fraction": 0.06906994879245758,
+      "payload_height": 1.6164813727606089,
+      "proposed": {
+        "continuous_upper": 0.025667015778507912,
+        "grid_corrected_upper": 0.0256315302615319,
+        "grid_feasible_lower": 0.02563153002157992,
+        "intersample_correction": 3.548551697601404e-05,
+        "max_dual_correction": 1.80818501911012e-07
+      },
+      "relative_margin": 0.04597953428822156,
+      "relative_margin_percent": 4.597953428822156,
+      "set": "sobol_holdout",
+      "speed_kmh": 60.92116374056786
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.023968632006715052,
+        "grid_corrected_upper": 0.02394163761480406,
+        "grid_feasible_lower": 0.02394163761480406,
+        "intersample_correction": 2.699439191099113e-05,
+        "max_dual_correction": 1.2719807430602859e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0008591085601407922,
+      "mass_fraction": 0.03330519208684564,
+      "payload_height": 1.3664750180672853,
+      "proposed": {
+        "continuous_upper": 0.023082529054663268,
+        "grid_corrected_upper": 0.023044475178725987,
+        "grid_feasible_lower": 0.023044475178725963,
+        "intersample_correction": 3.8053875937281465e-05,
+        "max_dual_correction": 4.85722573273506e-17
+      },
+      "relative_margin": 0.03588345016172041,
+      "relative_margin_percent": 3.588345016172041,
+      "set": "sobol_holdout",
+      "speed_kmh": 65.04708570428193
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.01980616788002306,
+        "grid_corrected_upper": 0.01977611185932039,
+        "grid_feasible_lower": 0.019776070698735878,
+        "intersample_correction": 3.0056020702670645e-05,
+        "max_dual_correction": 4.545599330274541e-08
+      },
+      "certified": true,
+      "certified_margin": 0.00044829970551199527,
+      "mass_fraction": 0.09094435311853886,
+      "payload_height": 1.759756194986403,
+      "proposed": {
+        "continuous_upper": 0.019327770993223883,
+        "grid_corrected_upper": 0.019287272530830096,
+        "grid_feasible_lower": 0.01928722207505657,
+        "intersample_correction": 4.049846239378752e-05,
+        "max_dual_correction": 1.1077253202901316e-07
+      },
+      "relative_margin": 0.022668795654166598,
+      "relative_margin_percent": 2.26687956541666,
+      "set": "sobol_holdout",
+      "speed_kmh": 70.8901780191809
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.03457101858468167,
+        "grid_corrected_upper": 0.034549594295256454,
+        "grid_feasible_lower": 0.034549577143782255,
+        "intersample_correction": 2.1424289425217096e-05,
+        "max_dual_correction": 2.0027867805860744e-07
+      },
+      "certified": true,
+      "certified_margin": 0.001924046444756071,
+      "mass_fraction": 0.005178833473473788,
+      "payload_height": 1.1978914723731577,
+      "proposed": {
+        "continuous_upper": 0.032625530699026184,
+        "grid_corrected_upper": 0.032592355907710965,
+        "grid_feasible_lower": 0.03259174891297572,
+        "intersample_correction": 3.3174791315217045e-05,
+        "max_dual_correction": 7.393709043485019e-07
+      },
+      "relative_margin": 0.055689435408975294,
+      "relative_margin_percent": 5.568943540897529,
+      "set": "sobol_holdout",
+      "speed_kmh": 53.1412088079378
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.031768514251338816,
+        "grid_corrected_upper": 0.03174724591800326,
+        "grid_feasible_lower": 0.03174704610506172,
+        "intersample_correction": 2.1268333335560018e-05,
+        "max_dual_correction": 2.1080048183408362e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0017965821977078134,
+      "mass_fraction": 0.09049054626375437,
+      "payload_height": 1.5010760840494186,
+      "proposed": {
+        "continuous_upper": 0.029950463907353904,
+        "grid_corrected_upper": 0.02991831856000394,
+        "grid_feasible_lower": 0.029917728161135675,
+        "intersample_correction": 3.214534734996669e-05,
+        "max_dual_correction": 7.853649786893069e-07
+      },
+      "relative_margin": 0.056590531029637056,
+      "relative_margin_percent": 5.659053102963705,
+      "set": "sobol_holdout",
+      "speed_kmh": 54.39354081172496
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.019810774343467896,
+        "grid_corrected_upper": 0.019779981886437134,
+        "grid_feasible_lower": 0.019779981872144282,
+        "intersample_correction": 3.0792457030763386e-05,
+        "max_dual_correction": 1.6114366785391354e-11
+      },
+      "certified": true,
+      "certified_margin": 0.00029634399275400153,
+      "mass_fraction": 0.0008616025559604169,
+      "payload_height": 1.4159649680834263,
+      "proposed": {
+        "continuous_upper": 0.01948363787939028,
+        "grid_corrected_upper": 0.019441451173993804,
+        "grid_feasible_lower": 0.019441382116580967,
+        "intersample_correction": 4.218670539647795e-05,
+        "max_dual_correction": 4.031708160032177e-07
+      },
+      "relative_margin": 0.01498201538654271,
+      "relative_margin_percent": 1.498201538654271,
+      "set": "sobol_holdout",
+      "speed_kmh": 71.21477713808417
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.024036659230293415,
+        "grid_corrected_upper": 0.02401002380497084,
+        "grid_feasible_lower": 0.02400996329490709,
+        "intersample_correction": 2.6635425322576483e-05,
+        "max_dual_correction": 3.59830534917005e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0009225201333022022,
+      "mass_fraction": 0.07486423533409835,
+      "payload_height": 1.6726872405037283,
+      "proposed": {
+        "continuous_upper": 0.02308744316160489,
+        "grid_corrected_upper": 0.023050105615143205,
+        "grid_feasible_lower": 0.023050105615143195,
+        "intersample_correction": 3.7337546461682754e-05,
+        "max_dual_correction": 1.8387191169297323e-07
+      },
+      "relative_margin": 0.038422388321513345,
+      "relative_margin_percent": 3.842238832151334,
+      "set": "sobol_holdout",
+      "speed_kmh": 64.72247028723359
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.028225600594976964,
+        "grid_corrected_upper": 0.028201449531625566,
+        "grid_feasible_lower": 0.02820141969236874,
+        "intersample_correction": 2.4151063351396797e-05,
+        "max_dual_correction": 3.224341363697314e-08
+      },
+      "certified": true,
+      "certified_margin": 0.0013201431885982058,
+      "mass_fraction": 0.03523605456575751,
+      "payload_height": 1.269667646754533,
+      "proposed": {
+        "continuous_upper": 0.026881276503770535,
+        "grid_corrected_upper": 0.026845926323421244,
+        "grid_feasible_lower": 0.026845926323398554,
+        "intersample_correction": 3.5350180349289985e-05,
+        "max_dual_correction": 7.956039299594764e-11
+      },
+      "relative_margin": 0.04681123159751544,
+      "relative_margin_percent": 4.681123159751544,
+      "set": "sobol_holdout",
+      "speed_kmh": 59.66881245840341
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.030320725478446775,
+        "grid_corrected_upper": 0.030298159873400093,
+        "grid_feasible_lower": 0.030298134707069498,
+        "intersample_correction": 2.2565605046680863e-05,
+        "max_dual_correction": 1.2005851628485442e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0015871403719336548,
+      "mass_fraction": 0.05726888440549374,
+      "payload_height": 1.3839469876606016,
+      "proposed": {
+        "continuous_upper": 0.028710994335135843,
+        "grid_corrected_upper": 0.028677347455772686,
+        "grid_feasible_lower": 0.02867729220892061,
+        "intersample_correction": 3.364687936315664e-05,
+        "max_dual_correction": 1.408289629738213e-07
+      },
+      "relative_margin": 0.05238409516884634,
+      "relative_margin_percent": 5.238409516884634,
+      "set": "sobol_holdout",
+      "speed_kmh": 56.75569118466228
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.022288137676737933,
+        "grid_corrected_upper": 0.02225993302587887,
+        "grid_feasible_lower": 0.02225993302587887,
+        "intersample_correction": 2.8204650859061246e-05,
+        "max_dual_correction": 3.9416888229087954e-08
+      },
+      "certified": true,
+      "certified_margin": 0.0006903979167365674,
+      "mass_fraction": 0.046498053986579184,
+      "payload_height": 1.6345772962551564,
+      "proposed": {
+        "continuous_upper": 0.021569535109142304,
+        "grid_corrected_upper": 0.02153044181944786,
+        "grid_feasible_lower": 0.021530441819447865,
+        "intersample_correction": 3.909328969444409e-05,
+        "max_dual_correction": 1.5232147256710737e-07
+      },
+      "relative_margin": 0.03101527376268056,
+      "relative_margin_percent": 3.101527376268056,
+      "set": "sobol_holdout",
+      "speed_kmh": 67.27810981683433
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.01698389890928643,
+        "grid_corrected_upper": 0.01695189263307324,
+        "grid_feasible_lower": 0.016951855907317098,
+        "intersample_correction": 3.200627621319266e-05,
+        "max_dual_correction": 1.2590238291851352e-07
+      },
+      "certified": true,
+      "certified_margin": 0.00022737178608883343,
+      "mass_fraction": 0.07914328798651696,
+      "payload_height": 1.220431571267545,
+      "proposed": {
+        "continuous_upper": 0.016724484121228265,
+        "grid_corrected_upper": 0.016681991774098594,
+        "grid_feasible_lower": 0.016681954963526525,
+        "intersample_correction": 4.249234712967047e-05,
+        "max_dual_correction": 4.573487990752745e-08
+      },
+      "relative_margin": 0.013412796057963817,
+      "relative_margin_percent": 1.3412796057963818,
+      "set": "sobol_holdout",
+      "speed_kmh": 74.90952960215509
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.036249750715449426,
+        "grid_corrected_upper": 0.03622927494254133,
+        "grid_feasible_lower": 0.03622925923080575,
+        "intersample_correction": 2.04757729080952e-05,
+        "max_dual_correction": 2.0444075379821847e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0021199254782098553,
+      "mass_fraction": 0.018371694628149273,
+      "payload_height": 1.782940084207803,
+      "proposed": {
+        "continuous_upper": 0.034109333752595894,
+        "grid_corrected_upper": 0.03407712321802853,
+        "grid_feasible_lower": 0.034076637694061246,
+        "intersample_correction": 3.221053456736691e-05,
+        "max_dual_correction": 9.189325923530944e-07
+      },
+      "relative_margin": 0.058514182271971,
+      "relative_margin_percent": 5.851418227197099,
+      "set": "sobol_holdout",
+      "speed_kmh": 51.05703321751207
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.03371022317423159,
+        "grid_corrected_upper": 0.03368980627820628,
+        "grid_feasible_lower": 0.03368978300108916,
+        "intersample_correction": 2.0416896025312394e-05,
+        "max_dual_correction": 1.0243120859149135e-07
+      },
+      "certified": true,
+      "certified_margin": 0.001965708705971167,
+      "mass_fraction": 0.06653359681367875,
+      "payload_height": 1.1750924889929593,
+      "proposed": {
+        "continuous_upper": 0.03172407429511799,
+        "grid_corrected_upper": 0.031692469273168676,
+        "grid_feasible_lower": 0.03169186094409904,
+        "intersample_correction": 3.1605021949317404e-05,
+        "max_dual_correction": 8.194377787151819e-07
+      },
+      "relative_margin": 0.05834732464461459,
+      "relative_margin_percent": 5.834732464461458,
+      "set": "sobol_holdout",
+      "speed_kmh": 52.41685025393963
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.018478236894456317,
+        "grid_corrected_upper": 0.018446484468260152,
+        "grid_feasible_lower": 0.01844644608173642,
+        "intersample_correction": 3.175242619616405e-05,
+        "max_dual_correction": 4.297636299957497e-08
+      },
+      "certified": true,
+      "certified_margin": 0.0002441434296587587,
+      "mass_fraction": 0.0311527238227427,
+      "payload_height": 1.746949820779264,
+      "proposed": {
+        "continuous_upper": 0.018202302652077663,
+        "grid_corrected_upper": 0.018159562853131007,
+        "grid_feasible_lower": 0.01815952472218787,
+        "intersample_correction": 4.273979894665543e-05,
+        "max_dual_correction": 5.7275227338671186e-08
+      },
+      "relative_margin": 0.013235255646369836,
+      "relative_margin_percent": 1.3235255646369837,
+      "set": "sobol_holdout",
+      "speed_kmh": 73.1931751826778
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.022681300162920894,
+        "grid_corrected_upper": 0.022654452932583048,
+        "grid_feasible_lower": 0.02265433366075179,
+        "intersample_correction": 2.6847230337846777e-05,
+        "max_dual_correction": 2.3703735709673657e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0008250954988310612,
+      "mass_fraction": 0.09465876407921314,
+      "payload_height": 1.349309657095,
+      "proposed": {
+        "continuous_upper": 0.021829238161920728,
+        "grid_corrected_upper": 0.02179188794692459,
+        "grid_feasible_lower": 0.021791887946924562,
+        "intersample_correction": 3.735021499613864e-05,
+        "max_dual_correction": 1.9555761972267494e-07
+      },
+      "relative_margin": 0.036421088838314575,
+      "relative_margin_percent": 3.6421088838314577,
+      "set": "sobol_holdout",
+      "speed_kmh": 65.8694580430165
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.02970850505274365,
+        "grid_corrected_upper": 0.029684613218597444,
+        "grid_feasible_lower": 0.029684586618306613,
+        "intersample_correction": 2.389183414620415e-05,
+        "max_dual_correction": 2.86723163683833e-08
+      },
+      "certified": true,
+      "certified_margin": 0.0014197710323902817,
+      "mass_fraction": 0.009278654027730227,
+      "payload_height": 1.588043972523883,
+      "proposed": {
+        "continuous_upper": 0.02826481558591633,
+        "grid_corrected_upper": 0.028229431172923987,
+        "grid_feasible_lower": 0.028229422355445344,
+        "intersample_correction": 3.5384412992345114e-05,
+        "max_dual_correction": 1.8605249733211204e-07
+      },
+      "relative_margin": 0.04782856000813239,
+      "relative_margin_percent": 4.78285600081324,
+      "set": "sobol_holdout",
+      "speed_kmh": 58.520867861807346
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.02670395269852458,
+        "grid_corrected_upper": 0.026679289111495214,
+        "grid_feasible_lower": 0.026679166210951396,
+        "intersample_correction": 2.4663587029367933e-05,
+        "max_dual_correction": 1.3718046481744905e-07
+      },
+      "certified": true,
+      "certified_margin": 0.001238300286859128,
+      "mass_fraction": 0.08727900590747595,
+      "payload_height": 1.7175543044693768,
+      "proposed": {
+        "continuous_upper": 0.025440865924092268,
+        "grid_corrected_upper": 0.02540551321439576,
+        "grid_feasible_lower": 0.025405507202544714,
+        "intersample_correction": 3.53527096965086e-05,
+        "max_dual_correction": 1.9848409249512144e-07
+      },
+      "relative_margin": 0.04641450475130757,
+      "relative_margin_percent": 4.641450475130757,
+      "set": "sobol_holdout",
+      "speed_kmh": 61.077648447826505
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.02574314870557709,
+        "grid_corrected_upper": 0.025717177899272598,
+        "grid_feasible_lower": 0.02571714234480591,
+        "intersample_correction": 2.597080630449039e-05,
+        "max_dual_correction": 4.626249176797881e-08
+      },
+      "certified": true,
+      "certified_margin": 0.001025978406443976,
+      "mass_fraction": 0.023041354771703482,
+      "payload_height": 1.3061299284920096,
+      "proposed": {
+        "continuous_upper": 0.024691163938361935,
+        "grid_corrected_upper": 0.02465397770061411,
+        "grid_feasible_lower": 0.024653977700606067,
+        "intersample_correction": 3.7186237747827074e-05,
+        "max_dual_correction": 1.1312702683993758e-07
+      },
+      "relative_margin": 0.039894728297881536,
+      "relative_margin_percent": 3.989472829788154,
+      "set": "sobol_holdout",
+      "speed_kmh": 62.957478570751846
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.02030636449707977,
+        "grid_corrected_upper": 0.020276807444653624,
+        "grid_feasible_lower": 0.02027680419579038,
+        "intersample_correction": 2.9557052426146095e-05,
+        "max_dual_correction": 1.99871352728892e-07
+      },
+      "certified": true,
+      "certified_margin": 0.00045018202472922944,
+      "mass_fraction": 0.052904983051121235,
+      "payload_height": 1.5361935447435826,
+      "proposed": {
+        "continuous_upper": 0.01982662217106115,
+        "grid_corrected_upper": 0.019786278026831555,
+        "grid_feasible_lower": 0.019786278026831562,
+        "intersample_correction": 4.0344144229594914e-05,
+        "max_dual_correction": 1.8936057371438109e-07
+      },
+      "relative_margin": 0.022201823343675167,
+      "relative_margin_percent": 2.2201823343675167,
+      "set": "sobol_holdout",
+      "speed_kmh": 69.85476284753531
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.03124930225984642,
+        "grid_corrected_upper": 0.031226842185570116,
+        "grid_feasible_lower": 0.0312268190048886,
+        "intersample_correction": 2.2460074276302186e-05,
+        "max_dual_correction": 6.169002009573377e-08
+      },
+      "certified": true,
+      "certified_margin": 0.0016478068716017369,
+      "mass_fraction": 0.03866656897589565,
+      "payload_height": 1.4620181616861374,
+      "proposed": {
+        "continuous_upper": 0.029579012133286862,
+        "grid_corrected_upper": 0.02954526670626888,
+        "grid_feasible_lower": 0.029545157329447815,
+        "intersample_correction": 3.374542701798002e-05,
+        "max_dual_correction": 4.5275181799822595e-07
+      },
+      "relative_margin": 0.0527689634779569,
+      "relative_margin_percent": 5.27689634779569,
+      "set": "sobol_holdout",
+      "speed_kmh": 56.109698722139
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.03059232838049957,
+        "grid_corrected_upper": 0.030570589554121588,
+        "grid_feasible_lower": 0.030570564752276236,
+        "intersample_correction": 2.1738826377982246e-05,
+        "max_dual_correction": 2.687612504076453e-08
+      },
+      "certified": true,
+      "certified_margin": 0.001670916290009622,
+      "mass_fraction": 0.08369259778410197,
+      "payload_height": 1.23688618671149,
+      "proposed": {
+        "continuous_upper": 0.028899648462266614,
+        "grid_corrected_upper": 0.02886703192122287,
+        "grid_feasible_lower": 0.028866934924543456,
+        "intersample_correction": 3.261654104374264e-05,
+        "max_dual_correction": 3.872694659748377e-07
+      },
+      "relative_margin": 0.05465768472220351,
+      "relative_margin_percent": 5.465768472220351,
+      "set": "sobol_holdout",
+      "speed_kmh": 55.704468907788396
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.020176292031279616,
+        "grid_corrected_upper": 0.02014620120794799,
+        "grid_feasible_lower": 0.020146187061028522,
+        "intersample_correction": 3.0090823331624437e-05,
+        "max_dual_correction": 1.9564301372357318e-07
+      },
+      "certified": true,
+      "certified_margin": 0.00033967740051639786,
+      "mass_fraction": 0.020244678389281037,
+      "payload_height": 1.6394294229336084,
+      "proposed": {
+        "continuous_upper": 0.019806509660512124,
+        "grid_corrected_upper": 0.019765288261029062,
+        "grid_feasible_lower": 0.019765092255046388,
+        "intersample_correction": 4.122139948306266e-05,
+        "max_dual_correction": 3.322954855028426e-07
+      },
+      "relative_margin": 0.016860629730450657,
+      "relative_margin_percent": 1.6860629730450658,
+      "set": "sobol_holdout",
+      "speed_kmh": 70.27961153071374
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.025680637179578258,
+        "grid_corrected_upper": 0.025655165655767927,
+        "grid_feasible_lower": 0.025655133999133377,
+        "intersample_correction": 2.5471523810329676e-05,
+        "max_dual_correction": 1.644748434011245e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0010798928427758203,
+      "mass_fraction": 0.05556662064045668,
+      "payload_height": 1.4081006158608944,
+      "proposed": {
+        "continuous_upper": 0.024575241156357557,
+        "grid_corrected_upper": 0.024538850988968783,
+        "grid_feasible_lower": 0.024538850988968786,
+        "intersample_correction": 3.6390167388773424e-05,
+        "max_dual_correction": 8.789460333516463e-08
+      },
+      "relative_margin": 0.04209266039352197,
+      "relative_margin_percent": 4.209266039352197,
+      "set": "sobol_holdout",
+      "speed_kmh": 62.533035199157894
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.02673873614282598,
+        "grid_corrected_upper": 0.02671365209554032,
+        "grid_feasible_lower": 0.026713621203440802,
+        "intersample_correction": 2.508404728565986e-05,
+        "max_dual_correction": 1.1869166592973213e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0011679349339349908,
+      "mass_fraction": 0.04211946418508888,
+      "payload_height": 1.4936875227373094,
+      "proposed": {
+        "continuous_upper": 0.02554568626950581,
+        "grid_corrected_upper": 0.025509528406526608,
+        "grid_feasible_lower": 0.02550952840650119,
+        "intersample_correction": 3.615786297920415e-05,
+        "max_dual_correction": 4.4489674853875893e-08
+      },
+      "relative_margin": 0.04372057704346564,
+      "relative_margin_percent": 4.372057704346563,
+      "set": "sobol_holdout",
+      "speed_kmh": 61.48328357376158
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.029294340308148297,
+        "grid_corrected_upper": 0.02927096625667286,
+        "grid_feasible_lower": 0.029270941857567647,
+        "intersample_correction": 2.3374051475437906e-05,
+        "max_dual_correction": 1.0783686265128378e-07
+      },
+      "certified": true,
+      "certified_margin": 0.001478009772720057,
+      "mass_fraction": 0.06386200152337551,
+      "payload_height": 1.7704712016507984,
+      "proposed": {
+        "continuous_upper": 0.02779293208484759,
+        "grid_corrected_upper": 0.027758584986564507,
+        "grid_feasible_lower": 0.027758508171222662,
+        "intersample_correction": 3.434709828308414e-05,
+        "max_dual_correction": 1.8280266665671174e-07
+      },
+      "relative_margin": 0.05049409683883935,
+      "relative_margin_percent": 5.049409683883935,
+      "set": "sobol_holdout",
+      "speed_kmh": 58.1761009991169
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.0230320466812345,
+        "grid_corrected_upper": 0.023004390912739824,
+        "grid_feasible_lower": 0.023004390912739824,
+        "intersample_correction": 2.765576849467551e-05,
+        "max_dual_correction": 4.177963739207535e-08
+      },
+      "certified": true,
+      "certified_margin": 0.0007552778530198166,
+      "mass_fraction": 0.02770969541743398,
+      "payload_height": 1.2074863311834632,
+      "proposed": {
+        "continuous_upper": 0.022249113059720008,
+        "grid_corrected_upper": 0.0222103567480756,
+        "grid_feasible_lower": 0.022210268943069232,
+        "intersample_correction": 3.875631164440754e-05,
+        "max_dual_correction": 1.023177746070636e-07
+      },
+      "relative_margin": 0.032831899609284766,
+      "relative_margin_percent": 3.2831899609284765,
+      "set": "sobol_holdout",
+      "speed_kmh": 66.25711342785507
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.018376359639130688,
+        "grid_corrected_upper": 0.01834537262768217,
+        "grid_feasible_lower": 0.018345329795981427,
+        "intersample_correction": 3.0987011448517474e-05,
+        "max_dual_correction": 4.301927446562215e-08
+      },
+      "certified": true,
+      "certified_margin": 0.0002779218110909379,
+      "mass_fraction": 0.09823683425784112,
+      "payload_height": 1.6064003665465862,
+      "proposed": {
+        "continuous_upper": 0.01806740798489049,
+        "grid_corrected_upper": 0.018026081315181887,
+        "grid_feasible_lower": 0.018026038904104254,
+        "intersample_correction": 4.132666970860248e-05,
+        "max_dual_correction": 7.00601167046011e-08
+      },
+      "relative_margin": 0.015149458427932819,
+      "relative_margin_percent": 1.5149458427932818,
+      "set": "sobol_holdout",
+      "speed_kmh": 72.80516216997057
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.03476312714246759,
+        "grid_corrected_upper": 0.03474193317944482,
+        "grid_feasible_lower": 0.034741917282954844,
+        "intersample_correction": 2.119396302276775e-05,
+        "max_dual_correction": 1.963598991738813e-08
+      },
+      "certified": true,
+      "certified_margin": 0.001958185018413716,
+      "mass_fraction": 0.012083765212446453,
+      "payload_height": 1.3562458488624543,
+      "proposed": {
+        "continuous_upper": 0.03278373226454113,
+        "grid_corrected_upper": 0.0327508414266503,
+        "grid_feasible_lower": 0.03275027548608626,
+        "intersample_correction": 3.2890837890827656e-05,
+        "max_dual_correction": 7.991690670547391e-07
+      },
+      "relative_margin": 0.056363758006367864,
+      "relative_margin_percent": 5.636375800636786,
+      "set": "sobol_holdout",
+      "speed_kmh": 52.761259488761425
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.0349605642659318,
+        "grid_corrected_upper": 0.03494033656399393,
+        "grid_feasible_lower": 0.03494024018809431,
+        "intersample_correction": 2.02277019378666e-05,
+        "max_dual_correction": 1.7849126018182337e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0020729836188645157,
+      "mass_fraction": 0.060822014510631565,
+      "payload_height": 1.5603428337257355,
+      "proposed": {
+        "continuous_upper": 0.03286725656922979,
+        "grid_corrected_upper": 0.032835685611764816,
+        "grid_feasible_lower": 0.032835114032815374,
+        "intersample_correction": 3.157095746497464e-05,
+        "max_dual_correction": 9.36463517481334e-07
+      },
+      "relative_margin": 0.059329403796453385,
+      "relative_margin_percent": 5.932940379645339,
+      "set": "sobol_holdout",
+      "speed_kmh": 51.38365605380386
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.017470040561163497,
+        "grid_corrected_upper": 0.017437795885254365,
+        "grid_feasible_lower": 0.017437756680743256,
+        "intersample_correction": 3.2244675909131086e-05,
+        "max_dual_correction": 1.1960844962730088e-07
+      },
+      "certified": true,
+      "certified_margin": 0.00023122935403167497,
+      "mass_fraction": 0.049278415832668544,
+      "payload_height": 1.3211327273864297,
+      "proposed": {
+        "continuous_upper": 0.01720652732671158,
+        "grid_corrected_upper": 0.017163480650026902,
+        "grid_feasible_lower": 0.01716344157660136,
+        "intersample_correction": 4.3046676684679056e-05,
+        "max_dual_correction": 1.0305235064247964e-07
+      },
+      "relative_margin": 0.013260269555603135,
+      "relative_margin_percent": 1.3260269555603135,
+      "set": "sobol_holdout",
+      "speed_kmh": 74.60138718597591
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.02202707819234784,
+        "grid_corrected_upper": 0.02199884233438148,
+        "grid_feasible_lower": 0.02199884233438148,
+        "intersample_correction": 2.8235857966362435e-05,
+        "max_dual_correction": 1.8472970351665619e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0007011084946982986,
+      "mass_fraction": 0.07644761092960835,
+      "payload_height": 1.7340045806951823,
+      "proposed": {
+        "continuous_upper": 0.02129773383968318,
+        "grid_corrected_upper": 0.021258870339934666,
+        "grid_feasible_lower": 0.021258870339934694,
+        "intersample_correction": 3.886349974851329e-05,
+        "max_dual_correction": 1.9882305957175106e-07
+      },
+      "relative_margin": 0.031870244990235344,
+      "relative_margin_percent": 3.1870244990235346,
+      "set": "sobol_holdout",
+      "speed_kmh": 67.58589460514486
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.0313723108808596,
+        "grid_corrected_upper": 0.0313495242909581,
+        "grid_feasible_lower": 0.031349500957644764,
+        "intersample_correction": 2.2786589901497646e-05,
+        "max_dual_correction": 6.038729875174065e-08
+      },
+      "certified": true,
+      "certified_margin": 0.0016158545223949605,
+      "mass_fraction": 0.014904775191098452,
+      "payload_height": 1.1626236064359545,
+      "proposed": {
+        "continuous_upper": 0.029733646435249804,
+        "grid_corrected_upper": 0.02969934248450847,
+        "grid_feasible_lower": 0.02969929551579378,
+        "intersample_correction": 3.430395074133146e-05,
+        "max_dual_correction": 1.6652168160005698e-07
+      },
+      "relative_margin": 0.05154322949440523,
+      "relative_margin_percent": 5.154322949440522,
+      "set": "sobol_holdout",
+      "speed_kmh": 56.42871072050184
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.02707167854198396,
+        "grid_corrected_upper": 0.027047713055649913,
+        "grid_feasible_lower": 0.027047537780211364,
+        "intersample_correction": 2.396548633404829e-05,
+        "max_dual_correction": 1.7527543854853334e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0012986894160144508,
+      "mass_fraction": 0.0931763580068946,
+      "payload_height": 1.454629600374028,
+      "proposed": {
+        "continuous_upper": 0.025748848364196913,
+        "grid_corrected_upper": 0.025714229234094162,
+        "grid_feasible_lower": 0.025714229172500155,
+        "intersample_correction": 3.4619130102749634e-05,
+        "max_dual_correction": 6.278352560062928e-10
+      },
+      "relative_margin": 0.04801506985839589,
+      "relative_margin_percent": 4.801506985839589,
+      "set": "sobol_holdout",
+      "speed_kmh": 60.15469890553504
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.024953716550985723,
+        "grid_corrected_upper": 0.024926833432169157,
+        "grid_feasible_lower": 0.02492683343216915,
+        "intersample_correction": 2.6883118816564616e-05,
+        "max_dual_correction": 3.7007544625988764e-08
+      },
+      "certified": true,
+      "certified_margin": 0.0009059765273179247,
+      "mass_fraction": 0.0043384811840951444,
+      "payload_height": 1.5283291925210505,
+      "proposed": {
+        "continuous_upper": 0.024020856904851225,
+        "grid_corrected_upper": 0.02398258865171163,
+        "grid_feasible_lower": 0.023982588651702347,
+        "intersample_correction": 3.8268253139592445e-05,
+        "max_dual_correction": 7.3687168346270315e-09
+      },
+      "relative_margin": 0.036345431913093425,
+      "relative_margin_percent": 3.6345431913093424,
+      "set": "sobol_holdout",
+      "speed_kmh": 64.28062273189425
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.018741813804328013,
+        "grid_corrected_upper": 0.018711579179429814,
+        "grid_feasible_lower": 0.018711540713628783,
+        "intersample_correction": 3.023462489820038e-05,
+        "max_dual_correction": 2.0357405612625445e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0002850022063956882,
+      "mass_fraction": 0.07130266893655061,
+      "payload_height": 1.2728721109218895,
+      "proposed": {
+        "continuous_upper": 0.018426538507233095,
+        "grid_corrected_upper": 0.01838571207791955,
+        "grid_feasible_lower": 0.01838566186863667,
+        "intersample_correction": 4.0826429313544904e-05,
+        "max_dual_correction": 1.911051388664431e-07
+      },
+      "relative_margin": 0.015231359659661981,
+      "relative_margin_percent": 1.523135965966198,
+      "set": "sobol_holdout",
+      "speed_kmh": 71.65703000500798
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.03336385967880322,
+        "grid_corrected_upper": 0.03334229444844968,
+        "grid_feasible_lower": 0.03334227761981105,
+        "intersample_correction": 2.15652303535332e-05,
+        "max_dual_correction": 8.917853951823096e-08
+      },
+      "certified": true,
+      "certified_margin": 0.001852826854355949,
+      "mass_fraction": 0.03246402917429805,
+      "payload_height": 1.684772844426334,
+      "proposed": {
+        "continuous_upper": 0.031489450765455104,
+        "grid_corrected_upper": 0.0314564579550137,
+        "grid_feasible_lower": 0.031455816183394956,
+        "intersample_correction": 3.299281044140385e-05,
+        "max_dual_correction": 6.993975303556943e-07
+      },
+      "relative_margin": 0.05556989463896284,
+      "relative_margin_percent": 5.556989463896284,
+      "set": "sobol_holdout",
+      "speed_kmh": 53.9080596761778
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.032660774744613236,
+        "grid_corrected_upper": 0.03263981355613088,
+        "grid_feasible_lower": 0.03263975730996159,
+        "intersample_correction": 2.0961188482357304e-05,
+        "max_dual_correction": 9.578141145494268e-08
+      },
+      "certified": true,
+      "certified_margin": 0.0018636465362586174,
+      "mass_fraction": 0.07265359275043011,
+      "payload_height": 1.33796981270425,
+      "proposed": {
+        "continuous_upper": 0.030776110773702972,
+        "grid_corrected_upper": 0.03074408455811866,
+        "grid_feasible_lower": 0.030743434767755522,
+        "intersample_correction": 3.2026215584311634e-05,
+        "max_dual_correction": 7.54508123052694e-07
+      },
+      "relative_margin": 0.05709743851832612,
+      "relative_margin_percent": 5.709743851832612,
+      "set": "sobol_holdout",
+      "speed_kmh": 53.596360492520034
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.020000203361222508,
+        "grid_corrected_upper": 0.01997017210749069,
+        "grid_feasible_lower": 0.019970157234371535,
+        "intersample_correction": 3.0031253731815934e-05,
+        "max_dual_correction": 1.9528401417820418e-07
+      },
+      "certified": true,
+      "certified_margin": 0.00036373813925761125,
+      "mass_fraction": 0.03610387267544866,
+      "payload_height": 1.579073951439932,
+      "proposed": {
+        "continuous_upper": 0.019606419095113924,
+        "grid_corrected_upper": 0.019565439551818158,
+        "grid_feasible_lower": 0.019565439551786468,
+        "intersample_correction": 4.0979543295764377e-05,
+        "max_dual_correction": 2.0260187458612244e-07
+      },
+      "relative_margin": 0.0182140848962153,
+      "relative_margin_percent": 1.82140848962153,
+      "set": "sobol_holdout",
+      "speed_kmh": 70.4175949562341
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.02281019969148534,
+        "grid_corrected_upper": 0.0227836362629865,
+        "grid_feasible_lower": 0.022783636262986497,
+        "intersample_correction": 2.6563428498840895e-05,
+        "max_dual_correction": 1.9085313916408775e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0008404665586639361,
+      "mass_fraction": 0.08827918842434884,
+      "payload_height": 1.184528821054846,
+      "proposed": {
+        "continuous_upper": 0.02194316970432256,
+        "grid_corrected_upper": 0.02190604335659043,
+        "grid_feasible_lower": 0.021906043356590434,
+        "intersample_correction": 3.712634773212986e-05,
+        "max_dual_correction": 1.8920435971431226e-07
+      },
+      "relative_margin": 0.03688904391566893,
+      "relative_margin_percent": 3.688904391566893,
+      "set": "sobol_holdout",
+      "speed_kmh": 65.52002639509737
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.02816180414197744,
+        "grid_corrected_upper": 0.028136877871443373,
+        "grid_feasible_lower": 0.028136850088768713,
+        "intersample_correction": 2.4926270534065796e-05,
+        "max_dual_correction": 3.619825693704226e-08
+      },
+      "certified": true,
+      "certified_margin": 0.0012367990214881518,
+      "mass_fraction": 0.0017302312888205053,
+      "payload_height": 1.757823664136231,
+      "proposed": {
+        "continuous_upper": 0.02690005106728056,
+        "grid_corrected_upper": 0.026863617332303413,
+        "grid_feasible_lower": 0.026863617332289817,
+        "intersample_correction": 3.643373497714894e-05,
+        "max_dual_correction": 4.88281119426226e-08
+      },
+      "relative_margin": 0.0439565558186572,
+      "relative_margin_percent": 4.395655581865721,
+      "set": "sobol_holdout",
+      "speed_kmh": 60.46636968385428
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.02943047214545008,
+        "grid_corrected_upper": 0.02940763896949005,
+        "grid_feasible_lower": 0.029407433478887995,
+        "intersample_correction": 2.2833175960029645e-05,
+        "max_dual_correction": 2.1585030391194082e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0015275672549569033,
+      "mass_fraction": 0.07998368833214045,
+      "payload_height": 1.547060579014942,
+      "proposed": {
+        "continuous_upper": 0.027879866223931092,
+        "grid_corrected_upper": 0.027846184396980146,
+        "grid_feasible_lower": 0.02784611281875247,
+        "intersample_correction": 3.3681826950946005e-05,
+        "max_dual_correction": 1.8714874992081798e-07
+      },
+      "relative_margin": 0.051944936169066404,
+      "relative_margin_percent": 5.19449361690664,
+      "set": "sobol_holdout",
+      "speed_kmh": 57.52081929240376
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.021845366248474826,
+        "grid_corrected_upper": 0.021816539656118062,
+        "grid_feasible_lower": 0.021816539656118066,
+        "intersample_correction": 2.8826592356762072e-05,
+        "max_dual_correction": 2.0194665995010297e-08
+      },
+      "certified": true,
+      "certified_margin": 0.0005942603658815257,
+      "mass_fraction": 0.01613973779603839,
+      "payload_height": 1.471466261940077,
+      "proposed": {
+        "continuous_upper": 0.02122227929023654,
+        "grid_corrected_upper": 0.021182260028003573,
+        "grid_feasible_lower": 0.021182260028003577,
+        "intersample_correction": 4.0019262232965456e-05,
+        "max_dual_correction": 1.4357059573144593e-07
+      },
+      "relative_margin": 0.027238983599073,
+      "relative_margin_percent": 2.7238983599073,
+      "set": "sobol_holdout",
+      "speed_kmh": 68.0432390421629
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.017870997630435148,
+        "grid_corrected_upper": 0.017838867335261455,
+        "grid_feasible_lower": 0.017838829535826307,
+        "intersample_correction": 3.2130295173692345e-05,
+        "max_dual_correction": 4.155288800544721e-08
+      },
+      "certified": true,
+      "certified_margin": 0.00022651746663522251,
+      "mass_fraction": 0.05811000000685454,
+      "payload_height": 1.7085923516191541,
+      "proposed": {
+        "continuous_upper": 0.017612312069191085,
+        "grid_corrected_upper": 0.017569506889637612,
+        "grid_feasible_lower": 0.017569469088574,
+        "intersample_correction": 4.28051795534733e-05,
+        "max_dual_correction": 1.61071862472828e-07
+      },
+      "relative_margin": 0.012698000515129091,
+      "relative_margin_percent": 1.2698000515129093,
+      "set": "sobol_holdout",
+      "speed_kmh": 74.14401415735483
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.03620653841972278,
+        "grid_corrected_upper": 0.03618670545515467,
+        "grid_feasible_lower": 0.03618668935731568,
+        "intersample_correction": 1.9832964568108975e-05,
+        "max_dual_correction": 1.3456110881798766e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0021731790532259557,
+      "mass_fraction": 0.04426528653129935,
+      "payload_height": 1.294777056761086,
+      "proposed": {
+        "continuous_upper": 0.03401351030408972,
+        "grid_corrected_upper": 0.033982113041109235,
+        "grid_feasible_lower": 0.033981602061491104,
+        "intersample_correction": 3.139726298048547e-05,
+        "max_dual_correction": 9.848814547588902e-07
+      },
+      "relative_margin": 0.06005465246537164,
+      "relative_margin_percent": 6.005465246537164,
+      "set": "sobol_holdout",
+      "speed_kmh": 50.291515910066664
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.034123701484684396,
+        "grid_corrected_upper": 0.0341035773537943,
+        "grid_feasible_lower": 0.03410343879171884,
+        "intersample_correction": 2.0124130890096134e-05,
+        "max_dual_correction": 2.0064339344150195e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0020446858477660423,
+      "mass_fraction": 0.09532902892678977,
+      "payload_height": 1.661969134397805,
+      "proposed": {
+        "continuous_upper": 0.0320587529439528,
+        "grid_corrected_upper": 0.032027497327150205,
+        "grid_feasible_lower": 0.032026885797176156,
+        "intersample_correction": 3.125561680259839e-05,
+        "max_dual_correction": 9.958833253678745e-07
+      },
+      "relative_margin": 0.05995541564748428,
+      "relative_margin_percent": 5.995541564748428,
+      "set": "sobol_holdout",
+      "speed_kmh": 51.61796095781028
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.01905878784635817,
+        "grid_corrected_upper": 0.019027376562740735,
+        "grid_feasible_lower": 0.019027333913885617,
+        "intersample_correction": 3.141128361743813e-05,
+        "max_dual_correction": 4.45283632605209e-08
+      },
+      "certified": true,
+      "certified_margin": 0.000276441330108599,
+      "mass_fraction": 0.00687503581866622,
+      "payload_height": 1.2600709282793103,
+      "proposed": {
+        "continuous_upper": 0.018750892583777018,
+        "grid_corrected_upper": 0.018708164394086412,
+        "grid_feasible_lower": 0.01870811168300819,
+        "intersample_correction": 4.272818969060739e-05,
+        "max_dual_correction": 3.653587746406395e-07
+      },
+      "relative_margin": 0.014528642392030541,
+      "relative_margin_percent": 1.4528642392030542,
+      "set": "sobol_holdout",
+      "speed_kmh": 72.39428700413555
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.022510253786194662,
+        "grid_corrected_upper": 0.022482607951679903,
+        "grid_feasible_lower": 0.0224826079516799,
+        "intersample_correction": 2.764583451475851e-05,
+        "max_dual_correction": 1.8827293899945086e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0007521184542768587,
+      "mass_fraction": 0.06720305103808642,
+      "payload_height": 1.5111589499283582,
+      "proposed": {
+        "continuous_upper": 0.02173048949740304,
+        "grid_corrected_upper": 0.021692124950774376,
+        "grid_feasible_lower": 0.02169212495077437,
+        "intersample_correction": 3.836454662866445e-05,
+        "max_dual_correction": 1.9072148150361956e-07
+      },
+      "relative_margin": 0.03345334562134997,
+      "relative_margin_percent": 3.3453345621349966,
+      "set": "sobol_holdout",
+      "speed_kmh": 66.66797248180956
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.028681898912431277,
+        "grid_corrected_upper": 0.028657810042853216,
+        "grid_feasible_lower": 0.028657782415764447,
+        "intersample_correction": 2.408886957806226e-05,
+        "max_dual_correction": 2.190337575827539e-07
+      },
+      "certified": true,
+      "certified_margin": 0.00135308460275909,
+      "mass_fraction": 0.028749820869416,
+      "payload_height": 1.4261972367297857,
+      "proposed": {
+        "continuous_upper": 0.027304697813005357,
+        "grid_corrected_upper": 0.027269340739453203,
+        "grid_feasible_lower": 0.027269338826101032,
+        "intersample_correction": 3.535707355215221e-05,
+        "max_dual_correction": 3.2565220207947387e-09
+      },
+      "relative_margin": 0.04721525842888554,
+      "relative_margin_percent": 4.721525842888554,
+      "set": "sobol_holdout",
+      "speed_kmh": 59.31938043795526
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.02618911020037261,
+        "grid_corrected_upper": 0.026164039414944495,
+        "grid_feasible_lower": 0.02616400073707887,
+        "intersample_correction": 2.5070785428114263e-05,
+        "max_dual_correction": 6.578642904736531e-08
+      },
+      "certified": true,
+      "certified_margin": 0.001131563780399969,
+      "mass_fraction": 0.05047385096549988,
+      "payload_height": 1.230670648999512,
+      "proposed": {
+        "continuous_upper": 0.0250324369566789,
+        "grid_corrected_upper": 0.024996376103266715,
+        "grid_feasible_lower": 0.024996376103250305,
+        "intersample_correction": 3.60608534121863e-05,
+        "max_dual_correction": 2.254099684684263e-14
+      },
+      "relative_margin": 0.04324888199518927,
+      "relative_margin_percent": 4.324888199518926,
+      "set": "sobol_holdout",
+      "speed_kmh": 61.84145202860236
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.02514119963847915,
+        "grid_corrected_upper": 0.025114823878360455,
+        "grid_feasible_lower": 0.025114792754597624,
+        "intersample_correction": 2.6375760118697227e-05,
+        "max_dual_correction": 3.642536419365405e-08
+      },
+      "certified": true,
+      "certified_margin": 0.0009822554674062296,
+      "mass_fraction": 0.03931542346253991,
+      "payload_height": 1.7930111818946899,
+      "proposed": {
+        "continuous_upper": 0.024132537287191395,
+        "grid_corrected_upper": 0.024095123412581007,
+        "grid_feasible_lower": 0.024095123412581,
+        "intersample_correction": 3.7413874610385955e-05,
+        "max_dual_correction": 1.6684252015022882e-07
+      },
+      "relative_margin": 0.039110633999813266,
+      "relative_margin_percent": 3.9110633999813262,
+      "set": "sobol_holdout",
+      "speed_kmh": 63.721280288882554
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.020514230916824,
+        "grid_corrected_upper": 0.020485497816437354,
+        "grid_feasible_lower": 0.020485494006100453,
+        "intersample_correction": 2.8733100386645063e-05,
+        "max_dual_correction": 1.944353651660291e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0005568667775232225,
+      "mass_fraction": 0.08484868444502354,
+      "payload_height": 1.3743422009516506,
+      "proposed": {
+        "continuous_upper": 0.01992862722857723,
+        "grid_corrected_upper": 0.019889379625279292,
+        "grid_feasible_lower": 0.019889379625279324,
+        "intersample_correction": 3.9247603297937735e-05,
+        "max_dual_correction": 1.9584716432624605e-07
+      },
+      "relative_margin": 0.027183468329218276,
+      "relative_margin_percent": 2.7183468329218274,
+      "set": "sobol_holdout",
+      "speed_kmh": 69.09134716261178
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.032240786268829515,
+        "grid_corrected_upper": 0.032218515384590536,
+        "grid_feasible_lower": 0.032218498168526184,
+        "intersample_correction": 2.2270884238978498e-05,
+        "max_dual_correction": 1.3949140415664418e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0017197967009459567,
+      "mass_fraction": 0.023689494002610445,
+      "payload_height": 1.6238722174894065,
+      "proposed": {
+        "continuous_upper": 0.030498701467580228,
+        "grid_corrected_upper": 0.030464970223408577,
+        "grid_feasible_lower": 0.030464611234134645,
+        "intersample_correction": 3.3731244171649696e-05,
+        "max_dual_correction": 6.57804309255744e-07
+      },
+      "relative_margin": 0.05337917031235189,
+      "relative_margin_percent": 5.337917031235189,
+      "set": "sobol_holdout",
+      "speed_kmh": 55.34628415480256
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.030817657515220268,
+        "grid_corrected_upper": 0.030796148123541246,
+        "grid_feasible_lower": 0.03079612045017755,
+        "intersample_correction": 2.1509391679023542e-05,
+        "max_dual_correction": 3.0452011252901645e-08
+      },
+      "certified": true,
+      "certified_margin": 0.0017134042266240442,
+      "mass_fraction": 0.09737749472260476,
+      "payload_height": 1.3693255030084401,
+      "proposed": {
+        "continuous_upper": 0.029082716223553507,
+        "grid_corrected_upper": 0.029050433451837603,
+        "grid_feasible_lower": 0.02904994021225197,
+        "intersample_correction": 3.22827717159038e-05,
+        "max_dual_correction": 6.983786002626169e-07
+      },
+      "relative_margin": 0.05563701536354284,
+      "relative_margin_percent": 5.563701536354283,
+      "set": "sobol_holdout",
+      "speed_kmh": 55.2555764792487
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.02135543485428388,
+        "grid_corrected_upper": 0.021326147601265947,
+        "grid_feasible_lower": 0.021326147601256562,
+        "intersample_correction": 2.9287253017931123e-05,
+        "max_dual_correction": 7.991985101485355e-09
+      },
+      "certified": true,
+      "certified_margin": 0.00049463327936684,
+      "mass_fraction": 0.011270297411829234,
+      "payload_height": 1.608574943197891,
+      "proposed": {
+        "continuous_upper": 0.020831514321889722,
+        "grid_corrected_upper": 0.020790979483458122,
+        "grid_feasible_lower": 0.02079091126061782,
+        "intersample_correction": 4.0534838431601824e-05,
+        "max_dual_correction": 1.1561012876887267e-07
+      },
+      "relative_margin": 0.023193747347865844,
+      "relative_margin_percent": 2.3193747347865847,
+      "set": "sobol_holdout",
+      "speed_kmh": 68.75649844296277
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.024249392518659516,
+        "grid_corrected_upper": 0.024223323767773378,
+        "grid_feasible_lower": 0.024223287172538247,
+        "intersample_correction": 2.6068750886138578e-05,
+        "max_dual_correction": 1.9637374681566455e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0009481985310666984,
+      "mass_fraction": 0.06300309114158154,
+      "payload_height": 1.1957010256126521,
+      "proposed": {
+        "continuous_upper": 0.02327508864147155,
+        "grid_corrected_upper": 0.02323820334839273,
+        "grid_feasible_lower": 0.023238203348392696,
+        "intersample_correction": 3.688529307881812e-05,
+        "max_dual_correction": 1.786053240408758e-07
+      },
+      "relative_margin": 0.039144089912853106,
+      "relative_margin_percent": 3.91440899128531,
+      "set": "sobol_holdout",
+      "speed_kmh": 64.05576528050005
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.026664295659724585,
+        "grid_corrected_upper": 0.02663879019023576,
+        "grid_feasible_lower": 0.026638759679733195,
+        "intersample_correction": 2.5505469488825662e-05,
+        "max_dual_correction": 8.530808729909078e-08
+      },
+      "certified": true,
+      "certified_margin": 0.001125089984925512,
+      "mass_fraction": 0.026896656770259143,
+      "payload_height": 1.7670419880189003,
+      "proposed": {
+        "continuous_upper": 0.025513669694807683,
+        "grid_corrected_upper": 0.025476959836783178,
+        "grid_feasible_lower": 0.025476959836760637,
+        "intersample_correction": 3.670985802450366e-05,
+        "max_dual_correction": 1.1932930882654902e-07
+      },
+      "relative_margin": 0.04223507394683552,
+      "relative_margin_percent": 4.223507394683552,
+      "set": "sobol_holdout",
+      "speed_kmh": 61.93179606925696
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.02856706262445563,
+        "grid_corrected_upper": 0.028543353530769835,
+        "grid_feasible_lower": 0.02854332113820752,
+        "intersample_correction": 2.3709093685795778e-05,
+        "max_dual_correction": 3.246608279092178e-08
+      },
+      "certified": true,
+      "certified_margin": 0.0013937962813717793,
+      "mass_fraction": 0.05486611556261778,
+      "payload_height": 1.4750784866977482,
+      "proposed": {
+        "continuous_upper": 0.02714952485683574,
+        "grid_corrected_upper": 0.027114789660690232,
+        "grid_feasible_lower": 0.027114783553395052,
+        "intersample_correction": 3.473519614550814e-05,
+        "max_dual_correction": 3.234550070840836e-08
+      },
+      "relative_margin": 0.048830907749766776,
+      "relative_margin_percent": 4.883090774976677,
+      "set": "sobol_holdout",
+      "speed_kmh": 58.98510424885899
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.022716612071414392,
+        "grid_corrected_upper": 0.022688851442058348,
+        "grid_feasible_lower": 0.02268885144205835,
+        "intersample_correction": 2.776062935604378e-05,
+        "max_dual_correction": 5.490124848142597e-08
+      },
+      "certified": true,
+      "certified_margin": 0.0007387625417524905,
+      "mass_fraction": 0.04136698385700584,
+      "payload_height": 1.4013388826977462,
+      "proposed": {
+        "continuous_upper": 0.02195008890030586,
+        "grid_corrected_upper": 0.021911375586024705,
+        "grid_feasible_lower": 0.021911375586024684,
+        "intersample_correction": 3.8713314281154175e-05,
+        "max_dual_correction": 1.203826755190318e-07
+      },
+      "relative_margin": 0.032560596715929195,
+      "relative_margin_percent": 3.2560596715929195,
+      "set": "sobol_holdout",
+      "speed_kmh": 66.57783649861813
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.018644493188416145,
+        "grid_corrected_upper": 0.018613546136510246,
+        "grid_feasible_lower": 0.01861350371057366,
+        "intersample_correction": 3.0947051905899704e-05,
+        "max_dual_correction": 5.004293589586095e-08
+      },
+      "certified": true,
+      "certified_margin": 0.00027943685639386304,
+      "mass_fraction": 0.08299242649227381,
+      "payload_height": 1.6567937450483443,
+      "proposed": {
+        "continuous_upper": 0.018334066854179796,
+        "grid_corrected_upper": 0.018292648081190115,
+        "grid_feasible_lower": 0.018292603693291557,
+        "intersample_correction": 4.141877298967989e-05,
+        "max_dual_correction": 2.205993162376907e-07
+      },
+      "relative_margin": 0.015012587674996677,
+      "relative_margin_percent": 1.5012587674996678,
+      "set": "sobol_holdout",
+      "speed_kmh": 72.48482201248407
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.035306214036163706,
+        "grid_corrected_upper": 0.03528545508278138,
+        "grid_feasible_lower": 0.03528543589893563,
+        "intersample_correction": 2.0758953382330097e-05,
+        "max_dual_correction": 1.9330722585142457e-08
+      },
+      "certified": true,
+      "certified_margin": 0.002030616242420888,
+      "mass_fraction": 0.01949253184720874,
+      "payload_height": 1.244932345394045,
+      "proposed": {
+        "continuous_upper": 0.03325481965651474,
+        "grid_corrected_upper": 0.03322239846779087,
+        "grid_feasible_lower": 0.03322185893340798,
+        "intersample_correction": 3.242118872387122e-05,
+        "max_dual_correction": 8.261184545957367e-07
+      },
+      "relative_margin": 0.05754828275997408,
+      "relative_margin_percent": 5.754828275997408,
+      "set": "sobol_holdout",
+      "speed_kmh": 51.952636265195906
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.03590463193436473,
+        "grid_corrected_upper": 0.03588492587458112,
+        "grid_feasible_lower": 0.035884914688324734,
+        "intersample_correction": 1.9706059783609392e-05,
+        "max_dual_correction": 8.814369606424677e-08
+      },
+      "certified": true,
+      "certified_margin": 0.0021830844225292703,
+      "mass_fraction": 0.07060208041220904,
+      "payload_height": 1.6927793302573264,
+      "proposed": {
+        "continuous_upper": 0.033701830265795464,
+        "grid_corrected_upper": 0.033670645545714736,
+        "grid_feasible_lower": 0.033670021112304924,
+        "intersample_correction": 3.118472008072943e-05,
+        "max_dual_correction": 9.902450789772699e-07
+      },
+      "relative_margin": 0.06083571443572481,
+      "relative_margin_percent": 6.083571443572481,
+      "set": "sobol_holdout",
+      "speed_kmh": 50.154081312939525
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.017993262395912684,
+        "grid_corrected_upper": 0.017961275169926735,
+        "grid_feasible_lower": 0.01796123824559822,
+        "intersample_correction": 3.198722598595046e-05,
+        "max_dual_correction": 4.154864188810059e-08
+      },
+      "certified": true,
+      "certified_margin": 0.00024449296894590855,
+      "mass_fraction": 0.031711656134575605,
+      "payload_height": 1.2902761058881878,
+      "proposed": {
+        "continuous_upper": 0.01771674527665231,
+        "grid_corrected_upper": 0.017673747976835217,
+        "grid_feasible_lower": 0.01767371122352547,
+        "intersample_correction": 4.299729981709333e-05,
+        "max_dual_correction": 2.2417347807918153e-07
+      },
+      "relative_margin": 0.013612255770051193,
+      "relative_margin_percent": 1.3612255770051194,
+      "set": "sobol_holdout",
+      "speed_kmh": 73.86009485926479
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.021189643166688445,
+        "grid_corrected_upper": 0.02116126647481604,
+        "grid_feasible_lower": 0.02116126647481604,
+        "intersample_correction": 2.8376691872405115e-05,
+        "max_dual_correction": 1.9632426160459682e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0006434841292743618,
+      "mass_fraction": 0.09247610326856376,
+      "payload_height": 1.5216071322094649,
+      "proposed": {
+        "continuous_upper": 0.020517782345541677,
+        "grid_corrected_upper": 0.020478932633460886,
+        "grid_feasible_lower": 0.020478932633460886,
+        "intersample_correction": 3.8849712080791617e-05,
+        "max_dual_correction": 1.9527476640551766e-07
+      },
+      "relative_margin": 0.030408583060951025,
+      "relative_margin_percent": 3.040858306095102,
+      "set": "sobol_holdout",
+      "speed_kmh": 68.32756993826479
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.030546851242553942,
+        "grid_corrected_upper": 0.030523333683838184,
+        "grid_feasible_lower": 0.030523309654976592,
+        "intersample_correction": 2.3517558715759393e-05,
+        "max_dual_correction": 2.669641747249374e-08
+      },
+      "certified": true,
+      "certified_margin": 0.0014993464198641386,
+      "mass_fraction": 0.003586441930383444,
+      "payload_height": 1.4359808914829046,
+      "proposed": {
+        "continuous_upper": 0.029023963235112454,
+        "grid_corrected_upper": 0.028988861201093064,
+        "grid_feasible_lower": 0.028988841723781595,
+        "intersample_correction": 3.510203401939179e-05,
+        "max_dual_correction": 2.7388547745726965e-08
+      },
+      "relative_margin": 0.04912135796583519,
+      "relative_margin_percent": 4.912135796583519,
+      "set": "sobol_holdout",
+      "speed_kmh": 57.65866539441049
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.027043072186543397,
+        "grid_corrected_upper": 0.027019157348712908,
+        "grid_feasible_lower": 0.027019122056824725,
+        "intersample_correction": 2.3914837830488145e-05,
+        "max_dual_correction": 1.9407203584800858e-07
+      },
+      "certified": true,
+      "certified_margin": 0.001279440243275299,
+      "mass_fraction": 0.07558837868273259,
+      "payload_height": 1.1592340656556188,
+      "proposed": {
+        "continuous_upper": 0.025739681813549426,
+        "grid_corrected_upper": 0.025704953930571324,
+        "grid_feasible_lower": 0.02570495393054648,
+        "intersample_correction": 3.472788297810175e-05,
+        "max_dual_correction": 1.391780517223662e-09
+      },
+      "relative_margin": 0.047353139031848256,
+      "relative_margin_percent": 4.735313903184825,
+      "set": "sobol_holdout",
+      "speed_kmh": 60.18187841400504
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.023998599460836042,
+        "grid_corrected_upper": 0.023971184740583195,
+        "grid_feasible_lower": 0.0239711847405832,
+        "intersample_correction": 2.7414720252847834e-05,
+        "max_dual_correction": 3.6994420821861995e-08
+      },
+      "certified": true,
+      "certified_margin": 0.0008239999144534563,
+      "mass_fraction": 0.014091223943978548,
+      "payload_height": 1.7221796022728086,
+      "proposed": {
+        "continuous_upper": 0.023147184826129742,
+        "grid_corrected_upper": 0.023108515745686287,
+        "grid_feasible_lower": 0.023108515745686262,
+        "intersample_correction": 3.866908044345731e-05,
+        "max_dual_correction": 9.789189479858518e-08
+      },
+      "relative_margin": 0.03437460114595108,
+      "relative_margin_percent": 3.4374601145951083,
+      "set": "sobol_holdout",
+      "speed_kmh": 65.38201917428523
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.019602320103762994,
+        "grid_corrected_upper": 0.019572560494386947,
+        "grid_feasible_lower": 0.01957255118003815,
+        "intersample_correction": 2.9759609376047568e-05,
+        "max_dual_correction": 1.9936206237594623e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0003798151778657971,
+      "mass_fraction": 0.05996321141719818,
+      "payload_height": 1.3232676311861722,
+      "proposed": {
+        "continuous_upper": 0.019192736002172354,
+        "grid_corrected_upper": 0.019152262873933096,
+        "grid_feasible_lower": 0.019152246717171303,
+        "intersample_correction": 4.047312823925734e-05,
+        "max_dual_correction": 1.9969581568565764e-07
+      },
+      "relative_margin": 0.019405501836325088,
+      "relative_margin_percent": 1.9405501836325088,
+      "set": "sobol_holdout",
+      "speed_kmh": 70.55525064934045
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.03303879611191348,
+        "grid_corrected_upper": 0.033017396400021715,
+        "grid_feasible_lower": 0.033017376774454696,
+        "intersample_correction": 2.1399711891765934e-05,
+        "max_dual_correction": 1.0217167995679732e-07
+      },
+      "certified": true,
+      "certified_margin": 0.001851334075466355,
+      "mass_fraction": 0.04846529373899103,
+      "payload_height": 1.573462160723284,
+      "proposed": {
+        "continuous_upper": 0.03116604269898834,
+        "grid_corrected_upper": 0.031133366371828133,
+        "grid_feasible_lower": 0.031132750058308963,
+        "intersample_correction": 3.267632716020859e-05,
+        "max_dual_correction": 7.83246743407684e-07
+      },
+      "relative_margin": 0.05607150707680444,
+      "relative_margin_percent": 5.607150707680444,
+      "set": "sobol_holdout",
+      "speed_kmh": 53.88050014153123
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.03237918699588768,
+        "grid_corrected_upper": 0.032357830433492454,
+        "grid_feasible_lower": 0.03235781311154733,
+        "intersample_correction": 2.1356562395226357e-05,
+        "max_dual_correction": 6.209361455566942e-08
+      },
+      "certified": true,
+      "certified_margin": 0.0018087950797659284,
+      "mass_fraction": 0.05897191446274519,
+      "payload_height": 1.3083625179715455,
+      "proposed": {
+        "continuous_upper": 0.030549018031781405,
+        "grid_corrected_upper": 0.030516499575026466,
+        "grid_feasible_lower": 0.03051587603598673,
+        "intersample_correction": 3.251845675493738e-05,
+        "max_dual_correction": 7.324656728993628e-07
+      },
+      "relative_margin": 0.055899793769450846,
+      "relative_margin_percent": 5.5899793769450845,
+      "set": "sobol_holdout",
+      "speed_kmh": 54.240186931565404
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.019162907845438247,
+        "grid_corrected_upper": 0.019132116830420556,
+        "grid_feasible_lower": 0.019132076773607842,
+        "intersample_correction": 3.079101501769132e-05,
+        "max_dual_correction": 4.506142293331239e-08
+      },
+      "certified": true,
+      "certified_margin": 0.00025869962494942667,
+      "mass_fraction": 0.045075416471809154,
+      "payload_height": 1.7102214096114041,
+      "proposed": {
+        "continuous_upper": 0.018873377148658416,
+        "grid_corrected_upper": 0.018831750003428113,
+        "grid_feasible_lower": 0.018831702033562756,
+        "intersample_correction": 4.162714523030341e-05,
+        "max_dual_correction": 2.252914351220936e-07
+      },
+      "relative_margin": 0.013521774348422826,
+      "relative_margin_percent": 1.3521774348422826,
+      "set": "sobol_holdout",
+      "speed_kmh": 71.74501705449075
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.024165811835939903,
+        "grid_corrected_upper": 0.02413965097039087,
+        "grid_feasible_lower": 0.024139617165865837,
+        "intersample_correction": 2.6160865549031215e-05,
+        "max_dual_correction": 2.0735014873152213e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0009570703882549603,
+      "mass_fraction": 0.08084593657404185,
+      "payload_height": 1.4591354328673334,
+      "proposed": {
+        "continuous_upper": 0.023182546777610877,
+        "grid_corrected_upper": 0.02314572885960514,
+        "grid_feasible_lower": 0.023145728859605145,
+        "intersample_correction": 3.681791800573559e-05,
+        "max_dual_correction": 2.0419537945237654e-07
+      },
+      "relative_margin": 0.03964728941966351,
+      "relative_margin_percent": 3.964728941966351,
+      "set": "sobol_holdout",
+      "speed_kmh": 64.19222436379641
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.02847617848675948,
+        "grid_corrected_upper": 0.028451711980585385,
+        "grid_feasible_lower": 0.028451683869119913,
+        "intersample_correction": 2.4466506174095588e-05,
+        "max_dual_correction": 3.376582505612569e-08
+      },
+      "certified": true,
+      "certified_margin": 0.001304026606181008,
+      "mass_fraction": 0.016950201522558928,
+      "payload_height": 1.544137177290395,
+      "proposed": {
+        "continuous_upper": 0.027147657262938905,
+        "grid_corrected_upper": 0.027111820708368706,
+        "grid_feasible_lower": 0.02711181987039359,
+        "intersample_correction": 3.5836554570200526e-05,
+        "max_dual_correction": 1.8433178405191653e-07
+      },
+      "relative_margin": 0.045833020364616645,
+      "relative_margin_percent": 4.583302036461665,
+      "set": "sobol_holdout",
+      "speed_kmh": 59.8221602384001
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.030276338752207928,
+        "grid_corrected_upper": 0.030253928383085542,
+        "grid_feasible_lower": 0.03025386150639822,
+        "intersample_correction": 2.2410369122386788e-05,
+        "max_dual_correction": 1.2573314792443946e-07
+      },
+      "certified": true,
+      "certified_margin": 0.001625935051485991,
+      "mass_fraction": 0.08898245915770531,
+      "payload_height": 1.7396212530322375,
+      "proposed": {
+        "continuous_upper": 0.028627926454912227,
+        "grid_corrected_upper": 0.028594705319797693,
+        "grid_feasible_lower": 0.028594012543836915,
+        "intersample_correction": 3.3221135114534164e-05,
+        "max_dual_correction": 8.045715003367204e-07
+      },
+      "relative_margin": 0.05374305858913683,
+      "relative_margin_percent": 5.374305858913684,
+      "set": "sobol_holdout",
+      "speed_kmh": 56.51688799262047
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.022056460335839394,
+        "grid_corrected_upper": 0.02202758518426967,
+        "grid_feasible_lower": 0.02202758518426967,
+        "intersample_correction": 2.8875151569724823e-05,
+        "max_dual_correction": 3.789406261001105e-09
+      },
+      "certified": true,
+      "certified_margin": 0.0005661853803989418,
+      "mass_fraction": 0.0024791830219328403,
+      "payload_height": 1.177320751361549,
+      "proposed": {
+        "continuous_upper": 0.02146139980387073,
+        "grid_corrected_upper": 0.02142115468211097,
+        "grid_feasible_lower": 0.021421154682101644,
+        "intersample_correction": 4.0245121759761424e-05,
+        "max_dual_correction": 9.800863592923648e-08
+      },
+      "relative_margin": 0.025703470247082093,
+      "relative_margin_percent": 2.570347024708209,
+      "set": "sobol_holdout",
+      "speed_kmh": 67.91821292135864
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.017661804230496625,
+        "grid_corrected_upper": 0.01762978140332515,
+        "grid_feasible_lower": 0.01762974422721557,
+        "intersample_correction": 3.202282717147466e-05,
+        "max_dual_correction": 1.0918246148503008e-07
+      },
+      "certified": true,
+      "certified_margin": 0.00022309819464013184,
+      "mass_fraction": 0.07335729263722897,
+      "payload_height": 1.5959919321816414,
+      "proposed": {
+        "continuous_upper": 0.017406646032575437,
+        "grid_corrected_upper": 0.0173640962875906,
+        "grid_feasible_lower": 0.01736405906903355,
+        "intersample_correction": 4.254974498483614e-05,
+        "max_dual_correction": 4.2456473083735125e-08
+      },
+      "relative_margin": 0.012654647269115136,
+      "relative_margin_percent": 1.2654647269115136,
+      "set": "sobol_holdout",
+      "speed_kmh": 74.26942030433565
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.035498375533896946,
+        "grid_corrected_upper": 0.03547804657096525,
+        "grid_feasible_lower": 0.035477923659688985,
+        "intersample_correction": 2.0328962931695273e-05,
+        "max_dual_correction": 2.0029486057920876e-07
+      },
+      "certified": true,
+      "certified_margin": 0.002085482965055195,
+      "mass_fraction": 0.03685325356200338,
+      "payload_height": 1.3464226011652498,
+      "proposed": {
+        "continuous_upper": 0.03339244069463379,
+        "grid_corrected_upper": 0.033360575262069765,
+        "grid_feasible_lower": 0.03336006519216172,
+        "intersample_correction": 3.1865432564024985e-05,
+        "max_dual_correction": 8.701437063524109e-07
+      },
+      "relative_margin": 0.05878255404852735,
+      "relative_margin_percent": 5.878255404852736,
+      "set": "sobol_holdout",
+      "speed_kmh": 51.29583012312651
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.03308882160946412,
+        "grid_corrected_upper": 0.03306803499681167,
+        "grid_feasible_lower": 0.03306788756218038,
+        "intersample_correction": 2.078661265245092e-05,
+        "max_dual_correction": 1.669476580104523e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0019220839943119433,
+      "mass_fraction": 0.08555184789001942,
+      "payload_height": 1.6323646788019688,
+      "proposed": {
+        "continuous_upper": 0.03114580356786844,
+        "grid_corrected_upper": 0.03111399210893912,
+        "grid_feasible_lower": 0.031113458085186153,
+        "intersample_correction": 3.181145892931771e-05,
+        "max_dual_correction": 9.280177684402313e-07
+      },
+      "relative_margin": 0.0581253940306191,
+      "relative_margin_percent": 5.81253940306191,
+      "set": "sobol_holdout",
+      "speed_kmh": 53.04322668816894
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.01856227821985579,
+        "grid_corrected_upper": 0.01853072260858921,
+        "grid_feasible_lower": 0.01853068213337421,
+        "intersample_correction": 3.1555611266582604e-05,
+        "max_dual_correction": 1.5010600884143854e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0002553686069967573,
+      "mass_fraction": 0.024438529182225468,
+      "payload_height": 1.3912205088417977,
+      "proposed": {
+        "continuous_upper": 0.018275313526377453,
+        "grid_corrected_upper": 0.01823266506289274,
+        "grid_feasible_lower": 0.01823261877247989,
+        "intersample_correction": 4.264846348471292e-05,
+        "max_dual_correction": 2.34065428712793e-07
+      },
+      "relative_margin": 0.013780853028439368,
+      "relative_margin_percent": 1.3780853028439368,
+      "set": "sobol_holdout",
+      "speed_kmh": 72.94064532034099
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.02323009942484198,
+        "grid_corrected_upper": 0.02320249862065767,
+        "grid_feasible_lower": 0.02320249862065767,
+        "intersample_correction": 2.7600804184312793e-05,
+        "max_dual_correction": 1.771441889460157e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0007944333298650248,
+      "mass_fraction": 0.05117744356393814,
+      "payload_height": 1.78576343934983,
+      "proposed": {
+        "continuous_upper": 0.022408065290792645,
+        "grid_corrected_upper": 0.02236958849932571,
+        "grid_feasible_lower": 0.02236958849932573,
+        "intersample_correction": 3.8476791466937415e-05,
+        "max_dual_correction": 2.034316686945481e-07
+      },
+      "relative_margin": 0.034239128416873356,
+      "relative_margin_percent": 3.4239128416873355,
+      "set": "sobol_holdout",
+      "speed_kmh": 66.12199409864843
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.029596769698963455,
+        "grid_corrected_upper": 0.029573562344064136,
+        "grid_feasible_lower": 0.029573527899517227,
+        "intersample_correction": 2.3207354899318893e-05,
+        "max_dual_correction": 2.276924286719051e-07
+      },
+      "certified": true,
+      "certified_margin": 0.001481619899555059,
+      "mass_fraction": 0.04006488779559732,
+      "payload_height": 1.2125079107470809,
+      "proposed": {
+        "continuous_upper": 0.028091907999962168,
+        "grid_corrected_upper": 0.028057487843567052,
+        "grid_feasible_lower": 0.02805747988162958,
+        "intersample_correction": 3.442015639511711e-05,
+        "max_dual_correction": 4.6228276259080436e-08
+      },
+      "relative_margin": 0.05009953173626085,
+      "relative_margin_percent": 5.0099531736260845,
+      "set": "sobol_holdout",
+      "speed_kmh": 57.89449771400541
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.026243915405525172,
+        "grid_corrected_upper": 0.0262190192966077,
+        "grid_feasible_lower": 0.02621898484140682,
+        "intersample_correction": 2.4896108917472867e-05,
+        "max_dual_correction": 1.6524890614211252e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0011660172626016714,
+      "mass_fraction": 0.06806504894047975,
+      "payload_height": 1.4232341621536762,
+      "proposed": {
+        "continuous_upper": 0.02505296757880515,
+        "grid_corrected_upper": 0.02501723573377567,
+        "grid_feasible_lower": 0.025017235733759635,
+        "intersample_correction": 3.573184502947813e-05,
+        "max_dual_correction": 8.906373369366172e-08
+      },
+      "relative_margin": 0.044472250533522446,
+      "relative_margin_percent": 4.447225053352245,
+      "set": "sobol_holdout",
+      "speed_kmh": 61.61857557017356
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.02583059218780885,
+        "grid_corrected_upper": 0.025804708005147784,
+        "grid_feasible_lower": 0.025804673442218734,
+        "intersample_correction": 2.5884182661066978e-05,
+        "max_dual_correction": 1.0255997302463515e-07
+      },
+      "certified": true,
+      "certified_margin": 0.001044229683137856,
+      "mass_fraction": 0.0295598435215652,
+      "payload_height": 1.498867793707177,
+      "proposed": {
+        "continuous_upper": 0.024760443759080878,
+        "grid_corrected_upper": 0.02472340658498411,
+        "grid_feasible_lower": 0.024723406584975908,
+        "intersample_correction": 3.70371740967689e-05,
+        "max_dual_correction": 2.138152583458508e-08
+      },
+      "relative_margin": 0.04046668854291346,
+      "relative_margin_percent": 4.046668854291346,
+      "set": "sobol_holdout",
+      "speed_kmh": 62.814811896532774
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.01966655506253763,
+        "grid_corrected_upper": 0.019637535988370564,
+        "grid_feasible_lower": 0.01963753212362604,
+        "intersample_correction": 2.90190741670663e-05,
+        "max_dual_correction": 1.9880257396548418e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0004824189544356122,
+      "mass_fraction": 0.09619136061519384,
+      "payload_height": 1.2617396591231227,
+      "proposed": {
+        "continuous_upper": 0.019155113169190427,
+        "grid_corrected_upper": 0.01911569416959724,
+        "grid_feasible_lower": 0.019115694169597245,
+        "intersample_correction": 3.941899959318676e-05,
+        "max_dual_correction": 2.3124652604247786e-07
+      },
+      "relative_margin": 0.024566170097066877,
+      "relative_margin_percent": 2.456617009706688,
+      "set": "sobol_holdout",
+      "speed_kmh": 69.99743552878499
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.0323417787008749,
+        "grid_corrected_upper": 0.03231927216601887,
+        "grid_feasible_lower": 0.032319250156458486,
+        "intersample_correction": 2.250653485603407e-05,
+        "max_dual_correction": 2.2582017339400906e-08
+      },
+      "certified": true,
+      "certified_margin": 0.0016988821375117265,
+      "mass_fraction": 0.007685392256826163,
+      "payload_height": 1.6755149227567019,
+      "proposed": {
+        "continuous_upper": 0.03062036801894676,
+        "grid_corrected_upper": 0.03058623812679041,
+        "grid_feasible_lower": 0.030586110088864388,
+        "intersample_correction": 3.4129892156348246e-05,
+        "max_dual_correction": 5.741110589360665e-07
+      },
+      "relative_margin": 0.052565642126206076,
+      "relative_margin_percent": 5.256564212620607,
+      "set": "sobol_holdout",
+      "speed_kmh": 55.56877769995481
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.0308587528341838,
+        "grid_corrected_upper": 0.03083651118432275,
+        "grid_feasible_lower": 0.030836292778548692,
+        "intersample_correction": 2.2241649861051483e-05,
+        "max_dual_correction": 2.203969993903876e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0016548580924498797,
+      "mass_fraction": 0.06526022534817458,
+      "payload_height": 1.5312120642047375,
+      "proposed": {
+        "continuous_upper": 0.029181434686098812,
+        "grid_corrected_upper": 0.029148167369174457,
+        "grid_feasible_lower": 0.029147854685098087,
+        "intersample_correction": 3.32673169243546e-05,
+        "max_dual_correction": 6.749632917371629e-07
+      },
+      "relative_margin": 0.053665922305715166,
+      "relative_margin_percent": 5.366592230571516,
+      "set": "sobol_holdout",
+      "speed_kmh": 56.0546611668542
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.020610298976205706,
+        "grid_corrected_upper": 0.020580714100843833,
+        "grid_feasible_lower": 0.02058071410082343,
+        "intersample_correction": 2.958487536187243e-05,
+        "max_dual_correction": 1.9498282642291254e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0004312405710896611,
+      "mass_fraction": 0.025982251670211554,
+      "payload_height": 1.4466861349064857,
+      "proposed": {
+        "continuous_upper": 0.02014947352973377,
+        "grid_corrected_upper": 0.020108818563821608,
+        "grid_feasible_lower": 0.020108818563795174,
+        "intersample_correction": 4.065496591215934e-05,
+        "max_dual_correction": 1.8352870750915073e-07
+      },
+      "relative_margin": 0.02095362527155495,
+      "relative_margin_percent": 2.095362527155495,
+      "set": "sobol_holdout",
+      "speed_kmh": 69.55558499321342
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.024937296208717485,
+        "grid_corrected_upper": 0.024911593734696088,
+        "grid_feasible_lower": 0.024911563228862663,
+        "intersample_correction": 2.570247402139631e-05,
+        "max_dual_correction": 7.430336385061409e-08
+      },
+      "certified": true,
+      "certified_margin": 0.0010625819925560304,
+      "mass_fraction": 0.09963391367346049,
+      "payload_height": 1.682540397811681,
+      "proposed": {
+        "continuous_upper": 0.023848981236306632,
+        "grid_corrected_upper": 0.02381274544849099,
+        "grid_feasible_lower": 0.02381274544849098,
+        "intersample_correction": 3.623578781564035e-05,
+        "max_dual_correction": 1.1584181902613011e-07
+      },
+      "relative_margin": 0.04265416757648181,
+      "relative_margin_percent": 4.265416757648182,
+      "set": "sobol_holdout",
+      "speed_kmh": 63.25706774368882
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.02743900814895619,
+        "grid_corrected_upper": 0.027413847434214305,
+        "grid_feasible_lower": 0.027413816857924423,
+        "intersample_correction": 2.516071474188322e-05,
+        "max_dual_correction": 1.814733993979467e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0011791479043961987,
+      "mass_fraction": 0.010356702934950592,
+      "payload_height": 1.2802051728591322,
+      "proposed": {
+        "continuous_upper": 0.026234668953528224,
+        "grid_corrected_upper": 0.026198106731168735,
+        "grid_feasible_lower": 0.026198106731143204,
+        "intersample_correction": 3.656222235949005e-05,
+        "max_dual_correction": 2.6079832737835318e-14
+      },
+      "relative_margin": 0.04301290515316718,
+      "relative_margin_percent": 4.301290515316718,
+      "set": "sobol_holdout",
+      "speed_kmh": 61.13309741485864
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.028631965528745716,
+        "grid_corrected_upper": 0.028608968921261115,
+        "grid_feasible_lower": 0.02860894082952445,
+        "intersample_correction": 2.2996607484600453e-05,
+        "max_dual_correction": 5.785941440891729e-08
+      },
+      "certified": true,
+      "certified_margin": 0.0014554875647781046,
+      "mass_fraction": 0.08209943100810052,
+      "payload_height": 1.3131849105935542,
+      "proposed": {
+        "continuous_upper": 0.027153453264746344,
+        "grid_corrected_upper": 0.0271196468748572,
+        "grid_feasible_lower": 0.02711964105539998,
+        "intersample_correction": 3.380638988914104e-05,
+        "max_dual_correction": 3.9801602378514156e-08
+      },
+      "relative_margin": 0.05087526914928778,
+      "relative_margin_percent": 5.087526914928778,
+      "set": "sobol_holdout",
+      "speed_kmh": 58.22111757006496
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.023557125856715603,
+        "grid_corrected_upper": 0.023529558441422058,
+        "grid_feasible_lower": 0.023529558441422058,
+        "intersample_correction": 2.7567415293545482e-05,
+        "max_dual_correction": 3.818503223687597e-08
+      },
+      "certified": true,
+      "certified_margin": 0.0007919293493660225,
+      "mass_fraction": 0.021777179185301067,
+      "payload_height": 1.5632300567347557,
+      "proposed": {
+        "continuous_upper": 0.022737629092056035,
+        "grid_corrected_upper": 0.022698898959708752,
+        "grid_feasible_lower": 0.022698898959708776,
+        "intersample_correction": 3.873013234728337e-05,
+        "max_dual_correction": 3.8688508650214226e-08
+      },
+      "relative_margin": 0.033656787539705336,
+      "relative_margin_percent": 3.365678753970534,
+      "set": "sobol_holdout",
+      "speed_kmh": 65.81384870223701
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.01799058731075697,
+        "grid_corrected_upper": 0.01795930664254041,
+        "grid_feasible_lower": 0.017959264862611284,
+        "intersample_correction": 3.1280668216559314e-05,
+        "max_dual_correction": 4.1849018864864584e-08
+      },
+      "certified": true,
+      "certified_margin": 0.0002490177331971634,
+      "mass_fraction": 0.05397383533418179,
+      "payload_height": 1.169952317047864,
+      "proposed": {
+        "continuous_upper": 0.01771024712941412,
+        "grid_corrected_upper": 0.01766820649060411,
+        "grid_feasible_lower": 0.017668169313916245,
+        "intersample_correction": 4.2040638810007866e-05,
+        "max_dual_correction": 1.7326259072608652e-07
+      },
+      "relative_margin": 0.013865697460455857,
+      "relative_margin_percent": 1.3865697460455857,
+      "set": "sobol_holdout",
+      "speed_kmh": 73.24843308888376
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.03421949318874905,
+        "grid_corrected_upper": 0.03419851755898223,
+        "grid_feasible_lower": 0.03419850315274716,
+        "intersample_correction": 2.0975629766811523e-05,
+        "max_dual_correction": 3.1959410187742954e-08
+      },
+      "certified": true,
+      "certified_margin": 0.0019618208285763217,
+      "mass_fraction": 0.04365082057192922,
+      "payload_height": 1.7317764854058624,
+      "proposed": {
+        "continuous_upper": 0.03223668232417084,
+        "grid_corrected_upper": 0.03220431974541059,
+        "grid_feasible_lower": 0.03220377768788139,
+        "intersample_correction": 3.2362578760251956e-05,
+        "max_dual_correction": 8.462497371533595e-07
+      },
+      "relative_margin": 0.05736569287298555,
+      "relative_margin_percent": 5.736569287298555,
+      "set": "sobol_holdout",
+      "speed_kmh": 52.71624920424074
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.034403414629228586,
+        "grid_corrected_upper": 0.03438384395562809,
+        "grid_feasible_lower": 0.034383764996523354,
+        "intersample_correction": 1.9570673600497362e-05,
+        "max_dual_correction": 2.679737118663206e-07
+      },
+      "certified": true,
+      "certified_margin": 0.00208453708870026,
+      "mass_fraction": 0.09175476916134358,
+      "payload_height": 1.204663143120706,
+      "proposed": {
+        "continuous_upper": 0.032299227907823094,
+        "grid_corrected_upper": 0.032268551652423295,
+        "grid_feasible_lower": 0.032268026090877255,
+        "intersample_correction": 3.067625539980143e-05,
+        "max_dual_correction": 9.748173479470768e-07
+      },
+      "relative_margin": 0.06062562051919078,
+      "relative_margin_percent": 6.062562051919078,
+      "set": "sobol_holdout",
+      "speed_kmh": 50.9510662406683
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.017915509458781263,
+        "grid_corrected_upper": 0.017882689124494717,
+        "grid_feasible_lower": 0.017882653005928905,
+        "intersample_correction": 3.282033428654404e-05,
+        "max_dual_correction": 4.105409449547959e-08
+      },
+      "certified": true,
+      "certified_margin": 0.00024302168185540499,
+      "mass_fraction": 0.006041224766522646,
+      "payload_height": 1.7783950050361454,
+      "proposed": {
+        "continuous_upper": 0.0176396313240735,
+        "grid_corrected_upper": 0.017595495500666733,
+        "grid_feasible_lower": 0.01759545984992223,
+        "intersample_correction": 4.413582340676869e-05,
+        "max_dual_correction": 4.2816694755670737e-08
+      },
+      "relative_margin": 0.013589800225661839,
+      "relative_margin_percent": 1.3589800225661839,
+      "set": "sobol_holdout",
+      "speed_kmh": 74.65707866940647
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.021715594710920424,
+        "grid_corrected_upper": 0.02168760513705803,
+        "grid_feasible_lower": 0.021687605137058034,
+        "intersample_correction": 2.79895738623952e-05,
+        "max_dual_correction": 1.9806206006528493e-07
+      },
+      "certified": true,
+      "certified_margin": 0.000677789245069331,
+      "mass_fraction": 0.06987993568181992,
+      "payload_height": 1.3584586333949118,
+      "proposed": {
+        "continuous_upper": 0.021009815891988703,
+        "grid_corrected_upper": 0.020971150407153652,
+        "grid_feasible_lower": 0.020971150407153666,
+        "intersample_correction": 3.866548483505198e-05,
+        "max_dual_correction": 1.9185690980361159e-07
+      },
+      "relative_margin": 0.031252378526164665,
+      "relative_margin_percent": 3.1252378526164666,
+      "set": "sobol_holdout",
+      "speed_kmh": 67.53019692841917
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.030734869725479324,
+        "grid_corrected_upper": 0.030711979308374163,
+        "grid_feasible_lower": 0.03071195854313656,
+        "intersample_correction": 2.2890417105161502e-05,
+        "max_dual_correction": 7.011955643551615e-08
+      },
+      "certified": true,
+      "certified_margin": 0.0015826361233337548,
+      "mass_fraction": 0.03416715422645211,
+      "payload_height": 1.5991269882302732,
+      "proposed": {
+        "continuous_upper": 0.029129322419802806,
+        "grid_corrected_upper": 0.029095129648109782,
+        "grid_feasible_lower": 0.029095058317216902,
+        "intersample_correction": 3.419277169302276e-05,
+        "max_dual_correction": 1.88126711327119e-07
+      },
+      "relative_margin": 0.05153159220083145,
+      "relative_margin_percent": 5.153159220083145,
+      "set": "sobol_holdout",
+      "speed_kmh": 56.861294247210026
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.02822237932959366,
+        "grid_corrected_upper": 0.02819843464812113,
+        "grid_feasible_lower": 0.028198404961204536,
+        "intersample_correction": 2.394468147252871e-05,
+        "max_dual_correction": 2.2914556973771538e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0013644704610861133,
+      "mass_fraction": 0.0624393092468381,
+      "payload_height": 1.6473575776442886,
+      "proposed": {
+        "continuous_upper": 0.026833934500118423,
+        "grid_corrected_upper": 0.026799043816216346,
+        "grid_feasible_lower": 0.02679903218872792,
+        "intersample_correction": 3.4890683902077825e-05,
+        "max_dual_correction": 7.285007411206301e-08
+      },
+      "relative_margin": 0.048388214261173866,
+      "relative_margin_percent": 4.838821426117387,
+      "set": "sobol_holdout",
+      "speed_kmh": 59.416933404281735
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.024052581789514523,
+        "grid_corrected_upper": 0.024026025547357003,
+        "grid_feasible_lower": 0.024026025547357003,
+        "intersample_correction": 2.655624215751999e-05,
+        "max_dual_correction": 3.785166369577042e-08
+      },
+      "certified": true,
+      "certified_margin": 0.0008984508870846578,
+      "mass_fraction": 0.04777137814089656,
+      "payload_height": 1.2340586473233996,
+      "proposed": {
+        "continuous_upper": 0.023127574660272345,
+        "grid_corrected_upper": 0.02309007929357802,
+        "grid_feasible_lower": 0.023090079293578005,
+        "intersample_correction": 3.749536669432486e-05,
+        "max_dual_correction": 5.551115123125783e-17
+      },
+      "relative_margin": 0.03739490267808745,
+      "relative_margin_percent": 3.7394902678087445,
+      "set": "sobol_holdout",
+      "speed_kmh": 64.61707602720708
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.019181389954696232,
+        "grid_corrected_upper": 0.01915122862006595,
+        "grid_feasible_lower": 0.019151189563115446,
+        "intersample_correction": 3.016133463028372e-05,
+        "max_dual_correction": 2.2793426340123046e-07
+      },
+      "certified": true,
+      "certified_margin": 0.00035624850253803547,
+      "mass_fraction": 0.07806528713554145,
+      "payload_height": 1.4864184957463293,
+      "proposed": {
+        "continuous_upper": 0.01879494106057741,
+        "grid_corrected_upper": 0.018754248282539486,
+        "grid_feasible_lower": 0.01875419324057154,
+        "intersample_correction": 4.069277803792368e-05,
+        "max_dual_correction": 5.873499937456006e-08
+      },
+      "relative_margin": 0.018601899446714174,
+      "relative_margin_percent": 1.8601899446714174,
+      "set": "sobol_holdout",
+      "speed_kmh": 71.32057070266455
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.033028365325482416,
+        "grid_corrected_upper": 0.03300635150629985,
+        "grid_feasible_lower": 0.03300633379663535,
+        "intersample_correction": 2.201381918256274e-05,
+        "max_dual_correction": 2.1735949116974407e-08
+      },
+      "certified": true,
+      "certified_margin": 0.0017823448251452628,
+      "mass_fraction": 0.01339659309014678,
+      "payload_height": 1.4103090490680188,
+      "proposed": {
+        "continuous_upper": 0.031223988971490084,
+        "grid_corrected_upper": 0.031190374576509687,
+        "grid_feasible_lower": 0.03118995968870884,
+        "intersample_correction": 3.361439498039728e-05,
+        "max_dual_correction": 6.772354432006689e-07
+      },
+      "relative_margin": 0.05400008483604909,
+      "relative_margin_percent": 5.400008483604909,
+      "set": "sobol_holdout",
+      "speed_kmh": 54.64581907726824
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.03300216516318931,
+        "grid_corrected_upper": 0.03298107205419187,
+        "grid_feasible_lower": 0.03298093883001853,
+        "intersample_correction": 2.1093108997433007e-05,
+        "max_dual_correction": 1.9488209383744515e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0018956897259185153,
+      "mass_fraction": 0.07839120104908943,
+      "payload_height": 1.7952014664188027,
+      "proposed": {
+        "continuous_upper": 0.031085249104100012,
+        "grid_corrected_upper": 0.031053082356624996,
+        "grid_feasible_lower": 0.0310524687363926,
+        "intersample_correction": 3.21667474750156e-05,
+        "max_dual_correction": 8.910653772412069e-07
+      },
+      "relative_margin": 0.057478343345190044,
+      "relative_margin_percent": 5.747834334519004,
+      "set": "sobol_holdout",
+      "speed_kmh": 53.44453854486346
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.01969052422866459,
+        "grid_corrected_upper": 0.01966010861493693,
+        "grid_feasible_lower": 0.019660108614596043,
+        "intersample_correction": 3.041561372766212e-05,
+        "max_dual_correction": 1.851686032665334e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0003027459551393878,
+      "mass_fraction": 0.01767158294096589,
+      "payload_height": 1.2233847082592546,
+      "proposed": {
+        "continuous_upper": 0.019357362659456655,
+        "grid_corrected_upper": 0.019315763001573054,
+        "grid_feasible_lower": 0.019315604772442922,
+        "intersample_correction": 4.1599657883603097e-05,
+        "max_dual_correction": 3.731272514018169e-07
+      },
+      "relative_margin": 0.015398997079529022,
+      "relative_margin_percent": 1.5398997079529022,
+      "set": "sobol_holdout",
+      "speed_kmh": 70.94936680514365
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.023931324693891674,
+        "grid_corrected_upper": 0.023904449508605347,
+        "grid_feasible_lower": 0.023904449508605347,
+        "intersample_correction": 2.6875185286328035e-05,
+        "max_dual_correction": 2.2984256915076218e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0008850940051998574,
+      "mass_fraction": 0.05651636831462384,
+      "payload_height": 1.6210215703118593,
+      "proposed": {
+        "continuous_upper": 0.02301935550340549,
+        "grid_corrected_upper": 0.022981630084173844,
+        "grid_feasible_lower": 0.022981630084173844,
+        "intersample_correction": 3.772541923164386e-05,
+        "max_dual_correction": 1.1193565516848247e-07
+      },
+      "relative_margin": 0.03702632871262034,
+      "relative_margin_percent": 3.702632871262034,
+      "set": "sobol_holdout",
+      "speed_kmh": 64.98826064635068
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.02732735151636972,
+        "grid_corrected_upper": 0.027302785201289485,
+        "grid_feasible_lower": 0.0273027524289319,
+        "intersample_correction": 2.4566315080235094e-05,
+        "max_dual_correction": 1.8700940970090008e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0012423313575749446,
+      "mass_fraction": 0.04579751314595342,
+      "payload_height": 1.382248482806608,
+      "proposed": {
+        "continuous_upper": 0.026060421071356955,
+        "grid_corrected_upper": 0.02602478881231527,
+        "grid_feasible_lower": 0.026024788812297667,
+        "intersample_correction": 3.563225904168303e-05,
+        "max_dual_correction": 2.8751047237429717e-08
+      },
+      "relative_margin": 0.04550205554581683,
+      "relative_margin_percent": 4.550205554581683,
+      "set": "sobol_holdout",
+      "speed_kmh": 60.61819763854146
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.029486794098479468,
+        "grid_corrected_upper": 0.0294642108567863,
+        "grid_feasible_lower": 0.029464184836931324,
+        "intersample_correction": 2.2583241693167986e-05,
+        "max_dual_correction": 1.0945846653370728e-07
+      },
+      "certified": true,
+      "certified_margin": 0.001534214137036003,
+      "mass_fraction": 0.07405116092413665,
+      "payload_height": 1.2527794012799858,
+      "proposed": {
+        "continuous_upper": 0.02792997069989532,
+        "grid_corrected_upper": 0.027896475568152702,
+        "grid_feasible_lower": 0.027896459298996482,
+        "intersample_correction": 3.3495131742619435e-05,
+        "max_dual_correction": 3.0225346114853835e-08
+      },
+      "relative_margin": 0.052070476258788995,
+      "relative_margin_percent": 5.207047625878899,
+      "set": "sobol_holdout",
+      "speed_kmh": 57.28354821912944
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.021309787370910816,
+        "grid_corrected_upper": 0.021280700003503444,
+        "grid_feasible_lower": 0.02128070000350344,
+        "intersample_correction": 2.9087367407373013e-05,
+        "max_dual_correction": 1.9430554393934374e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0005497090344043359,
+      "mass_fraction": 0.03437710842117667,
+      "payload_height": 1.6641650051809846,
+      "proposed": {
+        "continuous_upper": 0.020730990969099104,
+        "grid_corrected_upper": 0.020690917526980622,
+        "grid_feasible_lower": 0.02069091752698062,
+        "intersample_correction": 4.007344211848083e-05,
+        "max_dual_correction": 1.827805539249272e-07
+      },
+      "relative_margin": 0.025831341746927375,
+      "relative_margin_percent": 2.5831341746927374,
+      "set": "sobol_holdout",
+      "speed_kmh": 68.68487426545471
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.01777589727213538,
+        "grid_corrected_upper": 0.017744610168435104,
+        "grid_feasible_lower": 0.017744570966543423,
+        "intersample_correction": 3.1287103700274876e-05,
+        "max_dual_correction": 4.368152105652112e-08
+      },
+      "certified": true,
+      "certified_margin": 0.0002253894249999895,
+      "mass_fraction": 0.08967713806778194,
+      "payload_height": 1.4340979323256762,
+      "proposed": {
+        "continuous_upper": 0.017519181541543433,
+        "grid_corrected_upper": 0.01747750409838504,
+        "grid_feasible_lower": 0.017477464119504387,
+        "intersample_correction": 4.167744315839265e-05,
+        "max_dual_correction": 1.909616244751e-07
+      },
+      "relative_margin": 0.012701880785111738,
+      "relative_margin_percent": 1.2701880785111737,
+      "set": "sobol_holdout",
+      "speed_kmh": 73.5023852204904
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.03715528813773829,
+        "grid_corrected_upper": 0.03713488000831226,
+        "grid_feasible_lower": 0.03713480294597673,
+        "intersample_correction": 2.040812942602466e-05,
+        "max_dual_correction": 2.0422484448695544e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0021739462937017395,
+      "mass_fraction": 2.322625368833542e-06,
+      "payload_height": 1.508313889009878,
+      "proposed": {
+        "continuous_upper": 0.03496085665227499,
+        "grid_corrected_upper": 0.03492849685614291,
+        "grid_feasible_lower": 0.034927962510382674,
+        "intersample_correction": 3.235979613207803e-05,
+        "max_dual_correction": 8.776430468065977e-07
+      },
+      "relative_margin": 0.05854201776334644,
+      "relative_margin_percent": 5.854201776334644,
+      "set": "sobol_holdout",
+      "speed_kmh": 50.5287931766361
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.034342761731189525,
+        "grid_corrected_upper": 0.03432213731933636,
+        "grid_feasible_lower": 0.034322124038487875,
+        "intersample_correction": 2.0624411853165742e-05,
+        "max_dual_correction": 1.711649785379743e-07
+      },
+      "certified": true,
+      "certified_margin": 0.001995345411791534,
+      "mass_fraction": 0.05209180135279894,
+      "payload_height": 1.4692162937950344,
+      "proposed": {
+        "continuous_upper": 0.03232677862669634,
+        "grid_corrected_upper": 0.032294822223361906,
+        "grid_feasible_lower": 0.03229426628450763,
+        "intersample_correction": 3.195640333443676e-05,
+        "max_dual_correction": 9.006849676779227e-07
+      },
+      "relative_margin": 0.058135837093124226,
+      "relative_margin_percent": 5.8135837093124225,
+      "set": "sobol_holdout",
+      "speed_kmh": 52.2489087888971
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.018890870691324585,
+        "grid_corrected_upper": 0.018859857991894914,
+        "grid_feasible_lower": 0.01885981915260371,
+        "intersample_correction": 3.101269942966981e-05,
+        "max_dual_correction": 1.626399662585376e-07
+      },
+      "certified": true,
+      "certified_margin": 0.00025451584609344213,
+      "mass_fraction": 0.03780770627781749,
+      "payload_height": 1.5543661818373948,
+      "proposed": {
+        "continuous_upper": 0.01860530330651027,
+        "grid_corrected_upper": 0.018563370614760554,
+        "grid_feasible_lower": 0.018563181575860874,
+        "intersample_correction": 4.193269174971452e-05,
+        "max_dual_correction": 2.1663867421153893e-07
+      },
+      "relative_margin": 0.013495137150257599,
+      "relative_margin_percent": 1.34951371502576,
+      "set": "sobol_holdout",
+      "speed_kmh": 72.14632853865623
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.021945019005212365,
+        "grid_corrected_upper": 0.021917576047268503,
+        "grid_feasible_lower": 0.021917576047268506,
+        "intersample_correction": 2.7442957943863298e-05,
+        "max_dual_correction": 1.8355317532928184e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0007346609007572308,
+      "mass_fraction": 0.08646549042314292,
+      "payload_height": 1.2976473660208283,
+      "proposed": {
+        "continuous_upper": 0.021182915146511275,
+        "grid_corrected_upper": 0.021144924523358,
+        "grid_feasible_lower": 0.021144924523358,
+        "intersample_correction": 3.7990623153276776e-05,
+        "max_dual_correction": 2.006872671690696e-07
+      },
+      "relative_margin": 0.03351925866130568,
+      "relative_margin_percent": 3.351925866130568,
+      "set": "sobol_holdout",
+      "speed_kmh": 66.91592466086149
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.029390543578647135,
+        "grid_corrected_upper": 0.029366656072515603,
+        "grid_feasible_lower": 0.02936662835869858,
+        "intersample_correction": 2.388750613153342e-05,
+        "max_dual_correction": 1.0164391975667209e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0014139199790260855,
+      "mass_fraction": 0.022182158287614585,
+      "payload_height": 1.7006263861432673,
+      "proposed": {
+        "continuous_upper": 0.027952708379672495,
+        "grid_corrected_upper": 0.027917467180418237,
+        "grid_feasible_lower": 0.02791745593423517,
+        "intersample_correction": 3.524119925425599e-05,
+        "max_dual_correction": 1.1507251880538139e-07
+      },
+      "relative_margin": 0.04814716765424225,
+      "relative_margin_percent": 4.814716765424224,
+      "set": "sobol_holdout",
+      "speed_kmh": 58.688426413573325
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.025515272888521005,
+        "grid_corrected_upper": 0.025490066782341635,
+        "grid_feasible_lower": 0.02549003487265491,
+        "intersample_correction": 2.5206106179372056e-05,
+        "max_dual_correction": 1.8030480698413842e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0011239748599747613,
+      "mass_fraction": 0.09390676058828831,
+      "payload_height": 1.5863851405214517,
+      "proposed": {
+        "continuous_upper": 0.024366060012680147,
+        "grid_corrected_upper": 0.02433025883231526,
+        "grid_feasible_lower": 0.024330258832315276,
+        "intersample_correction": 3.58011803648887e-05,
+        "max_dual_correction": 1.994955056740244e-07
+      },
+      "relative_margin": 0.044094677217587266,
+      "relative_margin_percent": 4.409467721758727,
+      "set": "sobol_holdout",
+      "speed_kmh": 62.38695073407143
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.02545150826140315,
+        "grid_corrected_upper": 0.025425049445785698,
+        "grid_feasible_lower": 0.02542504944578569,
+        "intersample_correction": 2.6458815617451178e-05,
+        "max_dual_correction": 3.562907759449563e-08
+      },
+      "certified": true,
+      "certified_margin": 0.0009675179526514831,
+      "mass_fraction": 0.00857843505218625,
+      "payload_height": 1.3357142583001405,
+      "proposed": {
+        "continuous_upper": 0.024457531493134208,
+        "grid_corrected_upper": 0.024419722644425174,
+        "grid_feasible_lower": 0.024419722644417143,
+        "intersample_correction": 3.780884870903454e-05,
+        "max_dual_correction": 1.1459859276807816e-07
+      },
+      "relative_margin": 0.03805372944168859,
+      "relative_margin_percent": 3.805372944168859,
+      "set": "sobol_holdout",
+      "speed_kmh": 63.5831851977855
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.020913165144315522,
+        "grid_corrected_upper": 0.02088393089244373,
+        "grid_feasible_lower": 0.02088392814111955,
+        "intersample_correction": 2.9234251871795445e-05,
+        "max_dual_correction": 1.996988819100154e-07
+      },
+      "certified": true,
+      "certified_margin": 0.0005479064775966123,
+      "mass_fraction": 0.06578116416931153,
+      "payload_height": 1.7498632849194111,
+      "proposed": {
+        "continuous_upper": 0.020336021663522937,
+        "grid_corrected_upper": 0.02029610306900388,
+        "grid_feasible_lower": 0.020296103069003892,
+        "intersample_correction": 3.991859451905762e-05,
+        "max_dual_correction": 2.4161025891783483e-07
+      },
+      "relative_margin": 0.026235795962054102,
+      "relative_margin_percent": 2.6235795962054103,
+      "set": "sobol_holdout",
+      "speed_kmh": 69.22943615354598
+    },
+    {
+      "baseline": {
+        "continuous_upper": 0.03246446526133981,
+        "grid_corrected_upper": 0.032442605660107045,
+        "grid_feasible_lower": 0.032442584672801277,
+        "intersample_correction": 2.1859601232761438e-05,
+        "max_dual_correction": 2.2868995128155767e-08
+      },
+      "certified": true,
+      "certified_margin": 0.0017623526876088778,
+      "mass_fraction": 0.030452075693756343,
+      "payload_height": 1.1873935440555214,
+      "proposed": {
+        "continuous_upper": 0.0306802319851924,
+        "grid_corrected_upper": 0.030646951567577695,
+        "grid_feasible_lower": 0.03064663849969327,
+        "intersample_correction": 3.328041761470225e-05,
+        "max_dual_correction": 6.338958222079638e-07
+      },
+      "relative_margin": 0.054322203529189594,
+      "relative_margin_percent": 5.43222035291896,
+      "set": "sobol_holdout",
+      "speed_kmh": 54.80077944230288
+    }
+  ],
+  "runtime_seconds_current_invocation": 116.45681142807007,
+  "target_achieved": true,
+  "target_relative_margin": 0.01
+}

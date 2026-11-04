@@ -1,0 +1,106 @@
+{
+  "checks": {
+    "direct_lift_agreement": true,
+    "zero_delay_identity": true,
+    "zero_delay_spectral_identity": true
+  },
+  "date": "2026-09-22",
+  "five_ms_direct_lift_max_relative_error": 3.876051618204351e-15,
+  "limiting_point_refinements": [
+    {
+      "meshes": {
+        "161": {
+          "baseline": {
+            "continuous_upper": 1716797197921.4727,
+            "grid_corrected_upper": 1716103337274.5203,
+            "grid_feasible_lower": 1716101503954.8203,
+            "intersample_correction": 693860646.9524798,
+            "max_dual_correction": 22317703.38448622
+          },
+          "current": {
+            "certified_margin": -3657829026794.956,
+            "continuous_upper": 5373930530749.776,
+            "grid_corrected_upper": 5371985693808.399,
+            "grid_feasible_lower": 5371983462679.6045,
+            "intersample_correction": 1944836941.3769503,
+            "max_dual_correction": 133237741.33371215,
+            "relative_margin_percent": -213.14759169928772
+          },
+          "reserve_5pct": {
+            "certified_margin": -3649113601909.21,
+            "continuous_upper": 5365215105864.03,
+            "grid_corrected_upper": 5363273611806.179,
+            "grid_feasible_lower": 5363271389257.153,
+            "intersample_correction": 1941494057.8518662,
+            "max_dual_correction": 133094541.56516096,
+            "relative_margin_percent": -212.63972984696363
+          }
+        },
+        "321": {
+          "baseline": {
+            "continuous_upper": 1716276802436.2583,
+            "grid_corrected_upper": 1716103337274.5203,
+            "grid_feasible_lower": 1716101503954.8203,
+            "intersample_correction": 173465161.73811996,
+            "max_dual_correction": 22317703.38448622
+          },
+          "current": {
+            "certified_margin": -3656370399088.923,
+            "continuous_upper": 5372471903043.743,
+            "grid_corrected_upper": 5371985693808.399,
+            "grid_feasible_lower": 5371983462679.6045,
+            "intersample_correction": 486209235.34423757,
+            "max_dual_correction": 133237741.33371215,
+            "relative_margin_percent": -213.06259511239168
+          },
+          "reserve_5pct": {
+            "certified_margin": -3647657481365.8213,
+            "continuous_upper": 5363758985320.642,
+            "grid_corrected_upper": 5363273611806.179,
+            "grid_feasible_lower": 5363271389257.153,
+            "intersample_correction": 485373514.46296656,
+            "max_dual_correction": 133094541.56516096,
+            "relative_margin_percent": -212.554879356475
+          }
+        },
+        "81": {
+          "baseline": {
+            "continuous_upper": 1718878779862.33,
+            "grid_corrected_upper": 1716103337274.5203,
+            "grid_feasible_lower": 1716101503954.8203,
+            "intersample_correction": 2775442587.8099194,
+            "max_dual_correction": 22168861.708380226
+          },
+          "current": {
+            "certified_margin": -3663414002374.041,
+            "continuous_upper": 5379515506328.861,
+            "grid_corrected_upper": 5371736158563.354,
+            "grid_feasible_lower": 5371731656094.49,
+            "intersample_correction": 7779347765.507801,
+            "max_dual_correction": 133237741.33371215,
+            "relative_margin_percent": -213.47303722603624
+          },
+          "reserve_5pct": {
+            "certified_margin": -3654650103718.9688,
+            "continuous_upper": 5370751607673.789,
+            "grid_corrected_upper": 5362985631442.382,
+            "grid_feasible_lower": 5362981122033.63,
+            "intersample_correction": 7765976231.407465,
+            "max_dual_correction": 133094541.56516096,
+            "relative_margin_percent": -212.9623507290618
+          }
+        }
+      },
+      "point": {
+        "mass_fraction": 0.07060208041220904,
+        "payload_height": 1.6927793302573264,
+        "set": "sobol_holdout",
+        "speed_kmh": 50.154081312939525
+      },
+      "spectral_radius": 1.186616751694174
+    }
+  ],
+  "nominal_five_ms_spectral_radius": 1.2131950802806368,
+  "zero_delay_map_max_abs_error": 2.7200464103316335e-15,
+  "zero_delay_spectral_radius_abs_error": 1.2212453270876722e-15
+}

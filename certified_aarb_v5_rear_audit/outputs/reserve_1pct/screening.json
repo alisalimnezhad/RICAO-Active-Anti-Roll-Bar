@@ -1,0 +1,2574 @@
+{
+  "count": 170,
+  "limiting_constraint": "rear_current",
+  "max_constraint_utilization": 0.9850056004787376,
+  "max_spectral_radius": 0.901008472346091,
+  "phase_count": 21,
+  "rows": [
+    {
+      "mass_fraction": 0.0,
+      "payload_height": 1.15,
+      "proposed": {
+        "constraint_utilization": 0.929651933662882,
+        "front_LTR": 0.038415598545835546,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 9.127049809820598e-07,
+        "rear_LTR": 0.03589668565696997,
+        "spectral_radius": 0.8771422719147295,
+        "worst_LTR": 0.038415598545835546
+      },
+      "set": "structured",
+      "speed_kmh": 50.0
+    },
+    {
+      "mass_fraction": 0.05,
+      "payload_height": 1.15,
+      "proposed": {
+        "constraint_utilization": 0.9328311735597441,
+        "front_LTR": 0.03734961521350986,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 1.3703737334336275e-06,
+        "rear_LTR": 0.034517744430259435,
+        "spectral_radius": 0.8810729929817167,
+        "worst_LTR": 0.03734961521350986
+      },
+      "set": "structured",
+      "speed_kmh": 50.0
+    },
+    {
+      "mass_fraction": 0.05,
+      "payload_height": 1.475,
+      "proposed": {
+        "constraint_utilization": 0.9341663156533853,
+        "front_LTR": 0.037423133739833546,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 1.0362080742343238e-06,
+        "rear_LTR": 0.03464980004898677,
+        "spectral_radius": 0.8827299943449632,
+        "worst_LTR": 0.037423133739833546
+      },
+      "set": "structured",
+      "speed_kmh": 50.0
+    },
+    {
+      "mass_fraction": 0.05,
+      "payload_height": 1.8,
+      "proposed": {
+        "constraint_utilization": 0.9363767072234436,
+        "front_LTR": 0.03749689728154597,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 1.6567625070185166e-06,
+        "rear_LTR": 0.034781107025205114,
+        "spectral_radius": 0.8845616333267406,
+        "worst_LTR": 0.03749689728154597
+      },
+      "set": "structured",
+      "speed_kmh": 50.0
+    },
+    {
+      "mass_fraction": 0.1,
+      "payload_height": 1.15,
+      "proposed": {
+        "constraint_utilization": 0.9374831610037263,
+        "front_LTR": 0.03635738161866504,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 1.5314357040274729e-06,
+        "rear_LTR": 0.033254485438447695,
+        "spectral_radius": 0.8847729543788916,
+        "worst_LTR": 0.03635738161866504
+      },
+      "set": "structured",
+      "speed_kmh": 50.0
+    },
+    {
+      "mass_fraction": 0.1,
+      "payload_height": 1.475,
+      "proposed": {
+        "constraint_utilization": 0.9415330238229112,
+        "front_LTR": 0.036491950012954896,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 1.574526274916721e-06,
+        "rear_LTR": 0.03350842375738077,
+        "spectral_radius": 0.8877584839237833,
+        "worst_LTR": 0.036491950012954896
+      },
+      "set": "structured",
+      "speed_kmh": 50.0
+    },
+    {
+      "mass_fraction": 0.1,
+      "payload_height": 1.8,
+      "proposed": {
+        "constraint_utilization": 0.9479163402500074,
+        "front_LTR": 0.03662717406741096,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 1.8303818007936457e-06,
+        "rear_LTR": 0.03376308367153587,
+        "spectral_radius": 0.8909930687369927,
+        "worst_LTR": 0.03662717406741096
+      },
+      "set": "structured",
+      "speed_kmh": 50.0
+    },
+    {
+      "mass_fraction": 0.0,
+      "payload_height": 1.15,
+      "proposed": {
+        "constraint_utilization": 0.9313006063207451,
+        "front_LTR": 0.04297747489004001,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 5.535884450846851e-07,
+        "rear_LTR": 0.031732269016564216,
+        "spectral_radius": 0.8775427645184795,
+        "worst_LTR": 0.04297747489004001
+      },
+      "set": "structured",
+      "speed_kmh": 55.0
+    },
+    {
+      "mass_fraction": 0.05,
+      "payload_height": 1.15,
+      "proposed": {
+        "constraint_utilization": 0.9327158838483471,
+        "front_LTR": 0.04166286161481056,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 5.754846489625098e-07,
+        "rear_LTR": 0.03056835151449018,
+        "spectral_radius": 0.8809520343441485,
+        "worst_LTR": 0.04166286161481056
+      },
+      "set": "structured",
+      "speed_kmh": 55.0
+    },
+    {
+      "mass_fraction": 0.05,
+      "payload_height": 1.475,
+      "proposed": {
+        "constraint_utilization": 0.9333504027954286,
+        "front_LTR": 0.041738570632128956,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 7.219277725727113e-07,
+        "rear_LTR": 0.030721827523911956,
+        "spectral_radius": 0.8827111073522494,
+        "worst_LTR": 0.041738570632128956
+      },
+      "set": "structured",
+      "speed_kmh": 55.0
+    },
+    {
+      "mass_fraction": 0.05,
+      "payload_height": 1.8,
+      "proposed": {
+        "constraint_utilization": 0.9343191474390162,
+        "front_LTR": 0.04181420328329918,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 1.8699427147828018e-06,
+        "rear_LTR": 0.03087419425502412,
+        "spectral_radius": 0.8845821599275606,
+        "worst_LTR": 0.04181420328329918
+      },
+      "set": "structured",
+      "speed_kmh": 55.0
+    },
+    {
+      "mass_fraction": 0.1,
+      "payload_height": 1.15,
+      "proposed": {
+        "constraint_utilization": 0.9351572083336892,
+        "front_LTR": 0.04043936617632093,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 5.887718804720166e-07,
+        "rear_LTR": 0.029503350728237947,
+        "spectral_radius": 0.884234908875621,
+        "worst_LTR": 0.04043936617632093
+      },
+      "set": "structured",
+      "speed_kmh": 55.0
+    },
+    {
+      "mass_fraction": 0.1,
+      "payload_height": 1.475,
+      "proposed": {
+        "constraint_utilization": 0.9371646834155655,
+        "front_LTR": 0.040576130871290146,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 1.7416591139018944e-06,
+        "rear_LTR": 0.02979926697410482,
+        "spectral_radius": 0.8874246539555442,
+        "worst_LTR": 0.040576130871290146
+      },
+      "set": "structured",
+      "speed_kmh": 55.0
+    },
+    {
+      "mass_fraction": 0.1,
+      "payload_height": 1.8,
+      "proposed": {
+        "constraint_utilization": 0.9400053412154901,
+        "front_LTR": 0.04071280150714704,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 9.134121766209147e-07,
+        "rear_LTR": 0.030096298901847583,
+        "spectral_radius": 0.890751750022117,
+        "worst_LTR": 0.04071280150714704
+      },
+      "set": "structured",
+      "speed_kmh": 55.0
+    },
+    {
+      "mass_fraction": 0.0,
+      "payload_height": 1.15,
+      "proposed": {
+        "constraint_utilization": 0.940481936342678,
+        "front_LTR": 0.0472135607230609,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.1363259911089116e-07,
+        "rear_LTR": 0.027820818017140342,
+        "spectral_radius": 0.8775760521846029,
+        "worst_LTR": 0.0472135607230609
+      },
+      "set": "structured",
+      "speed_kmh": 60.0
+    },
+    {
+      "mass_fraction": 0.05,
+      "payload_height": 1.15,
+      "proposed": {
+        "constraint_utilization": 0.9392369013540454,
+        "front_LTR": 0.04564524972645448,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 1.9611624074711287e-07,
+        "rear_LTR": 0.026844934213293137,
+        "spectral_radius": 0.8802838043252919,
+        "worst_LTR": 0.04564524972645448
+      },
+      "set": "structured",
+      "speed_kmh": 60.0
+    },
+    {
+      "mass_fraction": 0.05,
+      "payload_height": 1.475,
+      "proposed": {
+        "constraint_utilization": 0.9383619204563456,
+        "front_LTR": 0.04572133970940067,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.431687982085151e-07,
+        "rear_LTR": 0.027017038480472825,
+        "spectral_radius": 0.8822566301158831,
+        "worst_LTR": 0.04572133970940067
+      },
+      "set": "structured",
+      "speed_kmh": 60.0
+    },
+    {
+      "mass_fraction": 0.05,
+      "payload_height": 1.8,
+      "proposed": {
+        "constraint_utilization": 0.9375885771829859,
+        "front_LTR": 0.04579728150362849,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.95314642073663e-07,
+        "rear_LTR": 0.027189167841371372,
+        "spectral_radius": 0.8842558294838234,
+        "worst_LTR": 0.04579728150362849
+      },
+      "set": "structured",
+      "speed_kmh": 60.0
+    },
+    {
+      "mass_fraction": 0.1,
+      "payload_height": 1.15,
+      "proposed": {
+        "constraint_utilization": 0.9397644827340909,
+        "front_LTR": 0.04418628448012762,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.7135523339438805e-07,
+        "rear_LTR": 0.02595818920218808,
+        "spectral_radius": 0.8830685212548472,
+        "worst_LTR": 0.04418628448012762
+      },
+      "set": "structured",
+      "speed_kmh": 60.0
+    },
+    {
+      "mass_fraction": 0.1,
+      "payload_height": 1.475,
+      "proposed": {
+        "constraint_utilization": 0.9392700973820269,
+        "front_LTR": 0.04432172210680751,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.943217416451205e-07,
+        "rear_LTR": 0.026302078464756136,
+        "spectral_radius": 0.8866265372555623,
+        "worst_LTR": 0.04432172210680751
+      },
+      "set": "structured",
+      "speed_kmh": 60.0
+    },
+    {
+      "mass_fraction": 0.1,
+      "payload_height": 1.8,
+      "proposed": {
+        "constraint_utilization": 0.9405599916508687,
+        "front_LTR": 0.04445670361095462,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 3.618435561736355e-07,
+        "rear_LTR": 0.026649643621318615,
+        "spectral_radius": 0.8901874894773225,
+        "worst_LTR": 0.04445670361095462
+      },
+      "set": "structured",
+      "speed_kmh": 60.0
+    },
+    {
+      "mass_fraction": 0.0,
+      "payload_height": 1.15,
+      "proposed": {
+        "constraint_utilization": 0.9540970511875988,
+        "front_LTR": 0.051125786160201116,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.082802683101015e-07,
+        "rear_LTR": 0.024131150186013837,
+        "spectral_radius": 0.8768053600822826,
+        "worst_LTR": 0.051125786160201116
+      },
+      "set": "structured",
+      "speed_kmh": 65.0
+    },
+    {
+      "mass_fraction": 0.05,
+      "payload_height": 1.15,
+      "proposed": {
+        "constraint_utilization": 0.9508897452027056,
+        "front_LTR": 0.049300471732182924,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.1599593869048306e-07,
+        "rear_LTR": 0.02334500420303415,
+        "spectral_radius": 0.878580865401191,
+        "worst_LTR": 0.049300471732182924
+      },
+      "set": "structured",
+      "speed_kmh": 65.0
+    },
+    {
+      "mass_fraction": 0.05,
+      "payload_height": 1.475,
+      "proposed": {
+        "constraint_utilization": 0.9489963267179153,
+        "front_LTR": 0.04937534940982432,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 1.9830600872516868e-07,
+        "rear_LTR": 0.023544595318540078,
+        "spectral_radius": 0.8809482641379218,
+        "worst_LTR": 0.04937534940982432
+      },
+      "set": "structured",
+      "speed_kmh": 65.0
+    },
+    {
+      "mass_fraction": 0.05,
+      "payload_height": 1.8,
+      "proposed": {
+        "constraint_utilization": 0.9469745975305737,
+        "front_LTR": 0.0494498437162721,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.1623444745877407e-07,
+        "rear_LTR": 0.02374605079242973,
+        "spectral_radius": 0.8834599999089549,
+        "worst_LTR": 0.0494498437162721
+      },
+      "set": "structured",
+      "speed_kmh": 65.0
+    },
+    {
+      "mass_fraction": 0.1,
+      "payload_height": 1.15,
+      "proposed": {
+        "constraint_utilization": 0.9492964311102265,
+        "front_LTR": 0.047603478929436935,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.459326963188957e-07,
+        "rear_LTR": 0.022641914489525728,
+        "spectral_radius": 0.8820938368253523,
+        "worst_LTR": 0.047603478929436935
+      },
+      "set": "structured",
+      "speed_kmh": 65.0
+    },
+    {
+      "mass_fraction": 0.1,
+      "payload_height": 1.475,
+      "proposed": {
+        "constraint_utilization": 0.9469148065953383,
+        "front_LTR": 0.04773432063546417,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.1332513966410005e-07,
+        "rear_LTR": 0.023037420009093656,
+        "spectral_radius": 0.8850091843082536,
+        "worst_LTR": 0.04773432063546417
+      },
+      "set": "structured",
+      "speed_kmh": 65.0
+    },
+    {
+      "mass_fraction": 0.1,
+      "payload_height": 1.8,
+      "proposed": {
+        "constraint_utilization": 0.9451345541457414,
+        "front_LTR": 0.04786418091296088,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.133863412911996e-07,
+        "rear_LTR": 0.023436235285301584,
+        "spectral_radius": 0.8893323001546292,
+        "worst_LTR": 0.04786418091296088
+      },
+      "set": "structured",
+      "speed_kmh": 65.0
+    },
+    {
+      "mass_fraction": 0.0,
+      "payload_height": 1.15,
+      "proposed": {
+        "constraint_utilization": 0.969086247587772,
+        "front_LTR": 0.054722549509607976,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 1.6417000769930468e-07,
+        "rear_LTR": 0.02081324785579558,
+        "spectral_radius": 0.8757552172268749,
+        "worst_LTR": 0.054722549509607976
+      },
+      "set": "structured",
+      "speed_kmh": 70.0
+    },
+    {
+      "mass_fraction": 0.05,
+      "payload_height": 1.15,
+      "proposed": {
+        "constraint_utilization": 0.9654052122914056,
+        "front_LTR": 0.05264283310582652,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 3.645007841668324e-07,
+        "rear_LTR": 0.020089775652141154,
+        "spectral_radius": 0.8850837413958613,
+        "worst_LTR": 0.05264283310582652
+      },
+      "set": "structured",
+      "speed_kmh": 70.0
+    },
+    {
+      "mass_fraction": 0.05,
+      "payload_height": 1.475,
+      "proposed": {
+        "constraint_utilization": 0.9627478133004631,
+        "front_LTR": 0.05272314215963586,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 3.9850210548780796e-07,
+        "rear_LTR": 0.02031852331110807,
+        "spectral_radius": 0.8825373956914785,
+        "worst_LTR": 0.05272314215963586
+      },
+      "set": "structured",
+      "speed_kmh": 70.0
+    },
+    {
+      "mass_fraction": 0.05,
+      "payload_height": 1.8,
+      "proposed": {
+        "constraint_utilization": 0.9597278286318253,
+        "front_LTR": 0.05282153251381833,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 4.4504636512870954e-07,
+        "rear_LTR": 0.020549751106165928,
+        "spectral_radius": 0.8809267759072517,
+        "worst_LTR": 0.05282153251381833
+      },
+      "set": "structured",
+      "speed_kmh": 70.0
+    },
+    {
+      "mass_fraction": 0.1,
+      "payload_height": 1.15,
+      "proposed": {
+        "constraint_utilization": 0.9653680064746053,
+        "front_LTR": 0.05072039655130956,
+        "limiting_constraint": "rear_current",
+        "max_support_correction": 2.844601953572168e-07,
+        "rear_LTR": 0.01955270819013235,
+        "spectral_radius": 0.8920372643924619,
+        "worst_LTR": 0.05072039655130956
+      },
+      "set": "structured",
+      "speed_kmh": 70.0
+    },
+    {
+      "mass_fraction": 0.1,
+      "payload_height": 1.475,
+      "proposed": {
+        "constraint_utilization": 0.9629415337696503,
+        "front_LTR": 0.05094150681349434,
+        "limiting_constraint": "rear_current",
+        "max_support_correction": 2.5644765044852136e-07,
+        "rear_LTR": 0.020016568636260678,
+        "spectral_radius": 0.8882071257427917,
+        "worst_LTR": 0.05094150681349434
+      },
+      "set": "structured",
+      "speed_kmh": 70.0
+    },
+    {
+      "mass_fraction": 0.1,
+      "payload_height": 1.8,
+      "proposed": {
+        "constraint_utilization": 0.9611441915301282,
+        "front_LTR": 0.05121326346234839,
+        "limiting_constraint": "rear_current",
+        "max_support_correction": 2.2009104977405158e-07,
+        "rear_LTR": 0.020481563553000313,
+        "spectral_radius": 0.8868505782661477,
+        "worst_LTR": 0.05121326346234839
+      },
+      "set": "structured",
+      "speed_kmh": 70.0
+    },
+    {
+      "mass_fraction": 0.0,
+      "payload_height": 1.15,
+      "proposed": {
+        "constraint_utilization": 0.9850000000380655,
+        "front_LTR": 0.058947685133593206,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 1.8318571004538597e-07,
+        "rear_LTR": 0.018176778486369474,
+        "spectral_radius": 0.8879982378435359,
+        "worst_LTR": 0.058947685133593206
+      },
+      "set": "structured",
+      "speed_kmh": 75.0
+    },
+    {
+      "mass_fraction": 0.05,
+      "payload_height": 1.15,
+      "proposed": {
+        "constraint_utilization": 0.9813570493597975,
+        "front_LTR": 0.05678155164083447,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 4.2857159376907816e-07,
+        "rear_LTR": 0.017566777807825208,
+        "spectral_radius": 0.895346308516933,
+        "worst_LTR": 0.05678155164083447
+      },
+      "set": "structured",
+      "speed_kmh": 75.0
+    },
+    {
+      "mass_fraction": 0.05,
+      "payload_height": 1.475,
+      "proposed": {
+        "constraint_utilization": 0.9780998420907382,
+        "front_LTR": 0.05700655006422863,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 1.9902312364816765e-07,
+        "rear_LTR": 0.01775300889264924,
+        "spectral_radius": 0.8932114614974718,
+        "worst_LTR": 0.05700655006422863
+      },
+      "set": "structured",
+      "speed_kmh": 75.0
+    },
+    {
+      "mass_fraction": 0.05,
+      "payload_height": 1.8,
+      "proposed": {
+        "constraint_utilization": 0.974604302094739,
+        "front_LTR": 0.05722926076292626,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 1.9626657254967483e-07,
+        "rear_LTR": 0.017948246719642,
+        "spectral_radius": 0.8910732245612072,
+        "worst_LTR": 0.05722926076292626
+      },
+      "set": "structured",
+      "speed_kmh": 75.0
+    },
+    {
+      "mass_fraction": 0.1,
+      "payload_height": 1.15,
+      "proposed": {
+        "constraint_utilization": 0.9850056004787376,
+        "front_LTR": 0.05479206002333533,
+        "limiting_constraint": "rear_current",
+        "max_support_correction": 8.6346693006778e-07,
+        "rear_LTR": 0.01705252958917177,
+        "spectral_radius": 0.901008472346091,
+        "worst_LTR": 0.05479206002333533
+      },
+      "set": "structured",
+      "speed_kmh": 75.0
+    },
+    {
+      "mass_fraction": 0.1,
+      "payload_height": 1.475,
+      "proposed": {
+        "constraint_utilization": 0.9818537452230578,
+        "front_LTR": 0.05522815390349821,
+        "limiting_constraint": "rear_current",
+        "max_support_correction": 1.631827621917381e-07,
+        "rear_LTR": 0.01746632059804699,
+        "spectral_radius": 0.8979087594533395,
+        "worst_LTR": 0.05522815390349821
+      },
+      "set": "structured",
+      "speed_kmh": 75.0
+    },
+    {
+      "mass_fraction": 0.1,
+      "payload_height": 1.8,
+      "proposed": {
+        "constraint_utilization": 0.979461417966144,
+        "front_LTR": 0.05565964197785642,
+        "limiting_constraint": "rear_current",
+        "max_support_correction": 1.960209916052058e-07,
+        "rear_LTR": 0.01791312125678083,
+        "spectral_radius": 0.8946088687544196,
+        "worst_LTR": 0.05565964197785642
+      },
+      "set": "structured",
+      "speed_kmh": 75.0
+    },
+    {
+      "mass_fraction": 0.053163764998316765,
+      "payload_height": 1.7250444875098765,
+      "proposed": {
+        "constraint_utilization": 0.9343327216186813,
+        "front_LTR": 0.04164996367759351,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 1.810453236154863e-06,
+        "rear_LTR": 0.03085352913398627,
+        "spectral_radius": 0.8845336861134049,
+        "worst_LTR": 0.04164996367759351
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 54.90996791049838
+    },
+    {
+      "mass_fraction": 0.04278896572068334,
+      "payload_height": 1.1512738341465591,
+      "proposed": {
+        "constraint_utilization": 0.9643265590191595,
+        "front_LTR": 0.05259708853150096,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.5175846102981625e-07,
+        "rear_LTR": 0.020487421337709748,
+        "spectral_radius": 0.8827871648233389,
+        "worst_LTR": 0.05259708853150096
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 69.48510867077857
+    },
+    {
+      "mass_fraction": 0.08128893151879311,
+      "payload_height": 1.5712067685555666,
+      "proposed": {
+        "constraint_utilization": 0.9434474843996992,
+        "front_LTR": 0.047236154430606705,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.544421302541622e-07,
+        "rear_LTR": 0.02440501590722847,
+        "spectral_radius": 0.8851168242366649,
+        "worst_LTR": 0.047236154430606705
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 63.32716115284711
+    },
+    {
+      "mass_fraction": 0.020914895180612805,
+      "payload_height": 1.3305789679754525,
+      "proposed": {
+        "constraint_utilization": 0.9447368100475007,
+        "front_LTR": 0.04833443140126418,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.216674782618e-07,
+        "rear_LTR": 0.025775603825130732,
+        "spectral_radius": 0.8788271138152022,
+        "worst_LTR": 0.04833443140126418
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 62.27741064503789
+    },
+    {
+      "mass_fraction": 0.09888492617756128,
+      "payload_height": 1.2823103026486933,
+      "proposed": {
+        "constraint_utilization": 0.9381090763666099,
+        "front_LTR": 0.043509444627700775,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.6594566010507137e-07,
+        "rear_LTR": 0.026843871132026593,
+        "spectral_radius": 0.8847068139536429,
+        "worst_LTR": 0.043509444627700775
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 58.944671554490924
+    },
+    {
+      "mass_fraction": 0.009653396438807249,
+      "payload_height": 1.6956497872248293,
+      "proposed": {
+        "constraint_utilization": 0.9584494687044942,
+        "front_LTR": 0.052262729518479725,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.081343247195555e-07,
+        "rear_LTR": 0.022606550322611954,
+        "spectral_radius": 0.8771851043716172,
+        "worst_LTR": 0.052262729518479725
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 67.02568510081619
+    },
+    {
+      "mass_fraction": 0.06451090406626463,
+      "payload_height": 1.44328665654175,
+      "proposed": {
+        "constraint_utilization": 0.9674073010551779,
+        "front_LTR": 0.0537465192671913,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 5.270075775776206e-08,
+        "rear_LTR": 0.019042597620234934,
+        "spectral_radius": 0.8888191770118268,
+        "worst_LTR": 0.0537465192671913
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 72.03697969671339
+    },
+    {
+      "mass_fraction": 0.02527861138805747,
+      "payload_height": 1.5193573117721826,
+      "proposed": {
+        "constraint_utilization": 0.9313434404975385,
+        "front_LTR": 0.03971948287202583,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 8.931136390860628e-07,
+        "rear_LTR": 0.03362228280724617,
+        "spectral_radius": 0.8802713938365828,
+        "worst_LTR": 0.03971948287202583
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 51.99307515285909
+    },
+    {
+      "mass_fraction": 0.07731619235128165,
+      "payload_height": 1.3984939694870262,
+      "proposed": {
+        "constraint_utilization": 0.9364360861649765,
+        "front_LTR": 0.03739192603951643,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 1.2198883889702472e-06,
+        "rear_LTR": 0.0335063573731877,
+        "spectral_radius": 0.8849386363802602,
+        "worst_LTR": 0.03739192603951643
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 50.58819076512009
+    },
+    {
+      "mass_fraction": 0.012693370040506125,
+      "payload_height": 1.482979344530031,
+      "proposed": {
+        "constraint_utilization": 0.9789051170136048,
+        "front_LTR": 0.05730029845569113,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 1.9977545018257103e-07,
+        "rear_LTR": 0.01863363852464526,
+        "spectral_radius": 0.8865568075642195,
+        "worst_LTR": 0.05730029845569113
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 73.80592301487923
+    },
+    {
+      "mass_fraction": 0.061689880676567554,
+      "payload_height": 1.2471283638849853,
+      "proposed": {
+        "constraint_utilization": 0.9589344195637135,
+        "front_LTR": 0.051171697264190186,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 3.402938597088512e-07,
+        "rear_LTR": 0.021033093122617964,
+        "spectral_radius": 0.8825632024312045,
+        "worst_LTR": 0.051171697264190186
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 68.38173549622297
+    },
+    {
+      "mass_fraction": 0.047067821305245165,
+      "payload_height": 1.649502380285412,
+      "proposed": {
+        "constraint_utilization": 0.934623917361028,
+        "front_LTR": 0.04366792008558223,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 5.000522544443275e-07,
+        "rear_LTR": 0.02917791716828785,
+        "spectral_radius": 0.8832672078349607,
+        "worst_LTR": 0.04366792008558223
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 57.224549748934805
+    },
+    {
+      "mass_fraction": 0.06906994879245758,
+      "payload_height": 1.6164813727606089,
+      "proposed": {
+        "constraint_utilization": 0.9393740589901615,
+        "front_LTR": 0.04590143860882281,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.6576108747011773e-07,
+        "rear_LTR": 0.026199074291032645,
+        "spectral_radius": 0.8849457137849664,
+        "worst_LTR": 0.04590143860882281
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 60.92116374056786
+    },
+    {
+      "mass_fraction": 0.03330519208684564,
+      "payload_height": 1.3664750180672853,
+      "proposed": {
+        "constraint_utilization": 0.9508758754298039,
+        "front_LTR": 0.04996330472414791,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.0124815178212963e-07,
+        "rear_LTR": 0.02365196484630964,
+        "spectral_radius": 0.879005028177608,
+        "worst_LTR": 0.04996330472414791
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 65.04708570428193
+    },
+    {
+      "mass_fraction": 0.09094435311853886,
+      "payload_height": 1.759756194986403,
+      "proposed": {
+        "constraint_utilization": 0.9634134075582139,
+        "front_LTR": 0.05217273823185854,
+        "limiting_constraint": "rear_current",
+        "max_support_correction": 2.1594689619819363e-07,
+        "rear_LTR": 0.01993385752580361,
+        "spectral_radius": 0.8862684503656522,
+        "worst_LTR": 0.05217273823185854
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 70.8901780191809
+    },
+    {
+      "mass_fraction": 0.005178833473473788,
+      "payload_height": 1.1978914723731577,
+      "proposed": {
+        "constraint_utilization": 0.930114553574054,
+        "front_LTR": 0.04119107621877063,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 6.401559283150671e-07,
+        "rear_LTR": 0.03312112663855053,
+        "spectral_radius": 0.8778324185191423,
+        "worst_LTR": 0.04119107621877063
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 53.1412088079378
+    },
+    {
+      "mass_fraction": 0.09049054626375437,
+      "payload_height": 1.5010760840494186,
+      "proposed": {
+        "constraint_utilization": 0.9365390830897722,
+        "front_LTR": 0.04031996664400051,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.1943804381849286e-06,
+        "rear_LTR": 0.030432644117603404,
+        "spectral_radius": 0.8868542295533215,
+        "worst_LTR": 0.04031996664400051
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 54.39354081172496
+    },
+    {
+      "mass_fraction": 0.0008616025559604169,
+      "payload_height": 1.4159649680834263,
+      "proposed": {
+        "constraint_utilization": 0.9726893406621892,
+        "front_LTR": 0.0555871477500593,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 4.031708160032177e-07,
+        "rear_LTR": 0.020115515899125035,
+        "spectral_radius": 0.8787131771748664,
+        "worst_LTR": 0.0555871477500593
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 71.21477713808417
+    },
+    {
+      "mass_fraction": 0.07486423533409835,
+      "payload_height": 1.6726872405037283,
+      "proposed": {
+        "constraint_utilization": 0.9455697102837052,
+        "front_LTR": 0.04842286994967201,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.05646840722995e-07,
+        "rear_LTR": 0.023647506358530128,
+        "spectral_radius": 0.885051175723431,
+        "worst_LTR": 0.04842286994967201
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 64.72247028723359
+    },
+    {
+      "mass_fraction": 0.03523605456575751,
+      "payload_height": 1.269667646754533,
+      "proposed": {
+        "constraint_utilization": 0.9383914425002478,
+        "front_LTR": 0.04585865544866172,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.3601709420173478e-07,
+        "rear_LTR": 0.02741008713962548,
+        "spectral_radius": 0.8800512841314115,
+        "worst_LTR": 0.04585865544866172
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 59.66881245840341
+    },
+    {
+      "mass_fraction": 0.05726888440549374,
+      "payload_height": 1.3839469876606016,
+      "proposed": {
+        "constraint_utilization": 0.9344669302313348,
+        "front_LTR": 0.04296565462197944,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 4.143850069818211e-07,
+        "rear_LTR": 0.029215161324682007,
+        "spectral_radius": 0.8827257287973821,
+        "worst_LTR": 0.04296565462197944
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 56.75569118466228
+    },
+    {
+      "mass_fraction": 0.046498053986579184,
+      "payload_height": 1.6345772962551564,
+      "proposed": {
+        "constraint_utilization": 0.9541169969233653,
+        "front_LTR": 0.05109485788938092,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.4111472743393314e-07,
+        "rear_LTR": 0.02215528830946923,
+        "spectral_radius": 0.8807813519332501,
+        "worst_LTR": 0.05109485788938092
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 67.27810981683433
+    },
+    {
+      "mass_fraction": 0.07914328798651696,
+      "payload_height": 1.220431571267545,
+      "proposed": {
+        "constraint_utilization": 0.9811774964137205,
+        "front_LTR": 0.055594904011813724,
+        "limiting_constraint": "rear_current",
+        "max_support_correction": 4.870519628719094e-07,
+        "rear_LTR": 0.01736124994392263,
+        "spectral_radius": 0.8980515207676527,
+        "worst_LTR": 0.055594904011813724
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 74.90952960215509
+    },
+    {
+      "mass_fraction": 0.018371694628149273,
+      "payload_height": 1.782940084207803,
+      "proposed": {
+        "constraint_utilization": 0.9312700776721154,
+        "front_LTR": 0.039042930846164225,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 7.431090274581664e-07,
+        "rear_LTR": 0.03459213904805563,
+        "spectral_radius": 0.880025471057043,
+        "worst_LTR": 0.039042930846164225
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 51.05703321751207
+    },
+    {
+      "mass_fraction": 0.06653359681367875,
+      "payload_height": 1.1750924889929593,
+      "proposed": {
+        "constraint_utilization": 0.9332131573217539,
+        "front_LTR": 0.03911112819162411,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 8.46753526823063e-07,
+        "rear_LTR": 0.032198149624357755,
+        "spectral_radius": 0.8824023428166056,
+        "worst_LTR": 0.03911112819162411
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 52.41685025393963
+    },
+    {
+      "mass_fraction": 0.0311527238227427,
+      "payload_height": 1.746949820779264,
+      "proposed": {
+        "constraint_utilization": 0.9726778873659236,
+        "front_LTR": 0.056122121066695785,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 1.9959495960869544e-07,
+        "rear_LTR": 0.018843399636277493,
+        "spectral_radius": 0.8859738428766053,
+        "worst_LTR": 0.056122121066695785
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 73.1931751826778
+    },
+    {
+      "mass_fraction": 0.09465876407921314,
+      "payload_height": 1.349309657095,
+      "proposed": {
+        "constraint_utilization": 0.949729662113577,
+        "front_LTR": 0.04842111589669038,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 3.25770586249996e-07,
+        "rear_LTR": 0.02238949138686281,
+        "spectral_radius": 0.8826185684413977,
+        "worst_LTR": 0.04842111589669038
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 65.8694580430165
+    },
+    {
+      "mass_fraction": 0.009278654027730227,
+      "payload_height": 1.588043972523883,
+      "proposed": {
+        "constraint_utilization": 0.9364083592212715,
+        "front_LTR": 0.04573045308792967,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.132309251945408e-07,
+        "rear_LTR": 0.028792900455123782,
+        "spectral_radius": 0.8786844120455214,
+        "worst_LTR": 0.04573045308792967
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 58.520867861807346
+    },
+    {
+      "mass_fraction": 0.08727900590747595,
+      "payload_height": 1.7175543044693768,
+      "proposed": {
+        "constraint_utilization": 0.9399626981152016,
+        "front_LTR": 0.045536860828560996,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 3.1261775168545114e-07,
+        "rear_LTR": 0.025971156569539897,
+        "spectral_radius": 0.8877397078449855,
+        "worst_LTR": 0.045536860828560996
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 61.077648447826505
+    },
+    {
+      "mass_fraction": 0.023041354771703482,
+      "payload_height": 1.3061299284920096,
+      "proposed": {
+        "constraint_utilization": 0.946336268622043,
+        "front_LTR": 0.04877636746843859,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.1376399661487966e-07,
+        "rear_LTR": 0.025246813956231243,
+        "spectral_radius": 0.8787421820726348,
+        "worst_LTR": 0.04877636746843859
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 62.957478570751846
+    },
+    {
+      "mass_fraction": 0.052904983051121235,
+      "payload_height": 1.5361935447435826,
+      "proposed": {
+        "constraint_utilization": 0.9614406910752653,
+        "front_LTR": 0.05253473514085221,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 3.537077334220262e-07,
+        "rear_LTR": 0.02043066375158927,
+        "spectral_radius": 0.882146649647743,
+        "worst_LTR": 0.05253473514085221
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 69.85476284753531
+    },
+    {
+      "mass_fraction": 0.03866656897589565,
+      "payload_height": 1.4620181616861374,
+      "proposed": {
+        "constraint_utilization": 0.933289847432009,
+        "front_LTR": 0.04293477976579078,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 4.5186817216810726e-07,
+        "rear_LTR": 0.03008413616397252,
+        "spectral_radius": 0.8814913599753298,
+        "worst_LTR": 0.04293477976579078
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 56.109698722139
+    },
+    {
+      "mass_fraction": 0.08369259778410197,
+      "payload_height": 1.23688618671149,
+      "proposed": {
+        "constraint_utilization": 0.9347998347922261,
+        "front_LTR": 0.04141919355477746,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 5.818008242605699e-07,
+        "rear_LTR": 0.029388896577922752,
+        "spectral_radius": 0.8838094769900072,
+        "worst_LTR": 0.04141919355477746
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 55.704468907788396
+    },
+    {
+      "mass_fraction": 0.020244678389281037,
+      "payload_height": 1.6394294229336084,
+      "proposed": {
+        "constraint_utilization": 0.966506424639499,
+        "front_LTR": 0.05411022974435104,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 4.2738905282890816e-07,
+        "rear_LTR": 0.020423320250328975,
+        "spectral_radius": 0.8787751819357396,
+        "worst_LTR": 0.05411022974435104
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 70.27961153071374
+    },
+    {
+      "mass_fraction": 0.05556662064045668,
+      "payload_height": 1.4081006158608944,
+      "proposed": {
+        "constraint_utilization": 0.9431883407330437,
+        "front_LTR": 0.04742285719429073,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.3529138215572232e-07,
+        "rear_LTR": 0.02512027792790115,
+        "spectral_radius": 0.8817328874353062,
+        "worst_LTR": 0.04742285719429073
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 62.533035199157894
+    },
+    {
+      "mass_fraction": 0.04211946418508888,
+      "payload_height": 1.4936875227373094,
+      "proposed": {
+        "constraint_utilization": 0.9411017514242227,
+        "front_LTR": 0.04708361359132657,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.1878805633868126e-07,
+        "rear_LTR": 0.026086914958645343,
+        "spectral_radius": 0.8813880023166434,
+        "worst_LTR": 0.04708361359132657
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 61.48328357376158
+    },
+    {
+      "mass_fraction": 0.06386200152337551,
+      "payload_height": 1.7704712016507984,
+      "proposed": {
+        "constraint_utilization": 0.9364739223404556,
+        "front_LTR": 0.04402176933843404,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 3.860926968829448e-07,
+        "rear_LTR": 0.02830813855909385,
+        "spectral_radius": 0.8859543198227159,
+        "worst_LTR": 0.04402176933843404
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 58.1761009991169
+    },
+    {
+      "mass_fraction": 0.02770969541743398,
+      "payload_height": 1.2074863311834632,
+      "proposed": {
+        "constraint_utilization": 0.9555469674213061,
+        "front_LTR": 0.05100108587096557,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.0690626661989953e-07,
+        "rear_LTR": 0.022828677662326043,
+        "spectral_radius": 0.8773932438389875,
+        "worst_LTR": 0.05100108587096557
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 66.25711342785507
+    },
+    {
+      "mass_fraction": 0.09823683425784112,
+      "payload_height": 1.6064003665465862,
+      "proposed": {
+        "constraint_utilization": 0.9722778043927768,
+        "front_LTR": 0.05344080838527751,
+        "limiting_constraint": "rear_current",
+        "max_support_correction": 4.426437563709307e-08,
+        "rear_LTR": 0.018687257002603954,
+        "spectral_radius": 0.892142499183943,
+        "worst_LTR": 0.05344080838527751
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 72.80516216997057
+    },
+    {
+      "mass_fraction": 0.012083765212446453,
+      "payload_height": 1.3562458488624543,
+      "proposed": {
+        "constraint_utilization": 0.9303899489552222,
+        "front_LTR": 0.0406897722336413,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 7.991690670547391e-07,
+        "rear_LTR": 0.03327571155462497,
+        "spectral_radius": 0.87857037842188,
+        "worst_LTR": 0.0406897722336413
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 52.761259488761425
+    },
+    {
+      "mass_fraction": 0.060822014510631565,
+      "payload_height": 1.5603428337257355,
+      "proposed": {
+        "constraint_utilization": 0.9348916568967339,
+        "front_LTR": 0.038454314087350124,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 9.060908899849451e-07,
+        "rear_LTR": 0.03334082093120441,
+        "spectral_radius": 0.8844188274564891,
+        "worst_LTR": 0.038454314087350124
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 51.38365605380386
+    },
+    {
+      "mass_fraction": 0.049278415832668544,
+      "payload_height": 1.3211327273864297,
+      "proposed": {
+        "constraint_utilization": 0.9784267933353893,
+        "front_LTR": 0.05655465902288477,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 1.998738681022183e-07,
+        "rear_LTR": 0.01785221139166058,
+        "spectral_radius": 0.893362887161376,
+        "worst_LTR": 0.05655465902288477
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 74.60138718597591
+    },
+    {
+      "mass_fraction": 0.07644761092960835,
+      "payload_height": 1.7340045806951823,
+      "proposed": {
+        "constraint_utilization": 0.9513102462287176,
+        "front_LTR": 0.050276674218625035,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.991074885688727e-07,
+        "rear_LTR": 0.02188068633591088,
+        "spectral_radius": 0.8846979905518897,
+        "worst_LTR": 0.050276674218625035
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 67.58589460514486
+    },
+    {
+      "mass_fraction": 0.014904775191098452,
+      "payload_height": 1.1626236064359545,
+      "proposed": {
+        "constraint_utilization": 0.93331328724393,
+        "front_LTR": 0.04379779654643304,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 6.579453429578219e-07,
+        "rear_LTR": 0.030245825253950115,
+        "spectral_radius": 0.8785998518690668,
+        "worst_LTR": 0.04379779654643304
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 56.42871072050184
+    },
+    {
+      "mass_fraction": 0.0931763580068946,
+      "payload_height": 1.454629600374028,
+      "proposed": {
+        "constraint_utilization": 0.939149028102829,
+        "front_LTR": 0.04461108076624392,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 3.172608835644297e-07,
+        "rear_LTR": 0.026268135315738156,
+        "spectral_radius": 0.885801551711182,
+        "worst_LTR": 0.04461108076624392
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 60.15469890553504
+    },
+    {
+      "mass_fraction": 0.0043384811840951444,
+      "payload_height": 1.5283291925210505,
+      "proposed": {
+        "constraint_utilization": 0.9513767372106067,
+        "front_LTR": 0.05043110137208129,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.3575090807304022e-07,
+        "rear_LTR": 0.024593246027042992,
+        "spectral_radius": 0.8773972677744206,
+        "worst_LTR": 0.05043110137208129
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 64.28062273189425
+    },
+    {
+      "mass_fraction": 0.07130266893655061,
+      "payload_height": 1.2728721109218895,
+      "proposed": {
+        "constraint_utilization": 0.9676628818589107,
+        "front_LTR": 0.05306419979812066,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 1.9828572439539727e-07,
+        "rear_LTR": 0.019037833202526992,
+        "spectral_radius": 0.890430126064379,
+        "worst_LTR": 0.05306419979812066
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 71.65703000500798
+    },
+    {
+      "mass_fraction": 0.03246402917429805,
+      "payload_height": 1.684772844426334,
+      "proposed": {
+        "constraint_utilization": 0.932333497413855,
+        "front_LTR": 0.0412648873617644,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 6.90819604319548e-07,
+        "rear_LTR": 0.03198379444028128,
+        "spectral_radius": 0.8817539095876396,
+        "worst_LTR": 0.0412648873617644
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 53.9080596761778
+    },
+    {
+      "mass_fraction": 0.07265359275043011,
+      "payload_height": 1.33796981270425,
+      "proposed": {
+        "constraint_utilization": 0.9342336277503709,
+        "front_LTR": 0.040012433455088765,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 6.776314101369918e-07,
+        "rear_LTR": 0.03125650400746765,
+        "spectral_radius": 0.883951839455146,
+        "worst_LTR": 0.040012433455088765
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 53.596360492520034
+    },
+    {
+      "mass_fraction": 0.03610387267544866,
+      "payload_height": 1.579073951439932,
+      "proposed": {
+        "constraint_utilization": 0.9648973958704311,
+        "front_LTR": 0.053576652369807375,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 3.417341254974282e-07,
+        "rear_LTR": 0.020219379535334737,
+        "spectral_radius": 0.8811361326921084,
+        "worst_LTR": 0.053576652369807375
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 70.4175949562341
+    },
+    {
+      "mass_fraction": 0.08827918842434884,
+      "payload_height": 1.184528821054846,
+      "proposed": {
+        "constraint_utilization": 0.9505761895202082,
+        "front_LTR": 0.04834516543976697,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 7.314880866582385e-07,
+        "rear_LTR": 0.022499710462373406,
+        "spectral_radius": 0.8811130873424015,
+        "worst_LTR": 0.04834516543976697
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 65.52002639509737
+    },
+    {
+      "mass_fraction": 0.0017302312888205053,
+      "payload_height": 1.757823664136231,
+      "proposed": {
+        "constraint_utilization": 0.9414106384370317,
+        "front_LTR": 0.04753995076842493,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.1441383812881298e-07,
+        "rear_LTR": 0.027444655894683773,
+        "spectral_radius": 0.877780236705258,
+        "worst_LTR": 0.04753995076842493
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 60.46636968385428
+    },
+    {
+      "mass_fraction": 0.07998368833214045,
+      "payload_height": 1.547060579014942,
+      "proposed": {
+        "constraint_utilization": 0.9365044917305677,
+        "front_LTR": 0.04303669319715032,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 3.5105657331807594e-07,
+        "rear_LTR": 0.02838509362819528,
+        "spectral_radius": 0.8859561659931949,
+        "worst_LTR": 0.04303669319715032
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 57.52081929240376
+    },
+    {
+      "mass_fraction": 0.01613973779603839,
+      "payload_height": 1.471466261940077,
+      "proposed": {
+        "constraint_utilization": 0.9610581814258802,
+        "front_LTR": 0.05272105972933762,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.0626223162789614e-07,
+        "rear_LTR": 0.021820725249936203,
+        "spectral_radius": 0.8767595982070223,
+        "worst_LTR": 0.05272105972933762
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 68.0432390421629
+    },
+    {
+      "mass_fraction": 0.05811000000685454,
+      "payload_height": 1.7085923516191541,
+      "proposed": {
+        "constraint_utilization": 0.9717157176346306,
+        "front_LTR": 0.05608580359709403,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 1.8994264533445104e-07,
+        "rear_LTR": 0.01825385818703664,
+        "spectral_radius": 0.8904844517870693,
+        "worst_LTR": 0.05608580359709403
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 74.14401415735483
+    },
+    {
+      "mass_fraction": 0.04426528653129935,
+      "payload_height": 1.294777056761086,
+      "proposed": {
+        "constraint_utilization": 0.9327507347904189,
+        "front_LTR": 0.037759084458165074,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 9.099290557146311e-07,
+        "rear_LTR": 0.034484469248797,
+        "spectral_radius": 0.8812817907371829,
+        "worst_LTR": 0.037759084458165074
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 50.291515910066664
+    },
+    {
+      "mass_fraction": 0.09532902892678977,
+      "payload_height": 1.661969134397805,
+      "proposed": {
+        "constraint_utilization": 0.9408776622371745,
+        "front_LTR": 0.03801880022809881,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 7.977731249289577e-07,
+        "rear_LTR": 0.03252655764267743,
+        "spectral_radius": 0.8890242231100661,
+        "worst_LTR": 0.03801880022809881
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 51.61796095781028
+    },
+    {
+      "mass_fraction": 0.00687503581866622,
+      "payload_height": 1.2600709282793103,
+      "proposed": {
+        "constraint_utilization": 0.9757315368420979,
+        "front_LTR": 0.05624062097662774,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.3356400990354187e-07,
+        "rear_LTR": 0.019391564500374967,
+        "spectral_radius": 0.8827339679465477,
+        "worst_LTR": 0.05624062097662774
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 72.39428700413555
+    },
+    {
+      "mass_fraction": 0.06720305103808642,
+      "payload_height": 1.5111589499283582,
+      "proposed": {
+        "constraint_utilization": 0.9517103205211548,
+        "front_LTR": 0.049928740845589965,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 3.805770015866128e-07,
+        "rear_LTR": 0.022305649346886388,
+        "spectral_radius": 0.8819484082528637,
+        "worst_LTR": 0.049928740845589965
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 66.66797248180956
+    },
+    {
+      "mass_fraction": 0.028749820869416,
+      "payload_height": 1.4261972367297857,
+      "proposed": {
+        "constraint_utilization": 0.9375465675875053,
+        "front_LTR": 0.04580003126587542,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.275379309413239e-07,
+        "rear_LTR": 0.02783351859823451,
+        "spectral_radius": 0.8802025979468711,
+        "worst_LTR": 0.04580003126587542
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 59.31938043795526
+    },
+    {
+      "mass_fraction": 0.05047385096549988,
+      "payload_height": 1.230670648999512,
+      "proposed": {
+        "constraint_utilization": 0.9426557976274437,
+        "front_LTR": 0.04703330966874151,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.118075651535989e-07,
+        "rear_LTR": 0.025572194122056555,
+        "spectral_radius": 0.8803584823664499,
+        "worst_LTR": 0.04703330966874151
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 61.84145202860236
+    },
+    {
+      "mass_fraction": 0.03931542346253991,
+      "payload_height": 1.7930111818946899,
+      "proposed": {
+        "constraint_utilization": 0.9450342878483177,
+        "front_LTR": 0.048882632868861194,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.0616864615519148e-07,
+        "rear_LTR": 0.024692883189065984,
+        "spectral_radius": 0.8822280716665206,
+        "worst_LTR": 0.048882632868861194
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 63.721280288882554
+    },
+    {
+      "mass_fraction": 0.08484868444502354,
+      "payload_height": 1.3743422009516506,
+      "proposed": {
+        "constraint_utilization": 0.9581806280968871,
+        "front_LTR": 0.05080694612798298,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.5182518233191065e-07,
+        "rear_LTR": 0.020515231063638693,
+        "spectral_radius": 0.8857935808654287,
+        "worst_LTR": 0.05080694612798298
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 69.09134716261178
+    },
+    {
+      "mass_fraction": 0.023689494002610445,
+      "payload_height": 1.6238722174894065,
+      "proposed": {
+        "constraint_utilization": 0.932218298197581,
+        "front_LTR": 0.042692844523036115,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 6.372071340542129e-07,
+        "rear_LTR": 0.03100344058789361,
+        "spectral_radius": 0.8804782162823055,
+        "worst_LTR": 0.042692844523036115
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 55.34628415480256
+    },
+    {
+      "mass_fraction": 0.09737749472260476,
+      "payload_height": 1.3693255030084401,
+      "proposed": {
+        "constraint_utilization": 0.9362634637599061,
+        "front_LTR": 0.040791718831660106,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 1.1241802258324385e-06,
+        "rear_LTR": 0.029566957799292064,
+        "spectral_radius": 0.8861247516984174,
+        "worst_LTR": 0.040791718831660106
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 55.2555764792487
+    },
+    {
+      "mass_fraction": 0.011270297411829234,
+      "payload_height": 1.608574943197891,
+      "proposed": {
+        "constraint_utilization": 0.9634978495378477,
+        "front_LTR": 0.05341372955262994,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.0934908717684664e-07,
+        "rear_LTR": 0.02143773058651544,
+        "spectral_radius": 0.8762399753397677,
+        "worst_LTR": 0.05341372955262994
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 68.75649844296277
+    },
+    {
+      "mass_fraction": 0.06300309114158154,
+      "payload_height": 1.1957010256126521,
+      "proposed": {
+        "constraint_utilization": 0.9476638397303029,
+        "front_LTR": 0.04820749629147199,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.0244749410203156e-07,
+        "rear_LTR": 0.023827513261386574,
+        "spectral_radius": 0.8799864745436164,
+        "worst_LTR": 0.04820749629147199
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 64.05576528050005
+    },
+    {
+      "mass_fraction": 0.026896656770259143,
+      "payload_height": 1.7670419880189003,
+      "proposed": {
+        "constraint_utilization": 0.94215962002369,
+        "front_LTR": 0.04793308624287822,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 1.9571371581705854e-07,
+        "rear_LTR": 0.026063000946435707,
+        "spectral_radius": 0.8809077024592408,
+        "worst_LTR": 0.04793308624287822
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 61.93179606925696
+    },
+    {
+      "mass_fraction": 0.05486611556261778,
+      "payload_height": 1.4750784866977482,
+      "proposed": {
+        "constraint_utilization": 0.9368031142540704,
+        "front_LTR": 0.04480538598501455,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.777960418920422e-07,
+        "rear_LTR": 0.027669728889430038,
+        "spectral_radius": 0.8828486438471532,
+        "worst_LTR": 0.04480538598501455
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 58.98510424885899
+    },
+    {
+      "mass_fraction": 0.04136698385700584,
+      "payload_height": 1.4013388826977462,
+      "proposed": {
+        "constraint_utilization": 0.9542589875954162,
+        "front_LTR": 0.05075499224067492,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 1.9294391750968032e-07,
+        "rear_LTR": 0.022529716184110232,
+        "spectral_radius": 0.8790724476163041,
+        "worst_LTR": 0.05075499224067492
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 66.57783649861813
+    },
+    {
+      "mass_fraction": 0.08299242649227381,
+      "payload_height": 1.6567937450483443,
+      "proposed": {
+        "constraint_utilization": 0.968739060562275,
+        "front_LTR": 0.05369612158238555,
+        "limiting_constraint": "rear_current",
+        "max_support_correction": 5.12484788842138e-08,
+        "rear_LTR": 0.018954765759162506,
+        "spectral_radius": 0.8896327376202164,
+        "worst_LTR": 0.05369612158238555
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 72.48482201248407
+    },
+    {
+      "mass_fraction": 0.01949253184720874,
+      "payload_height": 1.244932345394045,
+      "proposed": {
+        "constraint_utilization": 0.9306001083376654,
+        "front_LTR": 0.039782308812359474,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 6.66650389322121e-07,
+        "rear_LTR": 0.03374010940281145,
+        "spectral_radius": 0.879005795416799,
+        "worst_LTR": 0.039782308812359474
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 51.952636265195906
+    },
+    {
+      "mass_fraction": 0.07060208041220904,
+      "payload_height": 1.6927793302573264,
+      "proposed": {
+        "constraint_utilization": 0.9390262918567778,
+        "front_LTR": 0.037234706711014025,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 1.5961036944345253e-06,
+        "rear_LTR": 0.03416906782173228,
+        "spectral_radius": 0.8864871521523618,
+        "worst_LTR": 0.037234706711014025
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 50.154081312939525
+    },
+    {
+      "mass_fraction": 0.031711656134575605,
+      "payload_height": 1.2902761058881878,
+      "proposed": {
+        "constraint_utilization": 0.9777612591867764,
+        "front_LTR": 0.056539108818856446,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 1.9758601135788645e-07,
+        "rear_LTR": 0.01836163472860948,
+        "spectral_radius": 0.8898291165233998,
+        "worst_LTR": 0.056539108818856446
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 73.86009485926479
+    },
+    {
+      "mass_fraction": 0.09247610326856376,
+      "payload_height": 1.5216071322094649,
+      "proposed": {
+        "constraint_utilization": 0.9554893889522181,
+        "front_LTR": 0.050116627899271834,
+        "limiting_constraint": "rear_current",
+        "max_support_correction": 4.016306615270415e-07,
+        "rear_LTR": 0.021098496001640217,
+        "spectral_radius": 0.8835995524091321,
+        "worst_LTR": 0.050116627899271834
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 68.32756993826479
+    },
+    {
+      "mass_fraction": 0.003586441930383444,
+      "payload_height": 1.4359808914829046,
+      "proposed": {
+        "constraint_utilization": 0.935144092335152,
+        "front_LTR": 0.045168945344513343,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 3.0739030290605207e-07,
+        "rear_LTR": 0.029548037105888818,
+        "spectral_radius": 0.8779752728063417,
+        "worst_LTR": 0.045168945344513343
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 57.65866539441049
+    },
+    {
+      "mass_fraction": 0.07558837868273259,
+      "payload_height": 1.1592340656556188,
+      "proposed": {
+        "constraint_utilization": 0.9396954750550435,
+        "front_LTR": 0.045022836491541415,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.5907866030294713e-07,
+        "rear_LTR": 0.026259924150912183,
+        "spectral_radius": 0.8817248058247162,
+        "worst_LTR": 0.045022836491541415
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 60.18187841400504
+    },
+    {
+      "mass_fraction": 0.014091223943978548,
+      "payload_height": 1.7221796022728086,
+      "proposed": {
+        "constraint_utilization": 0.9528047239269508,
+        "front_LTR": 0.05091780770120305,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.040991865515096e-07,
+        "rear_LTR": 0.023725026832669954,
+        "spectral_radius": 0.8783947037818001,
+        "worst_LTR": 0.05091780770120305
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 65.38201917428523
+    },
+    {
+      "mass_fraction": 0.05996321141719818,
+      "payload_height": 1.3232676311861722,
+      "proposed": {
+        "constraint_utilization": 0.9647468120996168,
+        "front_LTR": 0.05267489339063827,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.1292570893949314e-07,
+        "rear_LTR": 0.019798775434942795,
+        "spectral_radius": 0.8862110363441609,
+        "worst_LTR": 0.05267489339063827
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 70.55525064934045
+    },
+    {
+      "mass_fraction": 0.04846529373899103,
+      "payload_height": 1.573462160723284,
+      "proposed": {
+        "constraint_utilization": 0.9333128707278531,
+        "front_LTR": 0.04085972602303632,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 7.02621553484023e-07,
+        "rear_LTR": 0.03165618719746563,
+        "spectral_radius": 0.8831222178399741,
+        "worst_LTR": 0.04085972602303632
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 53.88050014153123
+    },
+    {
+      "mass_fraction": 0.05897191446274519,
+      "payload_height": 1.3083625179715455,
+      "proposed": {
+        "constraint_utilization": 0.9332549616820245,
+        "front_LTR": 0.040852865388586575,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 7.324656728993628e-07,
+        "rear_LTR": 0.031036706818674247,
+        "spectral_radius": 0.8825719185010877,
+        "worst_LTR": 0.040852865388586575
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 54.240186931565404
+    },
+    {
+      "mass_fraction": 0.045075416471809154,
+      "payload_height": 1.7102214096114041,
+      "proposed": {
+        "constraint_utilization": 0.9664006193315086,
+        "front_LTR": 0.05433878457932871,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.252914351220936e-07,
+        "rear_LTR": 0.019496636839776833,
+        "spectral_radius": 0.8842066679620678,
+        "worst_LTR": 0.05433878457932871
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 71.74501705449075
+    },
+    {
+      "mass_fraction": 0.08084593657404185,
+      "payload_height": 1.4591354328673334,
+      "proposed": {
+        "constraint_utilization": 0.945627367365073,
+        "front_LTR": 0.047802321634295424,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.24766872447546e-07,
+        "rear_LTR": 0.023734694398139893,
+        "spectral_radius": 0.8836279266927107,
+        "worst_LTR": 0.047802321634295424
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 64.19222436379641
+    },
+    {
+      "mass_fraction": 0.016950201522558928,
+      "payload_height": 1.544137177290395,
+      "proposed": {
+        "constraint_utilization": 0.9387069841992642,
+        "front_LTR": 0.046560734299551196,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.012724977795699e-07,
+        "rear_LTR": 0.027682883717975573,
+        "spectral_radius": 0.8793657308954765,
+        "worst_LTR": 0.046560734299551196
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 59.8221602384001
+    },
+    {
+      "mass_fraction": 0.08898245915770531,
+      "payload_height": 1.7396212530322375,
+      "proposed": {
+        "constraint_utilization": 0.9380317339909288,
+        "front_LTR": 0.04211608239814674,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 1.807495548303284e-06,
+        "rear_LTR": 0.029126199897771432,
+        "spectral_radius": 0.8887679317680789,
+        "worst_LTR": 0.04211608239814674
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 56.51688799262047
+    },
+    {
+      "mass_fraction": 0.0024791830219328403,
+      "payload_height": 1.177320751361549,
+      "proposed": {
+        "constraint_utilization": 0.962576030767213,
+        "front_LTR": 0.05316109083939466,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.0754404506106994e-07,
+        "rear_LTR": 0.022064312393609738,
+        "spectral_radius": 0.8756602999524014,
+        "worst_LTR": 0.05316109083939466
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 67.91821292135864
+    },
+    {
+      "mass_fraction": 0.07335729263722897,
+      "payload_height": 1.5959919321816414,
+      "proposed": {
+        "constraint_utilization": 0.9744449301353255,
+        "front_LTR": 0.05559509882926941,
+        "limiting_constraint": "rear_current",
+        "max_support_correction": 1.999468122251824e-07,
+        "rear_LTR": 0.018044221340783678,
+        "spectral_radius": 0.89295268885003,
+        "worst_LTR": 0.05559509882926941
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 74.26942030433565
+    },
+    {
+      "mass_fraction": 0.03685325356200338,
+      "payload_height": 1.3464226011652498,
+      "proposed": {
+        "constraint_utilization": 0.9319590767713707,
+        "front_LTR": 0.03882259395375907,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 9.189441841916945e-07,
+        "rear_LTR": 0.03387032921112514,
+        "spectral_radius": 0.8808457163815846,
+        "worst_LTR": 0.03882259395375907
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 51.29583012312651
+    },
+    {
+      "mass_fraction": 0.08555184789001942,
+      "payload_height": 1.6323646788019688,
+      "proposed": {
+        "constraint_utilization": 0.937321051444975,
+        "front_LTR": 0.03938072808521542,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 8.408061511061549e-07,
+        "rear_LTR": 0.03162261547349257,
+        "spectral_radius": 0.8876276434762502,
+        "worst_LTR": 0.03938072808521542
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 53.04322668816894
+    },
+    {
+      "mass_fraction": 0.024438529182225468,
+      "payload_height": 1.3912205088417977,
+      "proposed": {
+        "constraint_utilization": 0.9750725176981027,
+        "front_LTR": 0.05601513597217973,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 1.9998900380180373e-07,
+        "rear_LTR": 0.018914672922908812,
+        "spectral_radius": 0.8863019996370362,
+        "worst_LTR": 0.05601513597217973
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 72.94064532034099
+    },
+    {
+      "mass_fraction": 0.05117744356393814,
+      "payload_height": 1.78576343934983,
+      "proposed": {
+        "constraint_utilization": 0.949647708335979,
+        "front_LTR": 0.050181911699023876,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 3.58035081471364e-07,
+        "rear_LTR": 0.0229848308436211,
+        "spectral_radius": 0.8833613274131811,
+        "worst_LTR": 0.050181911699023876
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 66.12199409864843
+    },
+    {
+      "mass_fraction": 0.04006488779559732,
+      "payload_height": 1.2125079107470809,
+      "proposed": {
+        "constraint_utilization": 0.935580646206825,
+        "front_LTR": 0.04430326975062237,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.3228952517051482e-07,
+        "rear_LTR": 0.028606564080860118,
+        "spectral_radius": 0.8803471836096853,
+        "worst_LTR": 0.04430326975062237
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 57.89449771400541
+    },
+    {
+      "mass_fraction": 0.06806504894047975,
+      "payload_height": 1.4232341621536762,
+      "proposed": {
+        "constraint_utilization": 0.9411870069588631,
+        "front_LTR": 0.04638026733837432,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.501518380215728e-07,
+        "rear_LTR": 0.025588475637883662,
+        "spectral_radius": 0.8830900684710818,
+        "worst_LTR": 0.04638026733837432
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 61.61857557017356
+    },
+    {
+      "mass_fraction": 0.0295598435215652,
+      "payload_height": 1.498867793707177,
+      "proposed": {
+        "constraint_utilization": 0.9449950335571649,
+        "front_LTR": 0.048478865450413244,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.2541049382596157e-07,
+        "rear_LTR": 0.025314586950408648,
+        "spectral_radius": 0.8799907024644673,
+        "worst_LTR": 0.048478865450413244
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 62.814811896532774
+    },
+    {
+      "mass_fraction": 0.09619136061519384,
+      "payload_height": 1.2617396591231227,
+      "proposed": {
+        "constraint_utilization": 0.9638334858524467,
+        "front_LTR": 0.050919932005302856,
+        "limiting_constraint": "rear_current",
+        "max_support_correction": 5.103155925959002e-07,
+        "rear_LTR": 0.019744193557691265,
+        "spectral_radius": 0.8902593845890601,
+        "worst_LTR": 0.050919932005302856
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 69.99743552878499
+    },
+    {
+      "mass_fraction": 0.007685392256826163,
+      "payload_height": 1.6755149227567019,
+      "proposed": {
+        "constraint_utilization": 0.9319700112871175,
+        "front_LTR": 0.04328265873605544,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 5.433078082150988e-07,
+        "rear_LTR": 0.031129781604012474,
+        "spectral_radius": 0.8785820996267228,
+        "worst_LTR": 0.04328265873605544
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 55.56877769995481
+    },
+    {
+      "mass_fraction": 0.06526022534817458,
+      "payload_height": 1.5312120642047375,
+      "proposed": {
+        "constraint_utilization": 0.9348680940313971,
+        "front_LTR": 0.04224529043947266,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 9.321293111194673e-07,
+        "rear_LTR": 0.02968044443996413,
+        "spectral_radius": 0.8845270489914576,
+        "worst_LTR": 0.04224529043947266
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 56.0546611668542
+    },
+    {
+      "mass_fraction": 0.025982251670211554,
+      "payload_height": 1.4466861349064857,
+      "proposed": {
+        "constraint_utilization": 0.9644237562119428,
+        "front_LTR": 0.0533628781569275,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 3.2110568765064684e-07,
+        "rear_LTR": 0.02075733503192549,
+        "spectral_radius": 0.878611932748348,
+        "worst_LTR": 0.0533628781569275
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 69.55558499321342
+    },
+    {
+      "mass_fraction": 0.09963391367346049,
+      "payload_height": 1.682540397811681,
+      "proposed": {
+        "constraint_utilization": 0.9429397601264218,
+        "front_LTR": 0.046678704929094095,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 1.7901794580055252e-07,
+        "rear_LTR": 0.024392518053541236,
+        "spectral_radius": 0.8881160104618787,
+        "worst_LTR": 0.046678704929094095
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 63.25706774368882
+    },
+    {
+      "mass_fraction": 0.010356702934950592,
+      "payload_height": 1.2802051728591322,
+      "proposed": {
+        "constraint_utilization": 0.9426384434927112,
+        "front_LTR": 0.0477874053621473,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.1268320726797185e-07,
+        "rear_LTR": 0.026780441995674822,
+        "spectral_radius": 0.8781874168189978,
+        "worst_LTR": 0.0477874053621473
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 61.13309741485864
+    },
+    {
+      "mass_fraction": 0.08209943100810052,
+      "payload_height": 1.3131849105935542,
+      "proposed": {
+        "constraint_utilization": 0.9367362862360233,
+        "front_LTR": 0.04343226162656817,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 3.0015710295039355e-07,
+        "rear_LTR": 0.02766033561357171,
+        "spectral_radius": 0.8839610304800954,
+        "worst_LTR": 0.04343226162656817
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 58.22111757006496
+    },
+    {
+      "mass_fraction": 0.021777179185301067,
+      "payload_height": 1.5632300567347557,
+      "proposed": {
+        "constraint_utilization": 0.9534568983800482,
+        "front_LTR": 0.05094544285424127,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 1.9861010550070723e-07,
+        "rear_LTR": 0.023316938190279825,
+        "spectral_radius": 0.8786157792095617,
+        "worst_LTR": 0.05094544285424127
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 65.81384870223701
+    },
+    {
+      "mass_fraction": 0.05397383533418179,
+      "payload_height": 1.169952317047864,
+      "proposed": {
+        "constraint_utilization": 0.9751028862144641,
+        "front_LTR": 0.05501391892629894,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 1.997872595971284e-07,
+        "rear_LTR": 0.018340856711564237,
+        "spectral_radius": 0.8923080275077799,
+        "worst_LTR": 0.05501391892629894
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 73.24843308888376
+    },
+    {
+      "mass_fraction": 0.04365082057192922,
+      "payload_height": 1.7317764854058624,
+      "proposed": {
+        "constraint_utilization": 0.9334307179882781,
+        "front_LTR": 0.04000136804073226,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 9.902430275210428e-07,
+        "rear_LTR": 0.032722121005574624,
+        "spectral_radius": 0.8833856376990732,
+        "worst_LTR": 0.04000136804073226
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 52.71624920424074
+    },
+    {
+      "mass_fraction": 0.09175476916134358,
+      "payload_height": 1.204663143120706,
+      "proposed": {
+        "constraint_utilization": 0.935894276553953,
+        "front_LTR": 0.03734729547881599,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 1.420575745370023e-06,
+        "rear_LTR": 0.03275937173882012,
+        "spectral_radius": 0.8845743069413308,
+        "worst_LTR": 0.03734729547881599
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 50.9510662406683
+    },
+    {
+      "mass_fraction": 0.006041224766522646,
+      "payload_height": 1.7783950050361454,
+      "proposed": {
+        "constraint_utilization": 0.9821979700130561,
+        "front_LTR": 0.05839861631366021,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 1.0745263256950466e-07,
+        "rear_LTR": 0.01830166867517503,
+        "spectral_radius": 0.8875149319672759,
+        "worst_LTR": 0.05839861631366021
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 74.65707866940647
+    },
+    {
+      "mass_fraction": 0.06987993568181992,
+      "payload_height": 1.3584586333949118,
+      "proposed": {
+        "constraint_utilization": 0.955107204684014,
+        "front_LTR": 0.05035297112914287,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 3.9217275893399517e-07,
+        "rear_LTR": 0.021589389045637303,
+        "spectral_radius": 0.8809042202909271,
+        "worst_LTR": 0.05035297112914287
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 67.53019692841917
+    },
+    {
+      "mass_fraction": 0.03416715422645211,
+      "payload_height": 1.5991269882302732,
+      "proposed": {
+        "constraint_utilization": 0.9338210862863483,
+        "front_LTR": 0.043693586148034994,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 5.712907862054362e-07,
+        "rear_LTR": 0.02964102170634214,
+        "spectral_radius": 0.8815819362082083,
+        "worst_LTR": 0.043693586148034994
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 56.861294247210026
+    },
+    {
+      "mass_fraction": 0.0624393092468381,
+      "payload_height": 1.6473575776442886,
+      "proposed": {
+        "constraint_utilization": 0.9372476023247773,
+        "front_LTR": 0.044974267347703226,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.7245694156352585e-07,
+        "rear_LTR": 0.027357013911458613,
+        "spectral_radius": 0.8847398318367118,
+        "worst_LTR": 0.044974267347703226
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 59.416933404281735
+    },
+    {
+      "mass_fraction": 0.04777137814089656,
+      "payload_height": 1.2340586473233996,
+      "proposed": {
+        "constraint_utilization": 0.9495357802660706,
+        "front_LTR": 0.049128655036282595,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.9484893082631913e-07,
+        "rear_LTR": 0.023688864820459316,
+        "spectral_radius": 0.8792514533318828,
+        "worst_LTR": 0.049128655036282595
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 64.61707602720708
+    },
+    {
+      "mass_fraction": 0.07806528713554145,
+      "payload_height": 1.4864184957463293,
+      "proposed": {
+        "constraint_utilization": 0.9645477317638924,
+        "front_LTR": 0.052710618243759874,
+        "limiting_constraint": "rear_current",
+        "max_support_correction": 5.818165537893605e-08,
+        "rear_LTR": 0.019404762466883572,
+        "spectral_radius": 0.8884148702983624,
+        "worst_LTR": 0.052710618243759874
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 71.32057070266455
+    },
+    {
+      "mass_fraction": 0.01339659309014678,
+      "payload_height": 1.4103090490680188,
+      "proposed": {
+        "constraint_utilization": 0.9312815111532597,
+        "front_LTR": 0.04232593354367922,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 6.772354432006689e-07,
+        "rear_LTR": 0.0317263389468556,
+        "spectral_radius": 0.8788610735005061,
+        "worst_LTR": 0.04232593354367922
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 54.64581907726824
+    },
+    {
+      "mass_fraction": 0.07839120104908943,
+      "payload_height": 1.7952014664188027,
+      "proposed": {
+        "constraint_utilization": 0.9375757537033463,
+        "front_LTR": 0.039916168682851465,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 8.562630682482086e-07,
+        "rear_LTR": 0.03156733847570658,
+        "spectral_radius": 0.8882091247121895,
+        "worst_LTR": 0.039916168682851465
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 53.44453854486346
+    },
+    {
+      "mass_fraction": 0.01767158294096589,
+      "payload_height": 1.2233847082592546,
+      "proposed": {
+        "constraint_utilization": 0.9703703848628965,
+        "front_LTR": 0.05465572087110786,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.591241956249879e-07,
+        "rear_LTR": 0.019981214296080487,
+        "spectral_radius": 0.8813120072982347,
+        "worst_LTR": 0.05465572087110786
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 70.94936680514365
+    },
+    {
+      "mass_fraction": 0.05651636831462384,
+      "payload_height": 1.6210215703118593,
+      "proposed": {
+        "constraint_utilization": 0.947584165623721,
+        "front_LTR": 0.04918475191073253,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 3.6728171592947945e-07,
+        "rear_LTR": 0.02358475602924239,
+        "spectral_radius": 0.8826458712129959,
+        "worst_LTR": 0.04918475191073253
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 64.98826064635068
+    },
+    {
+      "mass_fraction": 0.04579751314595342,
+      "payload_height": 1.382248482806608,
+      "proposed": {
+        "constraint_utilization": 0.9397253038331271,
+        "front_LTR": 0.046294431377177814,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.585693849033177e-07,
+        "rear_LTR": 0.026593761307248415,
+        "spectral_radius": 0.8812437812261538,
+        "worst_LTR": 0.046294431377177814
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 60.61819763854146
+    },
+    {
+      "mass_fraction": 0.07405116092413665,
+      "payload_height": 1.2527794012799858,
+      "proposed": {
+        "constraint_utilization": 0.9355275387969425,
+        "front_LTR": 0.042905799596177484,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.8682429248361174e-07,
+        "rear_LTR": 0.028432035095639668,
+        "spectral_radius": 0.8830278450724517,
+        "worst_LTR": 0.042905799596177484
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 57.28354821912944
+    },
+    {
+      "mass_fraction": 0.03437710842117667,
+      "payload_height": 1.6641650051809846,
+      "proposed": {
+        "constraint_utilization": 0.9595193516825882,
+        "front_LTR": 0.05248718503464703,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 3.319327967557517e-07,
+        "rear_LTR": 0.02133138051012736,
+        "spectral_radius": 0.8789380368917612,
+        "worst_LTR": 0.05248718503464703
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 68.68487426545471
+    },
+    {
+      "mass_fraction": 0.08967713806778194,
+      "payload_height": 1.4340979323256762,
+      "proposed": {
+        "constraint_utilization": 0.9748932461487398,
+        "front_LTR": 0.05415757124656322,
+        "limiting_constraint": "rear_current",
+        "max_support_correction": 1.8943039825636276e-07,
+        "rear_LTR": 0.018144051218378587,
+        "spectral_radius": 0.8945253735909409,
+        "worst_LTR": 0.05415757124656322
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 73.5023852204904
+    },
+    {
+      "mass_fraction": 2.322625368833542e-06,
+      "payload_height": 1.508313889009878,
+      "proposed": {
+        "constraint_utilization": 0.9295618927951755,
+        "front_LTR": 0.03891269609268004,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 8.982632058174289e-07,
+        "rear_LTR": 0.03544497528474311,
+        "spectral_radius": 0.8771940869602598,
+        "worst_LTR": 0.03891269609268004
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 50.5287931766361
+    },
+    {
+      "mass_fraction": 0.05209180135279894,
+      "payload_height": 1.4692162937950344,
+      "proposed": {
+        "constraint_utilization": 0.9333409618405742,
+        "front_LTR": 0.03936051056131484,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 9.006849676779227e-07,
+        "rear_LTR": 0.03280612467671289,
+        "spectral_radius": 0.8829384101446903,
+        "worst_LTR": 0.03936051056131484
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 52.2489087888971
+    },
+    {
+      "mass_fraction": 0.03780770627781749,
+      "payload_height": 1.5543661818373948,
+      "proposed": {
+        "constraint_utilization": 0.9699211001395694,
+        "front_LTR": 0.054866502653890675,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.1663867421153893e-07,
+        "rear_LTR": 0.019234293682755987,
+        "spectral_radius": 0.8852548784640283,
+        "worst_LTR": 0.054866502653890675
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 72.14632853865623
+    },
+    {
+      "mass_fraction": 0.08646549042314292,
+      "payload_height": 1.2976473660208283,
+      "proposed": {
+        "constraint_utilization": 0.9531956002092371,
+        "front_LTR": 0.049352337560086536,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 3.935848572056422e-07,
+        "rear_LTR": 0.021752588536883378,
+        "spectral_radius": 0.8824248772685289,
+        "worst_LTR": 0.049352337560086536
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 66.91592466086149
+    },
+    {
+      "mass_fraction": 0.022182158287614585,
+      "payload_height": 1.7006263861432673,
+      "proposed": {
+        "constraint_utilization": 0.9362310407835073,
+        "front_LTR": 0.04551575799445654,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.3658358516698286e-07,
+        "rear_LTR": 0.028479747811528282,
+        "spectral_radius": 0.8804399527413528,
+        "worst_LTR": 0.04551575799445654
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 58.688426413573325
+    },
+    {
+      "mass_fraction": 0.09390676058828831,
+      "payload_height": 1.5863851405214517,
+      "proposed": {
+        "constraint_utilization": 0.9418210188323839,
+        "front_LTR": 0.046216405756748576,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.1659599525047923e-07,
+        "rear_LTR": 0.024903077718153477,
+        "spectral_radius": 0.886717343332624,
+        "worst_LTR": 0.046216405756748576
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 62.38695073407143
+    },
+    {
+      "mass_fraction": 0.00857843505218625,
+      "payload_height": 1.3357142583001405,
+      "proposed": {
+        "constraint_utilization": 0.9490335903936516,
+        "front_LTR": 0.04974857913685641,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 2.0921901822124056e-07,
+        "rear_LTR": 0.025022659638862584,
+        "spectral_radius": 0.8777135937978723,
+        "worst_LTR": 0.04974857913685641
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 63.5831851977855
+    },
+    {
+      "mass_fraction": 0.06578116416931153,
+      "payload_height": 1.7498632849194111,
+      "proposed": {
+        "constraint_utilization": 0.9562047684270836,
+        "front_LTR": 0.05172652042430482,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 3.888753220271379e-07,
+        "rear_LTR": 0.0209324711181229,
+        "spectral_radius": 0.882819561286626,
+        "worst_LTR": 0.05172652042430482
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 69.22943615354598
+    },
+    {
+      "mass_fraction": 0.030452075693756343,
+      "payload_height": 1.1873935440555214,
+      "proposed": {
+        "constraint_utilization": 0.9318915985249488,
+        "front_LTR": 0.04200172126976248,
+        "limiting_constraint": "front_current",
+        "max_support_correction": 6.335771302184989e-07,
+        "rear_LTR": 0.03117821550011321,
+        "spectral_radius": 0.8797636201149025,
+        "worst_LTR": 0.04200172126976248
+      },
+      "set": "sobol_holdout",
+      "speed_kmh": 54.80077944230288
+    }
+  ],
+  "runtime_seconds_current_invocation": 178.55859398841858,
+  "worst_LTR": 0.058947685133593206,
+  "worst_LTR_point": {
+    "mass_fraction": 0.0,
+    "payload_height": 1.15,
+    "set": "structured",
+    "speed_kmh": 75.0
+  },
+  "worst_front_LTR": 0.058947685133593206,
+  "worst_front_point": {
+    "mass_fraction": 0.0,
+    "payload_height": 1.15,
+    "set": "structured",
+    "speed_kmh": 75.0
+  }
+}

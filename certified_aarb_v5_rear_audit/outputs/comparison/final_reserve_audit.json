@@ -1,0 +1,148 @@
+{
+  "date": "2026-09-23",
+  "designs": [
+    {
+      "checks": {
+        "all_closed_loops_stable": true,
+        "all_constraints_feasible": true,
+        "all_rear_margins_nonnegative": true,
+        "coefficient_shape_2_by_6": true,
+        "coefficients_finite": true,
+        "coefficients_match_design_record": true,
+        "rear_audit_has_170_points": true,
+        "rear_bank_matches_archive": true,
+        "requested_reserve_achieved": true,
+        "screening_bank_matches_archive": true,
+        "screening_has_170_points": true,
+        "source_hashes_match": true,
+        "summary_constraint_consistent": true,
+        "summary_minimum_absolute_margin_consistent": true,
+        "summary_minimum_relative_margin_consistent": true,
+        "summary_pass": true,
+        "summary_spectral_radius_consistent": true,
+        "summary_worst_front_consistent": true,
+        "target_matches_protocol": true
+      },
+      "coefficient_sha256": "7149ec019ea835a315705708845fc1f44bf983856fdecb5b25ae101742109ede",
+      "recomputed": {
+        "max_constraint_utilization": 0.9850056004787376,
+        "max_spectral_radius": 0.901008472346091,
+        "minimum_absolute_margin": 0.00020206280457354606,
+        "minimum_relative_margin": 0.011563907754145045,
+        "worst_front": 0.058947685133593206
+      },
+      "source_hash_checks": {
+        "parameters.py": true,
+        "run_reserve_design.py": true,
+        "v3_study.py": true,
+        "v4_study.py": true,
+        "vehicle_model.py": true
+      },
+      "status": "PASS",
+      "target_percent": 1
+    },
+    {
+      "checks": {
+        "all_closed_loops_stable": true,
+        "all_constraints_feasible": true,
+        "all_rear_margins_nonnegative": true,
+        "coefficient_shape_2_by_6": true,
+        "coefficients_finite": true,
+        "coefficients_match_design_record": true,
+        "rear_audit_has_170_points": true,
+        "rear_bank_matches_archive": true,
+        "requested_reserve_achieved": true,
+        "screening_bank_matches_archive": true,
+        "screening_has_170_points": true,
+        "source_hashes_match": true,
+        "summary_constraint_consistent": true,
+        "summary_minimum_absolute_margin_consistent": true,
+        "summary_minimum_relative_margin_consistent": true,
+        "summary_pass": true,
+        "summary_spectral_radius_consistent": true,
+        "summary_worst_front_consistent": true,
+        "target_matches_protocol": true
+      },
+      "coefficient_sha256": "49c25a52d0a18e7414589959aaf78c5496fca28470135da0497770abafb979db",
+      "recomputed": {
+        "max_constraint_utilization": 0.985004065448854,
+        "max_spectral_radius": 0.901008472346091,
+        "minimum_absolute_margin": 0.00037155237341796044,
+        "minimum_relative_margin": 0.021263672852145775,
+        "worst_front": 0.058982748908822304
+      },
+      "source_hash_checks": {
+        "parameters.py": true,
+        "run_reserve_design.py": true,
+        "v3_study.py": true,
+        "v4_study.py": true,
+        "vehicle_model.py": true
+      },
+      "status": "PASS",
+      "target_percent": 2
+    },
+    {
+      "checks": {
+        "all_closed_loops_stable": true,
+        "all_constraints_feasible": true,
+        "all_rear_margins_nonnegative": true,
+        "coefficient_shape_2_by_6": true,
+        "coefficients_finite": true,
+        "coefficients_match_design_record": true,
+        "rear_audit_has_170_points": true,
+        "rear_bank_matches_archive": true,
+        "requested_reserve_achieved": true,
+        "screening_bank_matches_archive": true,
+        "screening_has_170_points": true,
+        "source_hashes_match": true,
+        "summary_constraint_consistent": true,
+        "summary_minimum_absolute_margin_consistent": true,
+        "summary_minimum_relative_margin_consistent": true,
+        "summary_pass": true,
+        "summary_spectral_radius_consistent": true,
+        "summary_worst_front_consistent": true,
+        "target_matches_protocol": true
+      },
+      "coefficient_sha256": "50f39b6bc0165a9627bf33f01e2e77a81f5ce852a776f24edf56c1dfeca59bb5",
+      "recomputed": {
+        "max_constraint_utilization": 0.9850061310664334,
+        "max_spectral_radius": 0.901008472346091,
+        "minimum_absolute_margin": 0.0008995240343351099,
+        "minimum_relative_margin": 0.05147910808048557,
+        "worst_front": 0.059092014386688846
+      },
+      "source_hash_checks": {
+        "parameters.py": true,
+        "run_reserve_design.py": true,
+        "v3_study.py": true,
+        "v4_study.py": true,
+        "vehicle_model.py": true
+      },
+      "status": "PASS",
+      "target_percent": 5
+    }
+  ],
+  "limitations": [
+    "The audit is pointwise on the evaluated bank.",
+    "It is not a continuous speed-payload or hardware-uncertainty guarantee."
+  ],
+  "point_count": 170,
+  "scope": "Final audit of reserve designs on the archived 170-plant bank.",
+  "selected_controller": {
+    "achieved_minimum_margin_percent": 5.147910808048557,
+    "basis": "Largest audited minimum rear reserve among the declared 1%, 2% and 5% targets, with less than 0.5% degradation in the evaluated worst front bound relative to the current rear-protected controller.",
+    "finite_bank_only": true,
+    "front_cost_vs_current_percent": 0.2909721358899997,
+    "key": "reserve_5pct",
+    "label": "Reserve 5%"
+  },
+  "selection_checks": {
+    "comparison_constraints_feasible": true,
+    "comparison_loops_stable": true,
+    "comparison_pass": true,
+    "five_percent_selected": true,
+    "front_cost_below_half_percent": true,
+    "largest_declared_reserve_selected": true
+  },
+  "status": "PASS"
+}

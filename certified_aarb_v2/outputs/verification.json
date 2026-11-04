@@ -1,0 +1,45 @@
+{
+  "all_41_phase_constraints_feasible": true,
+  "coefficient_files_agree": true,
+  "direct_witness_max_excess": -1.017475918951849e-05,
+  "note": "The five-mesh comparison reuses the independently saved coefficients but rebuilds all lifted maps and support LPs.",
+  "refinement": {
+    "21": {
+      "absolute_difference": 1.3377441324124995e-07,
+      "feasible": true,
+      "max_constraint_utilization": 0.9980012391531824,
+      "new_upper": 0.04662923377441324,
+      "reported_v1_upper": 0.0466291
+    },
+    "41": {
+      "absolute_difference": 9.719352568604567e-08,
+      "feasible": true,
+      "max_constraint_utilization": 0.9980012391531824,
+      "new_upper": 0.046114897193525684,
+      "reported_v1_upper": 0.0461148
+    },
+    "5": {
+      "absolute_difference": 4.387149690893155e-07,
+      "feasible": false,
+      "max_constraint_utilization": 1.224118711914021,
+      "new_upper": 0.06309163871496909,
+      "reported_v1_upper": 0.0630912
+    },
+    "81": {
+      "absolute_difference": 5.3918992860835235e-08,
+      "feasible": true,
+      "max_constraint_utilization": 0.9980012391531824,
+      "new_upper": 0.04598675391899286,
+      "reported_v1_upper": 0.0459867
+    },
+    "9": {
+      "absolute_difference": 1.848551598321313e-07,
+      "feasible": true,
+      "max_constraint_utilization": 0.9980012391531824,
+      "new_upper": 0.050230384855159835,
+      "reported_v1_upper": 0.0502302
+    }
+  },
+  "source_hash_matches_saved_run": true,
+  "status": "PASS"
+}

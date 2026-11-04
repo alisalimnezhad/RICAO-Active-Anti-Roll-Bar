@@ -1,0 +1,17 @@
+{
+  "broad_screening_phases": 21,
+  "constraint_and_stability_checks": {
+    "fixed_balanced_constraints": true,
+    "fixed_protected_constraints": true,
+    "fixed_stability": true,
+    "scheduled_constraints": true,
+    "scheduled_stability": true
+  },
+  "date": "2026-09-19",
+  "evaluated_parameter_points": 170,
+  "fine_rear_audit_phases": 81,
+  "minimum_rear_certificate_margin": 5.821289722409209e-05,
+  "note": "The coarse independent-upper-bound rear ratio is a screening quantity. Final rear non-degradation is decided by the 81-phase one-sided upper-versus-feasible-lower certificate.",
+  "rear_all_certified": true,
+  "status": "PASS"
+}

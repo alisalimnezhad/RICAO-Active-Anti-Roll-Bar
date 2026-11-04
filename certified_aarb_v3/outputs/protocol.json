@@ -1,0 +1,111 @@
+{
+  "continuous_parameter_claim": false,
+  "date": "2026-09-17",
+  "fair_current_caps_mA": [
+    5.273551985013796,
+    4.151064332227433
+  ],
+  "finite_bank_speeds_kmh": [
+    50.0,
+    70.0,
+    75.0
+  ],
+  "load_cases": {
+    "central-high-payload-plus-10pct": {
+      "Ixx": 24680.61431818182,
+      "h": 1.209090909090909,
+      "m": 15441.7,
+      "ms": 13735.7
+    },
+    "nominal": {},
+    "uniform-mass-plus-10pct": {
+      "Ixx": 26621.100000000002,
+      "Ixz": 4620.0,
+      "Izz": 38408.700000000004,
+      "m": 15441.7,
+      "ms": 13735.7
+    }
+  },
+  "load_interpretation": "Analytical stress tests, not identified payload data. The central point payload is at the nominal longitudinal CG and 1.80 m above the roll axis; mass, total mass, sprung CG height and roll inertia are coupled.",
+  "nominal_baseline": {
+    "continuous": {
+      "body_roll": 0.12232479427461536,
+      "front_LTR": 0.1520224584894911,
+      "front_current": 0.2636775992506898,
+      "front_flow": 0.12037068422739766,
+      "front_force": 0.11036837435244924,
+      "front_spool": 0.23734669024884675,
+      "front_suspension_roll": 0.057402234450064385,
+      "front_tyre_slip": 0.7452915469249326,
+      "rear_LTR": 0.02062550271527963,
+      "rear_current": 0.20755321661137163,
+      "rear_flow": 0.0767347677165669,
+      "rear_force": 0.2491874557179202,
+      "rear_spool": 0.1902655292009542,
+      "rear_suspension_roll": 0.08382599859068651,
+      "rear_tyre_slip": 0.6855357222945946,
+      "sideslip": 0.42846901333545345
+    },
+    "grid": {
+      "body_roll": 0.12231609719963958,
+      "front_LTR": 0.15197980899702612,
+      "front_current": 0.2636775992506898,
+      "front_flow": 0.1197314723771323,
+      "front_force": 0.11032853415935404,
+      "front_spool": 0.23620034690160135,
+      "front_suspension_roll": 0.05738979789513274,
+      "front_tyre_slip": 0.7452664125147462,
+      "rear_LTR": 0.020505135090489717,
+      "rear_current": 0.20755321661137163,
+      "rear_flow": 0.07622332646998924,
+      "rear_force": 0.24913308896880706,
+      "rear_spool": 0.18935592620258948,
+      "rear_suspension_roll": 0.0838013320034103,
+      "rear_tyre_slip": 0.6855189282512345,
+      "sideslip": 0.42844853901561414
+    },
+    "interpolation": {
+      "body_roll": 8.697074975772698e-06,
+      "front_LTR": 4.264949246499471e-05,
+      "front_current": 0.0,
+      "front_flow": 0.00063921185026536,
+      "front_force": 3.984019309520494e-05,
+      "front_spool": 0.0011463433472453815,
+      "front_suspension_roll": 1.2436554931643827e-05,
+      "front_tyre_slip": 2.513441018640457e-05,
+      "rear_LTR": 0.0001203676247899149,
+      "rear_current": 0.0,
+      "rear_flow": 0.0005114412465776685,
+      "rear_force": 5.4366749113122514e-05,
+      "rear_spool": 0.0009096029983647018,
+      "rear_suspension_roll": 2.4666587276209045e-05,
+      "rear_tyre_slip": 1.679404336007931e-05,
+      "sideslip": 2.047431983931739e-05
+    },
+    "label": "70 km/h; nominal",
+    "spectral_radius": 0.8757552172268749,
+    "speed_kmh": 70.0
+  },
+  "pareto_rear_targets": [
+    0.02062550271527963,
+    0.028,
+    0.036,
+    0.046,
+    0.06
+  ],
+  "source_hashes_before": {
+    "certified_aarb_v2/study.py": "5122943f50f1cb26194f80c8fd985200ef27f1292994ed35101454ef9dd959fc",
+    "certified_aarb_v3/run_stage3.py": "a208dc26f11eaedeb70d4f09fa1ff3d93cfd6e146f1d7d2535d2219d475ccfd0",
+    "certified_aarb_v3/study.py": "326eb7b29c9e14ae56cae250b4478bd5cd67944f1259705841e37ca3bc4ed019",
+    "validation/lqr_controller.py": "ec6cc9d09d27607b574867f19b408d5b9e64ce8e1e43707d90ff66899dfff7d3",
+    "validation/parameters.py": "6a57a04f4f5593fd33ff74073754225245c61cd722e69c3064f48b17a378fb0e",
+    "validation/vehicle_model.py": "874d83c25b836367ad5e985716045eae8d2fd7499215aa8a037736d07a755406"
+  },
+  "steering_family": {
+    "amplitude_deg": 2.0,
+    "hold": "FOH steering; ZOH current",
+    "horizon_s": 4.0,
+    "rate_deg_s": 5.0,
+    "sample_s": 0.02
+  }
+}
