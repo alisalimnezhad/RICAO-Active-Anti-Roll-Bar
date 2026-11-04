@@ -1,0 +1,448 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=20mm]{geometry}
+\usepackage{lmodern,microtype}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb,booktabs,array,graphicx,longtable,xcolor}
+\usepackage{siunitx}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+  pdftitle={Supplementary Material: Worst-case transient bounds for constrained electrohydraulic active anti-roll-bar control of heavy vehicles},
+  pdfauthor={Ali Salimnezhad; Masoud Masih-Tehrani}
+}
+\setlength{\emergencystretch}{2em}
+\renewcommand{\arraystretch}{1.12}
+\renewcommand{\thetable}{S\arabic{table}}
+\renewcommand{\thefigure}{S\arabic{figure}}
+\newcommand{\W}{\mathcal{W}}
+\newcommand{\finalnew}[1]{#1}
+\newcommand{\robustnew}[1]{#1}
+\newcommand{\suppgraphic}[2][]{%
+  \IfFileExists{figures/#2}%
+    {\includegraphics[#1]{figures/#2}}%
+    {\includegraphics[#1]{#2}}}
+
+\title{Supplementary Material\\[1mm]
+Worst-case transient bounds for constrained electrohydraulic active anti-roll-bar control of heavy vehicles}
+\author{Ali Salimnezhad \and Masoud Masih-Tehrani}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section{Complete benchmark equations and parameters}
+
+The state and input order used in every archived matrix is
+\begin{equation}
+x=[\beta,r,\phi,p,\phi_{uF},\phi_{uR},P_F,X_{vF},P_R,X_{vR}]^\top,
+\qquad u=[u_F,u_R]^\top.
+\end{equation}
+\finalnew{The implemented vehicle-fixed frame is right-handed, with $x_v$ forward, $y_v$ left and $z_v$ upward. Positive $\delta$ and $\beta$ point toward $+y_v$, positive $r$ is about $+z_v$, and all roll coordinates follow the right-hand rule about $+x_v$. Gravity is represented by the positive magnitude $g=\SI{9.81}{m/s^2}$ and the vector $-g\mathbf e_{z_v}$; therefore $g$ is positive in both the equations and the load-transfer normalizations. Positive $P_i$ defines positive $T_i=2\ell_aA_pP_i$.}
+
+\finalnew{In the source-model balance equations, the front and rear unsprung gravity terms are respectively $+m_{uF}gh_u\phi_{uF}$ and $-m_{uR}gh_u\phi_{uR}$. Moving all terms to the left-hand residual used for matrix assembly gives coefficients $-m_{uF}gh_u\phi_{uF}$ and $+m_{uR}gh_u\phi_{uR}$, respectively. The rear residual sign is therefore the sign implied by the published rear-axle equation, not by a negative gravitational constant; it must not be silently symmetrized when rebuilding the matrices.}
+With constant longitudinal speed $v$, the tyre forces and suspension moments are
+\begin{align}
+F_{yF}&=\mu_t C_F(\delta-\beta-l_Fr/v),&
+F_{yR}&=\mu_t C_R(-\beta+l_Rr/v),\\
+S_i&=k_i(\phi-\phi_{ui})+b_i(p-\dot\phi_{ui}),&
+T_i&=2\ell_aA_pP_i.
+\end{align}
+The active vehicle equations are
+\begin{align}
+mv(\dot\beta+r)-m_sh\dot p&=F_{yF}+F_{yR},\\
+-I_{xz}\dot p+I_{zz}\dot r&=l_FF_{yF}-l_RF_{yR},\\
+(I_{xx}+m_sh^2)\dot p-I_{xz}\dot r
+ &=m_sgh\phi+m_svh(\dot\beta+r)-S_F-S_R+T_F+T_R,\\
+-r_hF_{yF}&=m_{uF}v(r_h-h_u)(\dot\beta+r)+m_{uF}gh_u\phi_{uF}
+-k_{tF}\phi_{uF}+S_F+T_F,\\
+-r_hF_{yR}&=m_{uR}v(r_h-h_u)(\dot\beta+r)-m_{uR}gh_u\phi_{uR}
+-k_{tR}\phi_{uR}+S_R+T_R,\\
+\dot\phi&=p.
+\end{align}
+The rear unsprung gravity sign is retained as printed in the reference model and as used in the archived reproduction. Hydraulic dynamics are
+\begin{align}
+\frac{V_t}{4\beta_e}\dot P_i+(K_P+C_{tp})P_i-K_xX_{vi}
++A_p\ell_a(p-\dot\phi_{ui})&=0,\\
+\dot X_{vi}&=-X_{vi}/\tau_v+K_vu_i/\tau_v,\qquad i\in\{F,R\}.
+\end{align}
+The descriptor residuals are assembled first and solved numerically for the state derivatives. The force $A_pP_i$ is the force magnitude from one actuator, and $\ell_a$ is its effective moment arm; the equal-and-opposite forces on the two sides form a couple with force-line separation $2\ell_a$. Thus $\ell_a$ is a per-actuator arm, not the full separation. The assumed $\ell_a=\SI{0.50}{m}$ was selected during exploratory reconstruction and frozen before the control study; it is not a numerical dimension reported in the source parameter table or an independently measured vehicle geometry.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Frozen nominal benchmark parameters.}
+\begin{tabular}{lll}
+\toprule
+Quantity & Value & Unit\\
+\midrule
+$m_s,m_{uF},m_{uR},m$ & 12487, 706, 1000, 14193 & kg\\
+$l_F,l_R,l_w,h,r_h,h_u$ & 1.95, 1.54, 0.93, 1.15, 0.83, 0.53 & m\\
+$I_{xx},I_{xz},I_{zz}$ & 24201, 4200, 34917 & kg m$^2$\\
+$k_F,k_R$ & 380000, 684000 & N m/rad\\
+$b_F,b_R$ & 100000, 100000 & N m s/rad\\
+$k_{tF},k_{tR}$ & 2060000, 3337000 & N m/rad\\
+$C_F,C_R;\ \mu_t$ & 582000, 783000; 1 & N/rad; --\\
+$A_p;\ V_t;\ \beta_e$ & 0.0123; 0.0014; $6.89\times10^6$ & m$^2$; m$^3$; Pa\\
+$K_x;\ K_P;\ C_{tp}$ & 2.5; $4.2\times10^{-11}$; 0 & m$^2$/s; m$^3$/(Pa s)\\
+$\tau_v;\ K_v;\ \ell_a$ & 0.01; 0.0239; 0.50 & s; m/A; m\\
+$v;\ g$ & $70/3.6$; 9.81 & m/s; m/s$^2$\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The monitored physical outputs are $F_{ai}=A_pP_i$, $Q_{Li}=K_xX_{vi}-K_PP_i$ and $y_{ai}=\ell_a(\phi-\phi_{ui})$, in addition to load transfer, body roll, tyre slip and sideslip. Output constraints are normalized before the robust programs are solved.
+
+The LQR1 baseline is the published continuous-time full-state LQR design implemented with a zero-order-held current command at the \SI{20}{ms} controller period. In the physical output normalization used for the reproduction, its cost is
+\begin{equation}
+J_{\mathrm{LQR1}}=\int_0^\infty
+\left(\phi^2+R_F^2+R_R^2+
+(\phi-\phi_{uF})^2+(\phi-\phi_{uR})^2+u_F^2+u_R^2\right)\,dt.
+\end{equation}
+This fixed reference gain is distinct from the 48-point sampled-data LQR tuning grid used only as an additional comparator in the main article.
+
+\section{Additional reference-reproduction evidence}
+
+The validation steering trace and the reference response curves are graphical data digitized from the published figures. The ten-second protocol uses zero initial states, \SI{70}{km/h} and \SI{1}{ms} output spacing. No response scaling or time alignment is applied. Peak load-transfer reductions relative to the reproduced passive baseline are 66.44\% at the front and 96.44\% at the rear, compared with 70\% and 96\% in the reference table. The active peak-normalized waveform discrepancies are 0.19\%, 1.22\%, 1.63\% and 0.43\% for $R_F,R_R,u_F,u_R$. The passive waveform discrepancies are larger, 12.57\% and 10.59\%, and are not hidden by the active-response agreement.
+
+The supplementary passive anti-roll-bar geometry used only for the reproduction is $t_A=\SI{0.93}{m}$, $t_B=\SI{0.20}{m}$ and arm length $c=\SI{0.18}{m}$. The active actuator moment arm $\ell_a=\SI{0.50}{m}$ is the effective per-side arm defined above; it was selected during exploratory reconstruction, then frozen before the new control study, and is an explicit modeling assumption rather than a verified vehicle dimension.
+
+\section{Lifted robust program}
+
+The performance horizon is $T_h=\SI{4}{s}$, the controller period is $h_s=\SI{20}{ms}$ and $N=T_h/h_s=200$. Steering knots satisfy
+\begin{equation}
+\W=\{w:\ w_0=0,\ |w_k|\le1,\ |w_k-w_{k-1}|\le\eta\},
+\qquad \eta=0.05.
+\end{equation}
+For each \SI{20}{ms} interval, exact exponentiation of an augmented hold system gives
+\begin{equation}
+x_{k+1}=A_dx_k+B_du_k+G_0\delta_k+G_1\delta_{k+1}.
+\end{equation}
+Combining this propagation with the causal controller produces, at phase $q$ and sample $k$,
+\begin{equation}
+y_{qk}=\left(M_{qk,0}+\sum_{\ell=1}^{12}f_\ell M_{qk,\ell}\right)w.
+\end{equation}
+For a fixed coefficient vector, each signed peak is a support problem
+\begin{equation}
+\sigma_\W(g)=\max_w\{g^\top w:A_ww\le b_w\}.
+\end{equation}
+If $y$ is a dual vector for the minimization form and the dual equality has residual $e_d$, box bounds $|w_j|\le1$ give the corrected upper bound
+\begin{equation}
+\sigma_\W(g)\le -b_w^\top y+\|e_d\|_1.
+\end{equation}
+This correction prevents a small solver residual from being interpreted as a rigorous upper bound. The optimization uses the HiGHS dual-simplex/interior-point interfaces. A support solve is accepted only after formal solver success.
+
+The master problem contains the 12 FIR coefficients and an epigraph variable. It is seeded with active witnesses generated by LQR1 and feasible controller candidates. After each master solve, all phases, outputs, signs and design models are separated. The most violated witness is added until the corrected violation is below tolerance. Weak duality of the final master provides a lower bound for the selected finite controller family. This lower bound is not a bound over all causal controllers.
+
+\section{Intersample and broader-policy bounds}
+
+Let $h_s$ be the controller period and let $\Delta_q$ be the phase-grid spacing within a hold interval. Scale the state and current as $\tilde x=S^{-1}x$ and $\tilde u=u/I_0$, and augment them with the FOH steering and its slope:
+\begin{equation}
+z=[\tilde x^\top,\tilde u^\top,\delta,\dot\delta]^\top,
+\qquad \dot z=Jz,\qquad y=C_a z,
+\end{equation}
+where, with $D$ the steering-input column in the plant model,
+\begin{equation}
+J=\begin{bmatrix}
+S^{-1}AS&S^{-1}BI_0&S^{-1}D&0\\
+0&0&0&0\\
+0&0&0&1\\
+0&0&0&0
+\end{bmatrix},\qquad
+C_a=[CS,\ D_uI_0,\ D_\delta,\ 0].
+\end{equation}
+The zero block row for $\tilde u$ expresses the ZOH current; the final two coordinates express constant steering slope within each FOH interval. Let
+\begin{equation}
+\bar v=[\bar x^\top,\bar u^\top,\delta_{\max},\dot\delta_{\max}]^\top
+\end{equation}
+be a componentwise magnitude bound on $z$ at interval starts. Here $\bar x$ and $\bar u$ are obtained from residual-corrected support bounds for the affine state and current maps; central symmetry of the steering polytope makes these bounds apply to absolute component magnitudes. It suffices to evaluate the terminal interval: from zero initial state, time invariance lets any earlier admissible steering history be delayed by prepending zero knots, which preserves the amplitude and rate constraints and reproduces its interval-start state and current later in the horizon. Thus the terminal-interval reachable set contains the earlier interval-start pairs as well. The same shift argument makes terminal-interval phase supports cover earlier outputs at every phase. Steering and rate are bounded by $\delta_{\max}$ and $\dot\delta_{\max}$ throughout each interval.
+
+All absolute values and inequalities below are componentwise. For $0\le s\le h_s$, the augmented flow satisfies
+\begin{equation}
+|z(s)|\le \exp(|J|s)\bar v\le \exp(|J|h_s)\bar v,
+\qquad
+|\ddot y(s)|=|C_aJ^2z(s)|\le |C_aJ^2|\exp(|J|h_s)\bar v=:M_y.
+\label{eq:supp-second-derivative}
+\end{equation}
+For any scalar output and phase subinterval $[t_q,t_{q+1}]$ of width $\Delta_q$, the linear-interpolation error theorem gives
+\begin{equation}
+\left|y_i(t)-(1-\lambda)y_i(t_q^+)-\lambda y_i(t_{q+1}^-)\right|
+\le \frac{M_{y,i}}{2}(t-t_q)(t_{q+1}-t)
+\le \frac{M_{y,i}\Delta_q^2}{8},
+\qquad \lambda=\frac{t-t_q}{\Delta_q}.
+\end{equation}
+Writing $\bar U_{y,iq}$ for the largest residual-corrected support of both $+y_i$ and $-y_i$ at phase $q$, the continuous peak is bounded by the largest endpoint support plus
+\begin{equation}
+\epsilon_{y,i}(\Delta_q)=\frac{M_{y,i}\Delta_q^2}{8},\qquad
+U_{y,i}\le\max_q\bar U_{y,iq}+\epsilon_{y,i}(\Delta_q).
+\end{equation}
+The earlier generic nearest-sample Lipschitz estimate $L_y\Delta_q/2$ is also valid when $L_y$ bounds $|\dot y|$, but it is not the remainder used for the reported mesh results. Those use the second-derivative expression above, so halving $\Delta_q$ quarters the remainder, as in the mesh-refinement audit. Each ZOH interval is bounded separately; for outputs with direct current feedthrough, both one-sided interval endpoint values are included and no interpolation is taken across a current-update jump. Grid refinement changes only the certificate phases; the controller update remains \SI{20}{ms}.
+
+Two relaxations were also computed. A preview program permits each current to depend on the entire steering vector and therefore gives a lower bound that is not implementable. A finite nonanticipative scenario tree imposes common current decisions for scenarios with identical histories and is tighter. At 20 mA, the controller-family lower bound is 0.045757 and the feasible upper bound 0.046115, whereas the nonanticipative all-policy lower bound is 0.003456. The wide latter interval is why global near-optimality is not claimed.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Certification-mesh refinement for the same nominal 20 mA controller.}
+\begin{tabular}{rrrr}
+\toprule
+Phases & Spacing (ms) & Continuous upper & Max. utilization\\
+\midrule
+5  & 5.00 & 0.06309164 & 1.224119\\
+9  & 2.50 & 0.05023038 & 0.998001\\
+21 & 1.00 & 0.04662923 & 0.998001\\
+41 & 0.50 & 0.04611490 & 0.998001\\
+81 & 0.25 & 0.04598675 & 0.998001\\
+\bottomrule
+\end{tabular}
+\end{table}
+The five-phase failure is caused by a conservative intersample correction on a coarse grid and is not an observed actuator violation.
+
+\section{Nominal axle trade-off and actuator audit}
+
+\begin{table}[htbp]
+\centering\small
+\caption{Nominal front--rear trade-off at the 20 mA rating.}
+\begin{tabular}{rrrrr}
+\toprule
+Rear target & $U_F$ & $U_R$ & $I_F$ (mA) & $I_R$ (mA)\\
+\midrule
+0.020626 & 0.050559 & 0.020564 & 19.9600 & 19.9601\\
+0.028000 & 0.049246 & 0.027931 & 19.9601 & 19.9600\\
+0.036000 & 0.047819 & 0.035944 & 19.9600 & 19.9601\\
+0.046000 & 0.046055 & 0.045932 & 19.9601 & 19.9600\\
+0.060000 & 0.043594 & 0.059933 & 19.9600 & 19.9601\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[htbp]
+\centering
+\suppgraphic[width=.78\linewidth]{nominal_pareto.png}
+\caption{Nominal axle trade-off. The dashed line denotes the LQR1 rear bound.}
+\end{figure}
+
+\begin{table}[htbp]
+\centering\small
+\caption{Nominal continuous-time marginal output bounds.}
+\begin{tabular}{lrrr}
+\toprule
+Quantity & Proposed front & Proposed rear & Limit\\
+\midrule
+Current (mA) & 19.9600 & 19.9600 & 20\\
+Force (kN) & 21.395 & 26.774 & 120\\
+Spool (mm) & 0.3948 & 0.3943 & 0.485\\
+Load flow (L/min) & 56.157 & 56.482 & 132\\
+Suspension roll (deg) & 0.3588 & 0.3336 & 7\\
+Tyre slip (deg) & 2.2255 & 2.0583 & 3\\
+\bottomrule
+\end{tabular}
+\end{table}
+The body-roll and sideslip bounds are $0.3758^\circ$ and $1.2799^\circ$, below their declared $5^\circ$ and $3^\circ$ guards.
+
+\section{Finite-bank precursor study}
+
+The precursor bank used three speeds, 50, 70 and \SI{75}{km/h}, and three load cases: nominal (N), a 10\% proportional sprung-body mass increase (U10), and a 10\% central point-mass payload at \SI{1.80}{m} (H10). H10 assigns no intrinsic inertia to the added point mass, whereas the later continuous payload family in the main paper assigns it the nominal sprung body's specific inertia tensor. H10 is therefore a distinct precursor stress case, not a sample from that continuous family; the two constructions are not interchanged in the reported operating-envelope calculations.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Analytical load cases used in the nine-model precursor bank.}
+\begin{tabular}{lrrrrrr}
+\toprule
+Case & $m_s$ & $m$ & $h$ & $I_{xx}$ & $I_{xz}$ & $I_{zz}$\\
+ & (kg) & (kg) & (m) & \multicolumn{3}{c}{(kg m$^2$)}\\
+\midrule
+N & 12487.0 & 14193.0 & 1.15000 & 24201.0 & 4200.0 & 34917.0\\
+U10 & 13735.7 & 15441.7 & 1.15000 & 26621.1 & 4620.0 & 38408.7\\
+H10 & 13735.7 & 15441.7 & 1.20909 & 24680.6 & 4200.0 & 34917.0\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering\small
+\caption{Finite-bank 81-phase certificates.}
+\begin{tabular}{lrrl}
+\toprule
+Strategy & Worst bound & Reduction (\%) & Rear protected\\
+\midrule
+Fixed sampled LQR1 & 0.157788 & -- & Reference\\
+Fixed balanced & 0.054295 & 65.59 & No\\
+Fixed rear-protected & 0.057641 & 63.47 & Yes, all nine\\
+Speed scheduled & 0.048654 & 69.16 & No\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[htbp]
+\centering
+\suppgraphic[width=.92\linewidth]{model_bank_comparison.png}
+\caption{Worst-axle bounds at each finite-bank operating point.}
+\end{figure}
+
+Before bank synthesis, fixed LQR1 was screened at 75, 80 and \SI{90}{km/h}. Maximum non-LTR utilizations were 0.9094, 1.0198 and 1.2548, respectively, with front tyre slip active. The admitted range was therefore terminated at \SI{75}{km/h}; this is a model-domain decision rather than a physical maximum-speed claim.
+
+\begin{figure}[htbp]
+\centering
+\suppgraphic[width=.70\linewidth]{domain_screen.png}
+\caption{High-speed linear-model domain audit.}
+\end{figure}
+
+\section{Operating-envelope supplementary results}
+
+The structured grid contains 42 points. Six speeds are combined with nominal load and with $\mu\in\{0.05,0.10\}$ at $h_p\in\{1.15,1.475,1.80\}$ m. The independent set contains 128 scrambled-Sobol points generated with seed 20260919. At all 170 plants the fixed/scheduled sampled spectral radii are below 0.902 and all non-LTR bounds are below one.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Structured and design-independent parameter-set maxima.}
+\begin{tabular}{lrrrr}
+\toprule
+Set & LQR1 & Fixed balanced & Rear-protected & Scheduled\\
+\midrule
+Structured grid & 0.157957 & 0.054784 & 0.058921 & 0.049333\\
+Sobol holdout & 0.156823 & 0.054330 & 0.058371 & 0.048975\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering\small
+\caption{Spearman rank coefficients on the design-independent Sobol set.}
+\begin{tabular}{lrrr}
+\toprule
+Controller & Speed & Added mass & Payload height\\
+\midrule
+Fixed LQR1 & 0.895 & -0.432 & 0.011\\
+Fixed balanced & -0.019 & -0.316 & 0.019\\
+Fixed rear-protected & 0.987 & -0.149 & 0.010\\
+Speed scheduled & 0.957 & -0.265 & 0.031\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[htbp]
+\centering
+\suppgraphic[width=.98\linewidth]{envelope_tradeoffs.png}
+\caption{High-payload axle bounds and the pointwise value of scheduling on the design-independent parameter set.}
+\end{figure}
+
+The 81-phase one-sided rear audit uses the proposed continuous upper bound and an LQR1 feasible sampled lower bound. The smallest margin is $5.8213\times10^{-5}$ at $(75\ \mathrm{km/h},0.05,1.475\ \mathrm{m})$; the median margin is $9.4866\times10^{-4}$.
+
+\begin{table}[htbp]
+\centering\small
+\caption{FIR coefficients of the final fixed rear-protected controller.}
+\begin{tabular}{rrrr}
+\toprule
+Delay (samples) & Delay (s) & Front & Rear\\
+\midrule
+0 & 0.00 & -0.298496558 & 2.937536556\\
+2 & 0.04 & -3.703352812 & -2.520672400\\
+5 & 0.10 & -1.810016521 & -0.868660159\\
+10 & 0.20 & -0.124022691 & -0.035305027\\
+20 & 0.40 & -0.022549156 & -0.003286437\\
+40 & 0.80 & -0.002988927 & 0.001291828\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The separately redesigned \SI{5}{ms} delay-aware controller uses
+$K_{5\mathrm{ms}}=0.18K_{\mathrm{LQR1}}$ and the FIR coefficients below.
+\begin{table}[htbp]
+\centering\small
+\caption{FIR coefficients of the \SI{5}{ms} delay-aware controller.}
+\label{tab:supp-delay-aware-coefficients}
+\begin{tabular}{rrrr}
+\toprule
+Delay (samples) & Delay (s) & Front & Rear\\
+\midrule
+0  & 0.00 & -1.5318921089    &  0.635469105938\\
+2  & 0.04 &  1.29655152829   &  0.127434525476\\
+5  & 0.10 & -1.03949803253   & -0.841669898774\\
+10 & 0.20 & -0.0755770434219 & -0.244471324961\\
+20 & 0.40 &  0.0173402575657 &  0.00877951928096\\
+40 & 0.80 &  0.0152504194116 &  0.00660183774017\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Table~\ref{tab:supp-reserve-coefficients} gives the selected 5\% rear-reserve FIR used in the sensitivity and combined-stress audits.
+\begin{table}[htbp]
+\centering\small
+\caption{FIR coefficients of the selected 5\% rear-reserve controller.}
+\label{tab:supp-reserve-coefficients}
+\begin{tabular}{rrrr}
+\toprule
+Delay (samples) & Delay (s) & Front & Rear\\
+\midrule
+0  & 0.00 & -0.295164144 &  2.909563183\\
+2  & 0.04 & -3.686002393 & -2.542002416\\
+5  & 0.10 & -1.822760493 & -0.871441718\\
+10 & 0.20 & -0.125252690 & -0.036128004\\
+20 & 0.40 & -0.022762553 & -0.001251203\\
+40 & 0.80 & -0.002831993 &  0.001074814\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Nonlinear critical-case screening surrogate}
+
+The nonlinear screen in the main article preserves the ten benchmark states but replaces selected linear constitutive relations by nonlinear screening laws. For axle $i$, the tyre force is
+\begin{equation}
+F_{yi}=\mu_t C_i\alpha_i\left[1+\left(\frac{C_i\alpha_i}{\mu_t F_{zi}}\right)^2\right]^{-1/2},
+\end{equation}
+with the same linearized cornering stiffness at $\alpha_i=0$. Define $\Delta\phi_i=\phi-\phi_{ui}$, $\Delta\dot\phi_i=p-\dot\phi_{ui}$, and $(a)_+=\max(a,0)$. The implemented suspension moment uses a cubic dead-zone travel stop:
+\begin{equation}
+S_i=k_i\Delta\phi_i+b_i\Delta\dot\phi_i+\tau_{si}(\Delta\phi_i),\qquad
+\tau_{si}(q)=k_s\operatorname{sgn}(q)(|q|-\phi_s)_+^3.
+\end{equation}
+The screen uses $\phi_s=5^\circ$ and $k_s=(2.0\times10^5\,\mathrm{N\,m})/(2\pi/180\,\mathrm{rad})^3$, so the stop contributes $2.0\times10^5\,\mathrm{N\,m}$ at two degrees beyond the threshold. The stop torque is zero for $|q|\le\phi_s$, including at zero, and is $C^2$ across the threshold; its third derivative changes there. This states the implemented law rather than a softplus approximation. Valve current is saturated at its declared limit, spool displacement is smoothly limited, and a smooth pressure-relief term is added above the declared pressure threshold. Parameters, critical witnesses and integration tolerances are archived with the screening records. This surrogate is not experimentally identified and is used only to expose sensitivity beyond the linear certificate.
+
+
+\section{Combined parameter--controller stress-audit protocol}
+
+\robustnew{The version-14 audit separates the already certified 170-plant bank from a sample-based combined-uncertainty stress test. Its 50 normalized Sobol coordinates are assigned before evaluation as shown in Table~\ref{tab:supp-combined-uncertainty}. Operating variables cover the original envelope; all other quantities receive independent coordinate-wise multiplicative perturbations. Independence here describes the geometry of the sampling box, not a statistical assertion about real vehicles.}
+
+\begin{table}[htbp]
+\centering\small
+\caption{Definition of the combined stress coordinates.}
+\label{tab:supp-combined-uncertainty}
+\begin{tabular}{p{.22\linewidth}p{.49\linewidth}p{.20\linewidth}}
+\toprule
+Group & Coordinates & Mapping\\
+\midrule
+Operating envelope & $v,\mu,h_p$; derived $m_s,h,I_{xx},I_{xz},I_{zz}$ & Affine over declared ranges; derived terms use the coupled payload equations\\
+Tyre/suspension plant & $C_F,C_R,k_F,k_R,b_F,b_R,k_{tF},k_{tR}$ & $q=q_0[1+\varepsilon(2s-1)]$\\
+Hydraulic plant & $A_p,V_t,\beta_e,K_x,K_P,\tau_v,K_v$ & $q=q_0[1+\varepsilon(2s-1)]$\\
+Feedback implementation & All 20 entries of the $2\times10$ gain $K$ & $K_{ij}=K_{ij}^0[1+\varepsilon(2s-1)]$\\
+FIR implementation & All 12 entries of the $2\times6$ FIR bank & $f_j=f_j^0[1+\varepsilon(2s-1)]$\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\robustnew{Separate Owen-scrambled Sobol nets are generated for $\varepsilon=0.05$ and $\varepsilon=0.10$ with fixed seeds 2026092705 and 2026092710, respectively. The calls draw $2^9=512$ and $2^{10}=1024$ points without skipping or thinning, retaining the balance properties of the digital nets \cite{sobol1967,owen1998}. The larger bank is assigned to the wider box because combined interactions and boundary crossings are more likely there. The normalized samples, physical mappings, seed metadata and record identifiers are archived together so that every reported limiting case can be reconstructed directly.}
+
+\robustnew{The two amplitudes are deliberately simple engineering brackets. Five percent probes local sensitivity to moderate identification, calibration and coefficient-realization errors. Ten percent is a broader extrapolative stress level intended to expose loss of stability, actuator authority or rear dominance. Neither value is inferred from production data, and the observed pass fractions therefore cannot be interpreted as probabilities, confidence levels, reliability estimates or fleet failure rates.}
+
+\robustnew{Each record is processed in the following order: (1) assemble the perturbed continuous and lifted models and reject any non-finite quantity; (2) compute the sampled closed-loop spectral radius and stop performance evaluation if $\rho\ge1$; (3) for stable cases, solve the signed steering-support problems and require formal solver success; (4) require maximum normalized non-LTR utilization not exceeding one; and (5) require the one-sided rear reserve
+\[
+m_R=\frac{\underline U_R^{L}-\overline U_R^{P}}{\underline U_R^{L}}>0,
+\]
+where nominal-coefficient LQR1 is evaluated on the identical perturbed plant. Pass is the conjunction of these gates. No numerical tolerance is used to convert a boundary failure into a pass. The broad counts use the declared 21/41-phase screens; the records defining maximum radius, worst stable LTR, maximum utilization and minimum rear reserve are recomputed with 41/81 phases. Consequently the exercise remains a reproducible screening audit, not an interval or probabilistic uncertainty certificate.}
+
+\robustnew{The completed run contains 1536 unique records; all model assemblies are finite and no stable-case support solve fails. For the $\pm5\%$ bank, 408 proposed loops and 425 nominal-coefficient LQR1 loops are stable, 175 records satisfy every non-LTR limit, 193 pass the rear comparison and 100 pass all gates. For the $\pm10\%$ bank, these counts are 637, 707, 235, 230 and 109. Current is limiting in 407/408 and 631/637 stable proposed-loop records. This is not an equal controller-uncertainty comparison: the proposed feedback and FIR coefficients are perturbed, whereas LQR1 coefficients remain nominal on the same perturbed plant. Independent reconstruction of the five distinct records determining the reported extrema reproduces every stored spectral-radius, LTR, utilization and rear-margin value within $2\times10^{-10}$ absolute tolerance.}
+
+\section{Reproducibility inventory}
+
+The computational work is divided into three stages. Stage 2 reconstructs the nominal controller, upper/lower bounds and intersample audit. Stage 3 contains the axle Pareto, exact-current comparison, finite-bank designs and their independent verification. Stage 4 defines the coupled payload family, redesigns the fixed rear-protected controller, performs the structured/Sobol screening and implements the fine one-sided rear audit.
+
+The final stage-4 decision is based on the envelope results and verification records. The broad run evaluates every parameter point and controller/output bound. The fine run evaluates the primal and dual support values, intersample corrections and certificate margin at all 170 points. Hashes of imported model/data files are checked before and after synthesis. Four stage-4 structural tests and the ten legacy benchmark tests pass.
+
+The assumptions that must accompany any reuse are: zero initial state, four-second performance horizon, \SI{20}{ms} current update, first-order-held steering, full-state/current-steering information without noise or delay, linear tyres, symmetric actuators and the declared output guards. Rounded coefficients printed above are not the source used for certification.
+
+All source code, test scripts, and numerical records are available from the corresponding author upon reasonable request.
+
+\begin{thebibliography}{2}
+\bibitem{sobol1967}
+I.~M. Sobol, On the distribution of points in a cube and the approximate evaluation of integrals, USSR Computational Mathematics and Mathematical Physics 7~(4) (1967) 86--112.
+
+\bibitem{owen1998}
+A.~B. Owen, Scrambling Sobol' and Niederreiter--Xing points, Journal of Complexity 14~(4) (1998) 466--489.
+\end{thebibliography}
+
+\end{document}
